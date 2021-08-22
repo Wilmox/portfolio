@@ -1,0 +1,31 @@
+nav li.listItem {
+    display: inline;
+    padding: 15px;
+    float: right;
+    transition: .5s;
+    font-size: 2rem;
+}
+
+li.listItem:hover {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+li.firstItem {
+    float: left !important;
+    transition: .5s;
+    font-size: 2rem;
+}
+
+li.firstItem:hover {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.listItem_Hidden {
+    display: none !important;
+}

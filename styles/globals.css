@@ -1,9 +1,15 @@
+@font-face{ 
+	font-family: 'Monument';
+	src: url('./webfontkit/monumentextended-regular-webfont.woff') format('woff');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "Monument", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
 }
 
 a {
@@ -13,4 +19,8 @@ a {
 
 * {
   box-sizing: border-box;
+  list-style-type: none;
+  color: white;
 }
+
+
