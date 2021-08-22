@@ -3,6 +3,19 @@
 	src: url('./webfontkit/monumentextended-regular-webfont.woff') format('woff');
 }
 
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
@@ -12,15 +25,39 @@ body {
   background-color: black;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
 
-* {
-  box-sizing: border-box;
-  list-style-type: none;
-  color: white;
+::-webkit-scrollbar {
+  width: .6vw;
 }
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+::selection { background-color: #C3CFE2; color: black; }
+
+ol, ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+
 
 
