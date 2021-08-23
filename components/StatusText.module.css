@@ -26,6 +26,6 @@ h2.status {
 @media screen and (max-width: 505px) {
     h2.status {
       font-size: 1.5rem;
-      height: 4rem;
+      height: 4.5rem;
     }     
 }

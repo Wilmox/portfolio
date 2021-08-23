@@ -31,7 +31,7 @@
 }
 
 div.about {
-  /*border: 5px dashed rgba(255, 255, 255, 0.2);*/
+  border: 5px dashed rgba(255, 255, 255, 0.2);
   z-index: 9;
   padding: 1vw;
   margin: auto;
@@ -81,5 +81,14 @@ div.about p {
 @media screen and (max-width: 625px) {
   .info {
     width: 100%;
+  }
+  .title {
+    font-size: 4rem;
+  }   
+}
+
+@media screen and (max-width: 505px) {
+  .title {
+    font-size: 3rem;
   }   
 }
