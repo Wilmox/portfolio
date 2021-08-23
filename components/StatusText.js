@@ -7,10 +7,10 @@ const StatusText = ({text="Student"}) => {
     const cycle = document.getElementById("cycle");
 
     const statusList = [
-      "Student\u{1F393}",
-      "Computer Nerd\u{1F468}\u{200D}\u{1F4BB}",
-      "Astrophile\u{1F30C}",
-      "Entrepeneur\u{1F468}\u{200D}\u{1F4BC}"
+      "Student", //\u{1F393}
+      "Computer Nerd", //\u{1F468}\u{200D}\u{1F4BB}
+      "Astronomy Freak", //\u{1F30C}
+      "Entrepeneur" //\u{1F468}\u{200D}\u{1F4BC}
     ]
 
     let i = 0;

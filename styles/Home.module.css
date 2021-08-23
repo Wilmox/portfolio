@@ -18,29 +18,36 @@
 
 .info {
   margin: auto;
-  max-width: 45vw;
+  max-width: 60vw;
   display: flex;
   vertical-align: middle;
+  /*background-color: rgba(255, 0, 0, 0.5);*/
 }
 
-.about {
-  border: 1px dashed white;
-  padding: .5vw;
+.aboutSection {
+  /*background-color:rgba(137, 43, 226, 0.315);*/
+  width: 75vw;
+  margin: 5vw auto;
+}
 
+div.about {
+  /*border: 5px dashed rgba(255, 255, 255, 0.2);*/
+  z-index: 9;
+  padding: 1vw;
+  margin: auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1rem;
 
-  margin: auto;
   max-width: 45vw;
 }
 
-.about h2 {
+div.about h2 {
   color: rgba(255, 255, 255, 0.3);
   font-size: 1rem;
 }
 
-.about p {
+div.about p {
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);
 }
