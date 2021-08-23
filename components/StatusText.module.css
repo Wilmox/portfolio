@@ -3,3 +3,29 @@ h2.status {
     margin: 0 0 0 1.5vw;
     font-weight: lighter;
 }
+
+@media screen and (max-width: 1500px) {
+    h2.status {
+      font-size: 3rem;
+    }     
+}
+
+@media screen and (max-width: 1150px) {
+    h2.status {
+      font-size: 2rem;
+    }    
+}
+
+@media screen and (max-width: 850px) {
+    h2.status {
+      font-size: 2rem;
+    }
+         
+}
+
+@media screen and (max-width: 505px) {
+    h2.status {
+      font-size: 1.5rem;
+      height: 4rem;
+    }     
+}

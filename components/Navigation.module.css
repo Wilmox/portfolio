@@ -1,7 +1,11 @@
+nav ul.list {
+    float: right;
+    clear: both;
+}
+
 nav li.listItem {
     display: inline;
     padding: 15px;
-    float: right;
     transition: .5s;
     font-size: 2rem;
 }

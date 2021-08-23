@@ -18,7 +18,7 @@
 
 .info {
   margin: auto;
-  max-width: 60vw;
+  width: 60vw;
   display: flex;
   vertical-align: middle;
   /*background-color: rgba(255, 0, 0, 0.5);*/
@@ -26,7 +26,7 @@
 
 .aboutSection {
   /*background-color:rgba(137, 43, 226, 0.315);*/
-  width: 75vw;
+  width: 90vw;
   margin: 5vw auto;
 }
 
@@ -57,10 +57,29 @@ div.about p {
   color: white;
 }
 
+@media screen and (max-width: 1500px) {
+      
+}
 
-@media (max-width: 600px) {
-  .main {
-    width: 100%;
-    flex-direction: column;
+@media screen and (max-width: 1000px) {
+  .title {
+      font-size: 5rem;
+    }
+        
+}
+
+@media screen and (max-width: 1150px) {
+      
+}
+
+@media screen and (max-width: 850px) {
+  .info {
+    width: 90%;
   }
+}
+
+@media screen and (max-width: 625px) {
+  .info {
+    width: 100%;
+  }   
 }

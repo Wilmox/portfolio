@@ -10,7 +10,7 @@ const CircleText = ({text="Text rotating around a circle path with SVG!"}) => {
                 <circle cx="150" cy="100" r="75" fill="none"/>
                 <g>
                     <use fill="none"/>
-                    <text fill="#fff">
+                    <text fill="#C3CFE2">
                         <textPath href="#circlePath" fontFamily="Monument">{text}</textPath>
                     </text>
                 </g>
