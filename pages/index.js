@@ -55,10 +55,10 @@ export default function Home() {
           <CircleText text="About About About About About About About" />
         </section>
 
-        {/*<section className={styles.projectSection}>
+        <section className={styles.projectSection}>
 
-
-        </section>*/}
+          <h1>Projects</h1>
+        </section>
 
       </main>
     </div>

@@ -26,14 +26,13 @@
 .aboutSection {
   width: 80vw;
   margin: 10vw auto;
-  height: 70vh;
   /*background-color: rgba(255, 0, 0, 0.5);*/
   overflow: hidden;
   padding: 0;
 }
 
 .about {
-  border: 5px dashed rgba(255, 255, 255, 0.2);
+  /*border: 5px dashed rgba(255, 255, 255, 0.2);*/
   background-color: black;
   float: left;
   z-index: 9;
@@ -107,7 +106,6 @@ div.about p {
   .aboutSection {
     width: 100% !important;
     margin: 10vw 0;
-    height: 65vh;
   }
   .about {
     margin: auto;
@@ -126,9 +124,6 @@ div.about p {
   div.arrow {
     width: 10%;
     height: 75%;
-  }
-  .aboutSection {
-    height: 115vh;
   }
   .about {
     margin: auto;
