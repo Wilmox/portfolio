@@ -18,9 +18,9 @@
 
 .info {
   margin: auto;
+  height: 4rem;
   width: 60vw;
   display: flex;
-  vertical-align: middle;
   /*background-color: rgba(255, 0, 0, 0.5);*/
 }
 
@@ -38,8 +38,7 @@ div.about {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1rem;
-
-  max-width: 45vw;
+  width: 45vw;
 }
 
 div.about h2 {
@@ -79,16 +78,45 @@ div.about p {
 }
 
 @media screen and (max-width: 625px) {
+  .main {
+    padding: 1vw;
+  }
+  
   .info {
     width: 100%;
+    height: 4rem;
   }
   .title {
     font-size: 4rem;
   }   
+  .aboutSection {
+    width: 100%;
+    margin: 5vw 0;
+    
+  }
+  .about {
+    margin: 0;
+    width: 80% !important;
+  }
 }
 
 @media screen and (max-width: 505px) {
   .title {
     font-size: 3rem;
-  }   
+  }
+  
+  .about {
+    margin: 0;
+    width: 100% !important;
+  }
+
+  .info {
+    height: 10vw;
+    position: relative;
+  }
+
+  div.arrow {
+    width: 10%;
+    height: 75%;
+  }
 }

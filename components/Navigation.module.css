@@ -33,3 +33,33 @@ li.firstItem:hover {
 .listItem_Hidden {
     display: none !important;
 }
+
+@media screen and (max-width: 625px) {
+    nav.navigation {
+        width: 100%;
+    }
+    ul.list {
+        float: none !important;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    nav li.listItem {
+        font-size: 1.5rem;
+        display:inline-block;
+        padding: 0 2vw;
+    }
+    li.listItem a {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav li.listItem {
+        font-size: 5vw;
+        transition: 0s;
+    }
+    li.listItem a {
+        width: 50px;
+    }
+}
