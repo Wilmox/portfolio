@@ -1,9 +1,11 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Navigation from '../components/Navigation.js'
 import OutlinedArrow from '../components/OutlinedArrowSVG.js'
 import styles from '../styles/Home.module.css'
 import StatusText from '../components/StatusText.js'
 import CircleText from '../components/CircleText.js'
+import Chip from '@material-ui/core/Chip';
 
 export default function Home() {
   return (
@@ -14,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/assets/img/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
       </Head>
 
@@ -24,7 +26,7 @@ export default function Home() {
 
 
           <h1 className={styles.title}>
-            Simon <br /> Wilmots
+            Simon_ <br />Wilmots
           </h1>
 
           <div className={styles.info}>
@@ -39,7 +41,7 @@ export default function Home() {
           <div className={styles.about}>
             <h2>ABOUT</h2> <br />
             <p>
-              I've always been eager to learn from childhood. From computers and the universe to psychology and science, I had to find out how something functions. <br /><br />
+              I've always been eager to learn from childhood. From <span>computers</span> and <span>space</span> to <span>psychology</span> and <span>science</span>, I had to find out how something functions. <br /><br />
               I am very passionate about <span>Personal development</span> and how you can always be the best version of yourself. <br /><br />
             </p>
             <details>
@@ -59,12 +61,23 @@ export default function Home() {
           <h1 className={styles.sectionHeading}>Projects_:</h1>
 
           <div className={styles.projects}>
-            <a >
+            <a className={styles.projectCard}>
+              <Image src="/assets/img/project-tictactoe-minmax.jpg" width={1241} height={745}/>
 
+              <div className={styles.cardText}>
+                <h2>Project</h2>
+                <p>Minimax is a decision rule used in artificial intelligence, decision theory, game theory, statistics, and philosophy for minimizing the possible loss</p>
+              </div>
+              <Chip variant="outlined" color="primary" icon={"\u{1F9E0}"}/>
             </a>
 
-            <a >
+            <a className={styles.projectCard}>
+              <Image src="/assets/img/project-tictactoe-minmax.jpg" width={1241} height={745}/>
 
+              <div className={styles.cardText}>
+                <h2>Project</h2>
+                <p>Minimax is a decision rule used in artificial intelligence, decision theory, game theory, statistics, and philosophy for minimizing the possible loss</p>
+              </div>
             </a>
           </div>
         </section>

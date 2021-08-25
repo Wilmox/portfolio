@@ -23,9 +23,15 @@
   /*background-color: rgba(255, 0, 0, 0.5);*/
 }
 
+section h1.sectionHeading {
+  text-align: center;
+  font-size: 4rem;
+  padding: 0 0 3vw 0;
+}
+
 .aboutSection {
   width: 80vw;
-  margin: 10vw auto 0 auto;
+  margin: 5vw auto 0 auto;
   /*background-color: rgba(255, 0, 0, 0.5);*/
   overflow: hidden;
   padding: 0;
@@ -67,25 +73,44 @@ div.about p {
 
 .projects {
   display: grid;
-  padding-right: 0px;
-  padding-left: 0px;
-  grid-auto-columns: 5fr;
-  grid-column-gap: 40px;
-  grid-row-gap: 48px;
+  width: 60%;
+  margin: auto;
+  padding: 0;
+  grid-auto-columns: 1fr;
+  grid-column-gap: .1vw;
+  grid-row-gap: 1vw;
   grid-template-areas: ". Area";
-  -ms-grid-columns: 1fr 40px 1fr 40px 1fr 40px 1fr 40px 1fr 40px 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: auto;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
 
-.projects a {
+.projects a.projectCard {
   border: blueviolet 1px solid;
+  width: 80%;
+  height: 40vh;
 }
 
-section h1.sectionHeading {
-  text-align: center;
-  font-size: 4rem;
+.projects a.projectCard:hover {
+  cursor: pointer;
+}
+
+.projectCard img {
+  width: fit-content;
+  border-radius: 15px;
+}
+
+.cardText {
+  width: 100%;
+  /*background-color: rgba(240, 248, 255, 0.397);*/
+}
+
+.cardText h2 {
+  margin: .5vw 0;
+}
+
+.cardText p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
 }
 
 @media screen and (max-width: 1500px) {}
