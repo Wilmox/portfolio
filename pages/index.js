@@ -19,10 +19,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <section>
-        <Navigation hideHomeButton />
+        <section>
+          <Navigation hideHomeButton />
 
-        
+
           <h1 className={styles.title}>
             Simon <br /> Wilmots
           </h1>
@@ -56,8 +56,17 @@ export default function Home() {
         </section>
 
         <section className={styles.projectSection}>
+          <h1 className={styles.sectionHeading}>Projects_:</h1>
 
-          <h1>Projects</h1>
+          <div className={styles.projects}>
+            <a >
+
+            </a>
+
+            <a >
+
+            </a>
+          </div>
         </section>
 
       </main>

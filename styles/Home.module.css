@@ -25,7 +25,7 @@
 
 .aboutSection {
   width: 80vw;
-  margin: 10vw auto;
+  margin: 10vw auto 0 auto;
   /*background-color: rgba(255, 0, 0, 0.5);*/
   overflow: hidden;
   padding: 0;
@@ -62,8 +62,30 @@ div.about p {
 
 .projectSection {
   width: 100%;
-  background-color: white;
-  height: 50vh;
+  border: 1px solid white;
+}
+
+.projects {
+  display: grid;
+  padding-right: 0px;
+  padding-left: 0px;
+  grid-auto-columns: 5fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+  grid-template-areas: ". Area";
+  -ms-grid-columns: 1fr 40px 1fr 40px 1fr 40px 1fr 40px 1fr 40px 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.projects a {
+  border: blueviolet 1px solid;
+}
+
+section h1.sectionHeading {
+  text-align: center;
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 1500px) {}
@@ -111,6 +133,9 @@ div.about p {
     margin: auto;
     width: 100% !important;
   }
+  h1.sectionHeading {
+    font-size: 3rem !important;
+  }
 }
 
 @media screen and (max-width: 505px) {
@@ -128,5 +153,8 @@ div.about p {
   .about {
     margin: auto;
     width: 100% !important;
+  }
+  h1.sectionHeading {
+    font-size: 2rem !important;
   }
 }
