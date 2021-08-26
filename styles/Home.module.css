@@ -87,7 +87,7 @@ div.about p {
 .projects a.projectCard {
   border: blueviolet 1px solid;
   width: 80%;
-  height: 40vh;
+  height: 48vh;
 }
 
 .projects a.projectCard:hover {
@@ -111,6 +111,10 @@ div.about p {
 .cardText p {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
+}
+
+.labels {
+  margin: .5vw 0;
 }
 
 @media screen and (max-width: 1500px) {}

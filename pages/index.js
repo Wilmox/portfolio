@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/assets/img/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
       </Head>
 
@@ -62,17 +62,20 @@ export default function Home() {
 
           <div className={styles.projects}>
             <a className={styles.projectCard}>
-              <Image src="/assets/img/project-tictactoe-minmax.jpg" width={1241} height={745}/>
+              <Image src="/assets/img/project-tictactoe-minmax.jpg" width={1241} height={745} />
 
               <div className={styles.cardText}>
                 <h2>Project</h2>
                 <p>Minimax is a decision rule used in artificial intelligence, decision theory, game theory, statistics, and philosophy for minimizing the possible loss</p>
               </div>
-              <Chip variant="outlined" color="primary" icon={"\u{1F9E0}"}/>
+              <div className={styles.labels}>
+                <Chip label={"\u{1F916} AI & Robotics"} size="small" color="primary" />
+                <Chip label={"\u{1F916} AI & Robotics"} size="small" color="secondary" />
+              </div>
             </a>
 
             <a className={styles.projectCard}>
-              <Image src="/assets/img/project-tictactoe-minmax.jpg" width={1241} height={745}/>
+              <Image src="/assets/img/project-tictactoe-minmax.jpg" width={1241} height={745} />
 
               <div className={styles.cardText}>
                 <h2>Project</h2>
