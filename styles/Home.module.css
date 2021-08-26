@@ -72,22 +72,25 @@ div.about p {
 }
 
 .projects {
-  display: grid;
-  width: 60%;
+  max-width: 1280px;
   margin: auto;
-  padding: 0;
+  display: grid;
   grid-auto-columns: 1fr;
-  grid-column-gap: .1vw;
-  grid-row-gap: 1vw;
-  grid-template-areas: ". Area";
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vw;
+  grid-template-areas: "a a"
+                       "a  a"
+                       "a  a";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
 
 .projects a.projectCard {
-  border: blueviolet 1px solid;
-  width: 80%;
-  height: 48vh;
+  /*border: blueviolet 1px solid;*/
+  grid-column-end: span 1;
+  grid-column-start: span 1;
+  grid-row-end: span 1;
+  grid-row-start: span 1;
 }
 
 .projects a.projectCard:hover {
@@ -185,5 +188,18 @@ div.about p {
   }
   h1.sectionHeading {
     font-size: 2rem !important;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .projects {
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    grid-template-areas: "a"
+                        "a"
+                        "a";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 }

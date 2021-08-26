@@ -5,7 +5,7 @@ import OutlinedArrow from '../components/OutlinedArrowSVG.js'
 import styles from '../styles/Home.module.css'
 import StatusText from '../components/StatusText.js'
 import CircleText from '../components/CircleText.js'
-import Chip from '@material-ui/core/Chip';
+import Chip from '../components/Chip.js'
 
 export default function Home() {
   return (
@@ -69,8 +69,8 @@ export default function Home() {
                 <p>Minimax is a decision rule used in artificial intelligence, decision theory, game theory, statistics, and philosophy for minimizing the possible loss</p>
               </div>
               <div className={styles.labels}>
-                <Chip label={"\u{1F916} AI & Robotics"} size="small" color="primary" />
-                <Chip label={"\u{1F916} AI & Robotics"} size="small" color="secondary" />
+                <Chip bgColor="pink" color="red" text={"AI & Robotics"} icon={"\u{1F9E0}"} />
+                <Chip bgColor="pink" color="red" text={"AI & Robotics"} icon={"\u{1F9E0}"} />
               </div>
             </a>
 
@@ -80,6 +80,23 @@ export default function Home() {
               <div className={styles.cardText}>
                 <h2>Project</h2>
                 <p>Minimax is a decision rule used in artificial intelligence, decision theory, game theory, statistics, and philosophy for minimizing the possible loss</p>
+              </div>
+              <div className={styles.labels}>
+                <Chip bgColor="pink" color="red" text={"AI & Robotics"} icon={"\u{1F9E0}"} />
+                <Chip bgColor="pink" color="red" text={"AI & Robotics"} icon={"\u{1F9E0}"} />
+              </div>
+            </a>
+
+            <a className={styles.projectCard}>
+              <Image src="/assets/img/project-tictactoe-minmax.jpg" width={1241} height={745} />
+
+              <div className={styles.cardText}>
+                <h2>Project</h2>
+                <p>Minimax is a decision rule used in artificial intelligence, decision theory, game theory, statistics, and philosophy for minimizing the possible loss</p>
+              </div>
+              <div className={styles.labels}>
+                <Chip bgColor="pink" color="red" text={"AI & Robotics"} icon={"\u{1F9E0}"} />
+                <Chip bgColor="pink" color="red" text={"AI & Robotics"} icon={"\u{1F9E0}"} />
               </div>
             </a>
           </div>
