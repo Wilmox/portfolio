@@ -4,7 +4,7 @@ const Chip = ({bgColor="gray", color="white", text, icon}) => {
 
     const cssStyle = {
         'color': color + " !important",
-        'backgroud-color': bgColor + " !important",
+        'backgroundColor': bgColor + " !important",
     }
 
     return ( 
