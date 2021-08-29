@@ -13,6 +13,7 @@
 .title {
   line-height: 1.15;
   font-size: 7rem;
+  letter-spacing: 0.2rem;
 }
 
 .info {
@@ -27,6 +28,7 @@ section h1.sectionHeading {
   text-align: center;
   font-size: 4rem;
   padding: 0 0 3vw 0;
+  letter-spacing: 0.2rem;
 }
 
 .aboutSection {
@@ -64,23 +66,24 @@ div.about p {
 .about p span {
   font-family: 'Monument';
   color: white;
+  letter-spacing: 0.02rem;
 }
 
 .projectSection {
   width: 100%;
-  border: 1px solid white;
+  text-align: center;
+  /*border: 1px solid white;*/
 }
 
 .projects {
-  max-width: 1280px;
+  text-align: left !important;
+  max-width: 1080px;
   margin: auto;
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 2vw;
   grid-row-gap: 2vw;
-  grid-template-areas: "a a"
-                       "a  a"
-                       "a  a";
+  grid-template-areas: "a a" "a  a" "a  a";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
@@ -108,16 +111,30 @@ div.about p {
 }
 
 .cardText h2 {
+  font-size: 1.2rem;
   margin: .5vw 0;
+  letter-spacing: 0.04rem;
 }
 
 .cardText p {
   font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
+  opacity: .7;
 }
 
 .labels {
   margin: .5vw 0;
+}
+
+.projectSection a.link {
+  text-align: center;
+  display: inline-block;
+  margin: 2vw auto;
+}
+
+.projectSection a.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1500px) {}
@@ -191,14 +208,11 @@ div.about p {
   }
 }
 
-
 @media screen and (max-width: 800px) {
   .projects {
     grid-column-gap: 1vw;
     grid-row-gap: 1vw;
-    grid-template-areas: "a"
-                        "a"
-                        "a";
+    grid-template-areas: "a" "a" "a";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
