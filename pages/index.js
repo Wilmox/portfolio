@@ -138,12 +138,13 @@ export default function Home() {
               <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
               <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
             </a>
-            
+
             <a className={styles.noteCard}>
-              <h2>Note title</h2>
-              <h3>Author</h3>
+              <h2>A Brief History Of Time</h2>
+              <h3>Stephen Hawking</h3>
               <p>
-                Summary text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe. He talks about basic concepts like space and time,
+                basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity).
               </p>
               <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
               <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />

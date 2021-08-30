@@ -77,7 +77,7 @@ div.about p {
 
 .projects {
   text-align: left !important;
-  max-width: 1080px;
+  max-width: 1500px;
   margin: auto;
   display: grid;
   grid-auto-columns: 1fr;
@@ -137,32 +137,6 @@ div.about p {
   text-decoration: underline;
 }
 
-.noteSection {
-  width: 100%;
-  border: 1px solid white;
-}
-
-.notes {
-  max-width: 1080px;
-  margin: auto;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 2vw;
-  grid-row-gap: 2vw;
-  grid-template-areas: "a a" "a  a" "a  a";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-}
-
-.notes a.noteCard {
-  border: white 4px solid;
-  border-radius: 20px;
-  grid-column-end: span 1;
-  grid-column-start: span 1;
-  grid-row-end: span 1;
-  grid-row-start: span 1;
-}
-
 ul.breadcrumb {
   list-style: none;
 }
@@ -174,6 +148,7 @@ ul.breadcrumb li {
 }
 
 /* Add a slash symbol (/) before/behind each list item */
+
 ul.breadcrumb li+li:before {
   padding: 0 1vw;
   color: white;
@@ -190,6 +165,55 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
   cursor: pointer;
   transition: .5s;
+}
+
+.noteSection {
+  width: 100%;
+  /*border: 1px solid white;*/
+}
+
+.notes {
+  max-width: 1500px;
+  margin: 5vw auto;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vw;
+  grid-template-areas: "a a" "a  a" "a  a";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.notes a.noteCard {
+  border: white 3px solid;
+  border-radius: 20px;
+  grid-column-end: span 1;
+  grid-column-start: span 1;
+  grid-row-end: span 1;
+  grid-row-start: span 1;
+  padding: 1vw;
+}
+
+.noteCard h2 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 0 0 .2vw 0;
+}
+
+.noteCard h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  opacity: .5;
+  padding: 0 0 .2vw 0;
+}
+
+.noteCard p {
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  text-shadow:0 0 1px transparent;
+  letter-spacing: 0.01rem;
+  margin: .2vw 0;
 }
 
 @media screen and (max-width: 1500px) {}
@@ -271,7 +295,6 @@ ul.breadcrumb li a:hover {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
-
   .notes {
     grid-column-gap: 1vw;
     grid-row-gap: 10vw;
