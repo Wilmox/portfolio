@@ -209,11 +209,21 @@ ul.breadcrumb li a:hover {
 }
 
 .noteCard p {
-  font-weight: lighter;
+  font-weight: 300;
+  line-height: 160%;
   font-family: 'Roboto', sans-serif;
   text-shadow:0 0 1px transparent;
   letter-spacing: 0.01rem;
   margin: .2vw 0;
+}
+
+.aboutNote {
+  margin-top: 16px;
+  width: 100%;
+  bottom: 0;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1500px) {}

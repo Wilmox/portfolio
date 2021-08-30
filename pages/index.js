@@ -8,6 +8,7 @@ import CircleText from '../components/CircleText.js'
 import Chip from '../components/Chip.js'
 import Arrow from '../components/ArrowSVG.js'
 import Rating from '@material-ui/core/Rating';
+import Footer from '../components/Footer.js'
 
 export default function Home() {
   return (
@@ -135,8 +136,10 @@ export default function Home() {
               <p>
                 Summary text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
-              <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-              <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
+              <div className={styles.aboutNote}>
+                <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+                <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
+              </div>
             </a>
 
             <a className={styles.noteCard}>
@@ -146,13 +149,20 @@ export default function Home() {
                 Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe. He talks about basic concepts like space and time,
                 basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity).
               </p>
-              <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-              <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
+              <div className={styles.aboutNote}>
+                <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+                <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
+              </div>
             </a>
           </div>
         </section>
 
+        <section className={styles.contactSection}>
+
+        </section>
+
       </main>
+      <Footer />
     </div>
   )
 }
