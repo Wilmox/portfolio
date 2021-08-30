@@ -137,6 +137,61 @@ div.about p {
   text-decoration: underline;
 }
 
+.noteSection {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.notes {
+  max-width: 1080px;
+  margin: auto;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vw;
+  grid-template-areas: "a a" "a  a" "a  a";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.notes a.noteCard {
+  border: white 4px solid;
+  border-radius: 20px;
+  grid-column-end: span 1;
+  grid-column-start: span 1;
+  grid-row-end: span 1;
+  grid-row-start: span 1;
+}
+
+ul.breadcrumb {
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  width: 10vw !important;
+  display: inline;
+  font-size: 1rem;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 0 1vw;
+  color: white;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  opacity: .5;
+  text-decoration: none;
+  transition: .5s;
+}
+
+ul.breadcrumb li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: .5s;
+}
+
 @media screen and (max-width: 1500px) {}
 
 @media screen and (max-width: 1000px) {
@@ -210,6 +265,14 @@ div.about p {
 
 @media screen and (max-width: 800px) {
   .projects {
+    grid-column-gap: 1vw;
+    grid-row-gap: 10vw;
+    grid-template-areas: "a" "a" "a";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .notes {
     grid-column-gap: 1vw;
     grid-row-gap: 10vw;
     grid-template-areas: "a" "a" "a";

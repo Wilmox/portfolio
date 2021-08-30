@@ -6,6 +6,8 @@ import styles from '../styles/Home.module.css'
 import StatusText from '../components/StatusText.js'
 import CircleText from '../components/CircleText.js'
 import Chip from '../components/Chip.js'
+import Arrow from '../components/ArrowSVG.js'
+import Rating from '@material-ui/core/Rating';
 
 export default function Home() {
   return (
@@ -83,7 +85,7 @@ export default function Home() {
               </div>
               <div className={styles.labels}>
                 <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
-                <Chip bgColor="#307bc7" text={"Docker"} icon={"\u{1F40B}"}/>
+                <Chip bgColor="#307bc7" text={"Docker"} icon={"\u{1F40B}"} />
               </div>
             </a>
 
@@ -114,8 +116,39 @@ export default function Home() {
             </a>
           </div>
 
-          <a className={styles.link} href="/projects">{"See more projects>"}</a>
+          <a className={styles.link} href="/projects">See more projects <Arrow /></a>
 
+        </section>
+
+        <section className={styles.noteSection}>
+          <ul className={styles.breadcrumb}>
+            <li>FEATURED NOTES</li>
+            <li>
+              <a href="/notes">VIEW ALL <Arrow /></a>
+            </li>
+          </ul>
+
+          <div className={styles.notes}>
+            <a className={styles.noteCard}>
+              <h2>Note title</h2>
+              <h3>Author</h3>
+              <p>
+                Summary text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+              <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
+            </a>
+            
+            <a className={styles.noteCard}>
+              <h2>Note title</h2>
+              <h3>Author</h3>
+              <p>
+                Summary text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+              <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
+            </a>
+          </div>
         </section>
 
       </main>
