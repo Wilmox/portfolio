@@ -228,6 +228,20 @@ ul.breadcrumb li a:hover {
   justify-content: space-between;
 }
 
+.contactSection {
+  max-width: 800px;
+  margin: auto;
+}
+
+.contactSection h1.sectionHeading {
+  text-align: left !important;
+  font-size: 5rem;
+}
+
+.contactSection h1.sectionHeading a:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 1500px) {}
 
 @media screen and (max-width: 1000px) {

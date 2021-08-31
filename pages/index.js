@@ -131,10 +131,12 @@ export default function Home() {
 
           <div className={styles.notes}>
             <a className={styles.noteCard}>
-              <h2>Note title</h2>
-              <h3>Author</h3>
+              <h2>Rich Dad Poor Dad</h2>
+              <h3>Robert Kiyosaki</h3>
               <p>
-                Summary text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                This book advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing,
+                starting and owning businesses, as well as increasing one's financial intelligence. <br />
+                Rich Dad Poor Dad is written in the style of a set of parables, based on Kiyosaki's life.
               </p>
               <div className={styles.aboutNote}>
                 <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
@@ -157,7 +159,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.contactSection}>
+        <section id="contact" className={styles.contactSection}>
+          <h1 className={styles.sectionHeading}>
+            I'm always interested in learning new stuff.
+            Are you considering a project?
+            <a href="mailto:simon.wilmots1@gmail.com?subject=Let%27s%C2%A0Talk">Let's talk.</a>
+          </h1>
 
         </section>
 
