@@ -139,6 +139,8 @@ div.about p {
 
 ul.breadcrumb {
   list-style: none;
+  max-width: 1500px;
+  margin: auto;
 }
 
 ul.breadcrumb li {

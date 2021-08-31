@@ -12,7 +12,7 @@ import Footer from '../components/Footer.js'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div id="top" className={styles.container}>
       <Head>
         <title>Simon Wilmots {"\u{1F680}"}</title>
         <meta name="description" content="SIMONWILMOTS PORTFOLIO WEBISTE" />
@@ -166,3 +166,5 @@ export default function Home() {
     </div>
   )
 }
+
+//    https://mathiasbynens.github.io/rel-noopener/
