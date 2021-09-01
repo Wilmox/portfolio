@@ -139,8 +139,8 @@ export default function Home() {
                 Rich Dad Poor Dad is written in the style of a set of parables, based on Kiyosaki's life.
               </p>
               <div className={styles.aboutNote}>
-                <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
+                <Rating className={styles.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+                <Chip className={styles.noteChip} bgColor="#118C4F" text={"Finance"} icon={"\u{1F4B8}"}  />
               </div>
             </a>
 
@@ -152,8 +152,8 @@ export default function Home() {
                 basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity).
               </p>
               <div className={styles.aboutNote}>
-                <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
+                <Rating className={styles.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+                <Chip className={styles.noteChip} bgColor="#4361ee" text={"Physics"} icon={"\u{1F320}"} />
               </div>
             </a>
           </div>

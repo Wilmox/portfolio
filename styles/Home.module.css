@@ -226,6 +226,7 @@ ul.breadcrumb li a:hover {
   align-items: center;
   -webkit-box-align: center;
   justify-content: space-between;
+  display: inline-flex;
 }
 
 .contactSection {
