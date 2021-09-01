@@ -1,14 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Navigation from '../components/Navigation.js'
-import OutlinedArrow from '../components/OutlinedArrowSVG.js'
-import styles from '../styles/Home.module.css'
-import StatusText from '../components/StatusText.js'
-import CircleText from '../components/CircleText.js'
-import Chip from '../components/Chip.js'
-import Arrow from '../components/ArrowSVG.js'
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import Navigation from '../components/Navigation.js';
+import OutlinedArrow from '../components/OutlinedArrowSVG.js';
+import styles from '../styles/Home.module.css';
+import StatusText from '../components/StatusText.js';
+import CircleText from '../components/CircleText.js';
+import Chip from '../components/Chip.js';
+import Arrow from '../components/ArrowSVG.js';
 import Rating from '@material-ui/core/Rating';
-import Footer from '../components/Footer.js'
+import Footer from '../components/Footer.js';
 
 export default function Home() {
   return (
@@ -117,7 +118,9 @@ export default function Home() {
             </a>
           </div>
 
-          <a className={styles.link} href="/projects">See more projects <Arrow /></a>
+          <Link href="/projects">
+            <a className={styles.link} >See more projects <Arrow /></a>
+          </Link>
 
         </section>
 
@@ -125,7 +128,9 @@ export default function Home() {
           <ul className={styles.breadcrumb}>
             <li>FEATURED NOTES</li>
             <li>
-              <a href="/notes">VIEW ALL <Arrow /></a>
+              <Link href="/notes">
+                <a>VIEW ALL <Arrow /></a>
+              </Link>
             </li>
           </ul>
 
