@@ -20,6 +20,9 @@ export default function Notes() {
         <section>
           <Navigation />
         </section>
+        <section className={styles.noteSection}>
+          <h1>Notes & Summaries</h1>
+        </section>
       </main>
       <Footer />
     </div>

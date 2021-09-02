@@ -5,7 +5,6 @@ import Navigation from '../../components/Navigation';
 import styles from '../../styles/Projects.module.css';
 import Footer from '../../components/Footer.js';
 import Chip from '../../components/Chip.js';
-import Arrow from '../../components/ArrowSVG.js';
 
 export default function Projects() {
   return (
