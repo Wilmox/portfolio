@@ -1,7 +1,11 @@
-nav ul.list {
-    float: right;
-    clear: both;
+nav.navigation {
+    position: relative;
 }
+
+nav div.rightItems {
+    float: right;
+}
+
 
 nav li.listItem {
     display: inline;
@@ -15,12 +19,6 @@ li.listItem:hover {
     color: black;
     cursor: pointer;
     transition: .5s;
-}
-
-li.firstItem {
-    float: left !important;
-    transition: .5s;
-    font-size: 2rem;
 }
 
 li.firstItem:hover {

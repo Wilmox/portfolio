@@ -13,6 +13,8 @@
 .title {
   line-height: 1.15;
   font-size: 7rem;
+  text-align: left !important;
+  padding: 0 !important;
   letter-spacing: 0.2rem;
 }
 
@@ -22,13 +24,6 @@
   width: 60vw;
   display: flex;
   /*background-color: rgba(255, 0, 0, 0.5);*/
-}
-
-section h1.sectionHeading {
-  text-align: center;
-  font-size: 4rem;
-  padding: 0 0 3vw 0;
-  letter-spacing: 0.2rem;
 }
 
 .aboutSection {
@@ -67,74 +62,6 @@ div.about p {
   font-family: 'Monument';
   color: white;
   letter-spacing: 0.02rem;
-}
-
-.projectSection {
-  width: 100%;
-  text-align: center;
-  /*border: 1px solid white;*/
-}
-
-.projects {
-  text-align: left !important;
-  max-width: 1500px;
-  margin: auto;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 2vw;
-  grid-row-gap: 2vw;
-  grid-template-areas: "a a" "a  a" "a  a";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-}
-
-.projects a.projectCard {
-  /*border: blueviolet 1px solid;*/
-  grid-column-end: span 1;
-  grid-column-start: span 1;
-  grid-row-end: span 1;
-  grid-row-start: span 1;
-}
-
-.projects a.projectCard:hover {
-  cursor: pointer;
-}
-
-.projectCard img {
-  width: fit-content;
-  border-radius: 15px;
-}
-
-.cardText {
-  width: 100%;
-  /*background-color: rgba(240, 248, 255, 0.397);*/
-}
-
-.cardText h2 {
-  font-size: 1.2rem;
-  margin: .5vw 0;
-  letter-spacing: 0.04rem;
-}
-
-.cardText p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  opacity: .7;
-}
-
-.labels {
-  margin: .5vw 0;
-}
-
-.projectSection a.link {
-  text-align: center;
-  display: inline-block;
-  margin: 2vw auto;
-}
-
-.projectSection a.link:hover {
-  cursor: pointer;
-  text-decoration: underline;
 }
 
 ul.breadcrumb {

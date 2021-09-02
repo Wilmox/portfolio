@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../../styles/Home.module.css';
 import Footer from '../../components/Footer.js';
+import Navigation from '../../components/Navigation';
 
 export default function Notes() {
   return (
@@ -16,7 +17,9 @@ export default function Notes() {
       </Head>
 
       <main className={styles.main}>
-        
+        <section>
+          <Navigation />
+        </section>
       </main>
       <Footer />
     </div>

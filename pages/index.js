@@ -1,9 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+
+import styles from '../styles/Home.module.css';
+import projects from '../styles/Projects.module.css'
+
 import Navigation from '../components/Navigation.js';
 import OutlinedArrow from '../components/OutlinedArrowSVG.js';
-import styles from '../styles/Home.module.css';
 import StatusText from '../components/StatusText.js';
 import CircleText from '../components/CircleText.js';
 import Chip from '../components/Chip.js';
@@ -27,7 +30,6 @@ export default function Home() {
       <main className={styles.main}>
         <section>
           <Navigation hideHomeButton />
-
 
           <h1 className={styles.title}>
             Simon_ <br />Wilmots
@@ -61,65 +63,39 @@ export default function Home() {
           <CircleText text="About About About About About About About" />
         </section>
 
-        <section className={styles.projectSection}>
-          <h1 className={styles.sectionHeading}>Projects_:</h1>
+        <section className={projects.projectSection}>
+          <h1>Projects_:</h1>
 
-          <div className={styles.projects}>
-            <a className={styles.projectCard}>
+          <div className={projects.projects}>
+            <a className={projects.projectCard}>
               <Image src="/assets/img/project-openremote.jpg" width={1241} height={745} />
 
-              <div className={styles.cardText}>
+              <div className={projects.cardText}>
                 <h2>OpenRemote Energy Challenge</h2>
                 <p>Using a prediction model, the goal is to observe and make energy consumption predictions.</p>
               </div>
-              <div className={styles.labels}>
+              <div className={projects.labels}>
                 <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
                 <Chip bgColor="#343A40" text={"AI & Robotics"} icon={"\u{1F916}"} />
               </div>
             </a>
 
-            <a className={styles.projectCard}>
+            <a className={projects.projectCard}>
               <Image src="/assets/img/project-conecta.jpg" width={1241} height={745} />
 
-              <div className={styles.cardText}>
+              <div className={projects.cardText}>
                 <h2>Conecta Software</h2>
                 <p>Three week internship at Conecta Software & Erasmus in Tenerife, Spain in connection with IoT & smart devices</p>
               </div>
-              <div className={styles.labels}>
+              <div className={projects.labels}>
                 <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
                 <Chip bgColor="#307bc7" text={"Docker"} icon={"\u{1F40B}"} />
-              </div>
-            </a>
-
-            <a className={styles.projectCard}>
-              <Image src="/assets/img/project-tictactoe-minmax.jpg" width={1241} height={745} />
-
-              <div className={styles.cardText}>
-                <h2>Tic Tac Toe AI</h2>
-                <p>Making an unbeatable Tic-Tac-Toe opponent using the MiniMax decision theory algorithm.</p>
-              </div>
-              <div className={styles.labels}>
-                <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
-                <Chip bgColor="#343A40" text={"AI & Robotics"} icon={"\u{1F916}"} />
-              </div>
-            </a>
-
-            <a className={styles.projectCard}>
-              <Image src="/assets/img/project-solar-system.jpg" width={1241} height={745} />
-
-              <div className={styles.cardText}>
-                <h2>Solar System simulation</h2>
-                <p>A selfmade 1:1 simulation of our Solar System using the Unity 3D engine. Inspired by SpaceEngine on Steam.</p>
-              </div>
-              <div className={styles.labels}>
-                <Chip bgColor="#5b3975" text={"Space"} icon={"\u{1F30C}"} />
-                <Chip bgColor="#343A40" text={"Unity Engine"} icon={"\u{1F4BB}"} />
               </div>
             </a>
           </div>
 
           <Link href="/projects">
-            <a className={styles.link} >See more projects <Arrow /></a>
+            <a className={projects.link} >See more projects <Arrow /></a>
           </Link>
 
         </section>
@@ -145,7 +121,7 @@ export default function Home() {
               </p>
               <div className={styles.aboutNote}>
                 <Rating className={styles.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                <Chip className={styles.noteChip} bgColor="#118C4F" text={"Finance"} icon={"\u{1F4B8}"}  />
+                <Chip className={styles.noteChip} bgColor="#118C4F" text={"Finance"} icon={"\u{1F4B8}"} />
               </div>
             </a>
 

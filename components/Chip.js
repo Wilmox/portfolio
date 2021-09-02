@@ -6,7 +6,6 @@ const Chip = ({bgColor="gray", color="white", text, icon}) => {
         'color': color + " !important",
         'backgroundColor': bgColor + " !important",
     }
-
     return ( 
         <div style={cssStyle} className={styles.chip}>
             <div className={styles.chip_head}>{icon}</div>
