@@ -1,0 +1,54 @@
+header.header {
+    /*border: 1px red solid;*/
+    width: 100%;
+    margin: 1vw auto;
+    max-width: 1500px;
+}
+
+h1.title {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    padding: 0 0 .2vw 0;
+}
+
+h2.author {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    opacity: .7;
+    padding: 0 0 .2vw 0;
+    margin: 0 0 .2vw 0;
+
+}
+
+hr.divider {
+    border-top: 3px solid white;
+    border-radius: 5px;
+}
+
+div.noteMeta {
+    display: flex;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 1vw 0;
+}
+
+.metaItem {
+    margin-right: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.metaItem h4 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.metaItem p, .metaItem a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}

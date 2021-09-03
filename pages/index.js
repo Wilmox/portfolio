@@ -3,7 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from '../styles/Home.module.css';
-import projects from '../styles/Projects.module.css'
+import projects from '../styles/Projects.module.css';
+import notes from '../styles/Notes.module.css';
 
 import Navigation from '../components/Navigation.js';
 import OutlinedArrow from '../components/OutlinedArrowSVG.js';
@@ -100,7 +101,7 @@ export default function Home() {
 
         </section>
 
-        <section className={styles.noteSection}>
+        <section className={notes.noteSection}>
           <ul className={styles.breadcrumb}>
             <li>FEATURED NOTES</li>
             <li>
@@ -110,8 +111,8 @@ export default function Home() {
             </li>
           </ul>
 
-          <div className={styles.notes}>
-            <a className={styles.noteCard}>
+          <div className={notes.notes}>
+            <a className={notes.noteCard}>
               <h2>Rich Dad Poor Dad</h2>
               <h3>Robert Kiyosaki</h3>
               <p>
@@ -119,22 +120,22 @@ export default function Home() {
                 starting and owning businesses, as well as increasing one's financial intelligence. <br />
                 Rich Dad Poor Dad is written in the style of a set of parables, based on Kiyosaki's life.
               </p>
-              <div className={styles.aboutNote}>
-                <Rating className={styles.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                <Chip className={styles.noteChip} bgColor="#118C4F" text={"Finance"} icon={"\u{1F4B8}"} />
+              <div className={notes.aboutNote}>
+                <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+                <Chip className={notes.noteChip} bgColor="#118C4F" text={"Finance"} icon={"\u{1F4B8}"} />
               </div>
             </a>
 
-            <a className={styles.noteCard}>
+            <a className={notes.noteCard}>
               <h2>A Brief History Of Time</h2>
               <h3>Stephen Hawking</h3>
               <p>
                 Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe. He talks about basic concepts like space and time,
                 basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity).
               </p>
-              <div className={styles.aboutNote}>
-                <Rating className={styles.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                <Chip className={styles.noteChip} bgColor="#4361ee" text={"Physics"} icon={"\u{1F320}"} />
+              <div className={notes.aboutNote}>
+                <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+                <Chip className={notes.noteChip} bgColor="#4361ee" text={"Physics"} icon={"\u{1F320}"} />
               </div>
             </a>
           </div>
