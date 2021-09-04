@@ -33,7 +33,7 @@ export default function Home() {
           <Navigation hideHomeButton />
 
           <h1 className={styles.title}>
-            Simon_ <br />Wilmots
+            Simon <br />Wilmots
           </h1>
 
           <div className={styles.info}>
@@ -143,7 +143,7 @@ export default function Home() {
 
         <section id="contact" className={styles.contactSection}>
           <h1 className={styles.sectionHeading}>
-            I'm always interested in learning new stuff.
+            I'm always interested in learning new things.
             Are you considering a project?
             <a href="mailto:simon.wilmots1@gmail.com?subject=Let%27s%C2%A0Talk">Let's talk.</a>
           </h1>
@@ -155,5 +155,3 @@ export default function Home() {
     </div>
   )
 }
-
-//    https://mathiasbynens.github.io/rel-noopener/

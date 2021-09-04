@@ -2,15 +2,15 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import styles from '../../styles/Home.module.css';
-import slugstyle from '../../styles/Slug.module.css';
+import notestyle from '../../styles/Slug.module.css';
 
 import Footer from '../../components/Footer.js';
 import Navigation from '../../components/Navigation'
 import { Rating } from '@material-ui/core';
 
-import { notes } from '../../lib/data';
+import { getAllNotes } from '../../lib/data';
 
-export default function NotePage({title, author, date, abstract, readTime, rating, amazonLink, slug}) {
+export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug }) {
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -27,26 +27,26 @@ export default function NotePage({title, author, date, abstract, readTime, ratin
         <section>
           <Navigation />
         </section>
-        <header className={slugstyle.header}>
-          <h1 className={slugstyle.title}>{title}</h1>
-          <h2 className={slugstyle.author}>{author}</h2>
+        <header className={notestyle.header}>
+          <h1 className={notestyle.title}>{title}</h1>
+          <h2 className={notestyle.author}>{author}</h2>
 
           <hr className={styles.divider} />
 
-          <div className={slugstyle.noteMeta}>
-          <div className={slugstyle.metaItem}>
+          <div className={notestyle.noteMeta}>
+            <div className={notestyle.metaItem}>
               <h4>Date</h4>
               <p>{date}</p>
             </div>
-            <div className={slugstyle.metaItem}>
+            <div className={notestyle.metaItem}>
               <h4>Read Time</h4>
               <p>{readTime}</p>
             </div>
-            <div className={slugstyle.metaItem}>
+            <div className={notestyle.metaItem}>
               <h4>Rating</h4>
               <Rating name="half-rating-read" defaultValue={rating} precision={0.5} readOnly />
             </div>
-            <div className={slugstyle.metaItem}>
+            <div className={notestyle.metaItem}>
               <h4>Link</h4>
               <Link href={amazonLink}><a target="_blank" rel="noopener noreferrer">Amazon</a></Link>
             </div>
@@ -56,12 +56,12 @@ export default function NotePage({title, author, date, abstract, readTime, ratin
           </div>
         </header>
 
-        <section>
-          <p className={slugstyle.abstract}>{abstract}</p>
+        <article className={notestyle.noteArticle}>
+          <p className={notestyle.abstract}>{abstract}</p>
 
-          <p className={slugstyle.slug}>{slug}</p>
-        </section>
-        
+          <p className={notestyle.slug}>{"simonwilmots.be/note/" + slug}</p>
+        </article>
+
       </main>
       <Footer />
     </div>
@@ -69,22 +69,26 @@ export default function NotePage({title, author, date, abstract, readTime, ratin
 }
 
 export async function getStaticProps(context) {
-  console.log(context);
   const { params } = context;
+  const allNotes = getAllNotes();
+  const { content, data } = allNotes.find((note) => note.slug === params.slug)
+
   return {
-    props: notes.find((note) => note.slug === params.slug),
+    props: {
+      //Here data serialising (dates, urls, ...),
+      ...data,
+      content,
+    },
   };
 };
 
 export async function getStaticPaths() {
   return {
-    paths: notes.map(note => ({
+    paths: getAllNotes().map(note => ({
       params: {
         slug: note.slug
       }
     })),
-    fallback:  false,
+    fallback: false,
   };
 }
-
-//    https://mathiasbynens.github.io/rel-noopener/

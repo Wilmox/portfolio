@@ -52,3 +52,17 @@ div.noteMeta {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
+article.noteArticle {
+    width: 100%;
+    margin: 1vw auto;
+    max-width: 1000px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.noteArticle .abstract {
+    font-size: 1.5rem;
+}

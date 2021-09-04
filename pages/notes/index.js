@@ -8,9 +8,9 @@ import Chip from '../../components/Chip.js';
 
 import noteStyle from '../../styles/Notes.module.css';
 
-import { notes } from '../../lib/data';
+import { getAllNotes } from '../../lib/data';
 
-export default function Notes() {
+export default function Notes({ notes }) {
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -55,4 +55,20 @@ export default function Notes() {
   )
 }
 
-//    https://mathiasbynens.github.io/rel-noopener/
+export async function getStaticProps(context) {
+  const { params } = context;
+  const allNotes = getAllNotes();
+  //const { content, data } = allNotes.find((note) => note.slug === params.slug)
+
+  return {
+    props: {
+      //Here data serialising (dates, urls, ...),
+      notes: allNotes.map(({data, content, slug}) => ({
+        ...data,
+        content,
+        slug,
+      })),
+      
+    },
+  };
+};

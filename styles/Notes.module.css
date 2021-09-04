@@ -1,60 +1,59 @@
-
 .noteSection {
-    width: 100%;
-    /*border: 1px solid white;*/
-  }
-  
-  .notes {
-    max-width: 1500px;
-    margin: 5vw auto;
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-column-gap: 2vw;
-    grid-row-gap: 2vw;
-    grid-template-areas: "a a" "a  a" "a  a";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-  }
-  
-  .notes a.noteCard {
-    border: white 3px solid;
-    border-radius: 20px;
-    grid-column-end: span 1;
-    grid-column-start: span 1;
-    grid-row-end: span 1;
-    grid-row-start: span 1;
-    padding: 1vw;
-  }
-  
-  .noteCard h2 {
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-    padding: 0 0 .2vw 0;
-  }
-  
-  .noteCard h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    font-weight: lighter;
-    opacity: .5;
-    padding: 0 0 .2vw 0;
-  }
-  
-  .noteCard p {
-    font-weight: 300;
-    line-height: 160%;
-    font-family: 'Roboto', sans-serif;
-    text-shadow:0 0 1px transparent;
-    letter-spacing: 0.01rem;
-    margin: .2vw 0;
-  }
-  
-  .aboutNote {
-    margin-top: 16px;
-    width: 100%;
-    bottom: 0;
-    align-items: center;
-    -webkit-box-align: center;
-    justify-content: space-between;
-    display: inline-flex;
-  }
+  width: 100%;
+  /*border: 1px solid white;*/
+}
+
+.notes {
+  max-width: 1500px;
+  margin: 5vw auto;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vw;
+  grid-template-areas: "a a" "a  a" "a  a";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.notes a.noteCard {
+  border: white 3px solid;
+  border-radius: 20px;
+  grid-column-end: span 1;
+  grid-column-start: span 1;
+  grid-row-end: span 1;
+  grid-row-start: span 1;
+  padding: 1vw;
+}
+
+.noteCard h2 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 0 0 .2vw 0;
+}
+
+.noteCard h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  opacity: .5;
+  padding: 0 0 .2vw 0;
+}
+
+.noteCard p {
+  font-weight: 300;
+  line-height: 160%;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0 0 1px transparent;
+  letter-spacing: 0.01rem;
+  margin: .2vw 0;
+}
+
+.aboutNote {
+  margin-top: 16px;
+  width: 100%;
+  bottom: 0;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  display: inline-flex;
+}
