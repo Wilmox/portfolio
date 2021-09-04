@@ -1,3 +1,14 @@
+---
+title: 'A Brief History Of Time'
+author: 'Stephen hawking'
+date: "Aug 11, 2021"
+abstract: 'Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe. He talks about basic concepts like space and time, basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity).'
+readTime: '45 minutes'
+rating: 5
+amazonLink: 'https://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168'
+slug: 'a-brief-hisory-of-time'
+---
+
 # A Brief History Of Time - Summary
 
 

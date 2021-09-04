@@ -1,3 +1,13 @@
+---
+title: 'Rich Dad Poor Dad'
+author: 'Robert Kiyosaki'
+date: "Aug 11, 2021"
+abstract: "This book advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence. Rich Dad Poor Dad is written in the style of a set of parables, based on Kiyosaki's life."
+readTime: '20 minutes'
+rating: 5
+amazonLink: 'https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194'
+slug: 'rich-dad-poor-dad'
+---
 # Rich Dad Poor Dad Summary
 
 
