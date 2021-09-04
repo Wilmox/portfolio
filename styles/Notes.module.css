@@ -57,3 +57,13 @@
   justify-content: space-between;
   display: inline-flex;
 }
+
+@media screen and (max-width: 800px) {
+  .notes {
+    grid-column-gap: 1vw;
+    grid-row-gap: 10vw;
+    grid-template-areas: "a" "a" "a";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

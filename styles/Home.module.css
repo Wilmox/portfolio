@@ -180,20 +180,3 @@ ul.breadcrumb li a:hover {
     font-size: 2rem !important;
   }
 }
-
-@media screen and (max-width: 800px) {
-  .projects {
-    grid-column-gap: 1vw;
-    grid-row-gap: 10vw;
-    grid-template-areas: "a" "a" "a";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-  .notes {
-    grid-column-gap: 1vw;
-    grid-row-gap: 10vw;
-    grid-template-areas: "a" "a" "a";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-}
