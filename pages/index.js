@@ -112,20 +112,23 @@ export default function Home() {
           </ul>
 
           <div className={notes.notes}>
-            <a className={notes.noteCard}>
-              <h2>Rich Dad Poor Dad</h2>
-              <h3>Robert Kiyosaki</h3>
-              <p>
-                This book advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing,
-                starting and owning businesses, as well as increasing one's financial intelligence. <br />
-                Rich Dad Poor Dad is written in the style of a set of parables, based on Kiyosaki's life.
-              </p>
-              <div className={notes.aboutNote}>
-                <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                <Chip className={notes.noteChip} bgColor="#118C4F" text={"Finance"} icon={"\u{1F4B8}"} />
-              </div>
-            </a>
+            <Link href="/note/rich-dad-poor-dad">
+              <a className={notes.noteCard}>
+                <h2>Rich Dad Poor Dad</h2>
+                <h3>Robert Kiyosaki</h3>
+                <p>
+                  This book advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing,
+                  starting and owning businesses, as well as increasing one's financial intelligence. <br />
+                  Rich Dad Poor Dad is written in the style of a set of parables, based on Kiyosaki's life.
+                </p>
+                <div className={notes.aboutNote}>
+                  <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+                  <Chip className={notes.noteChip} bgColor="#118C4F" text={"Finance"} icon={"\u{1F4B8}"} />
+                </div>
+              </a>
+            </Link>
 
+            <Link href="/note/a-brief-history-of-time">
             <a className={notes.noteCard}>
               <h2>A Brief History Of Time</h2>
               <h3>Stephen Hawking</h3>
@@ -138,6 +141,7 @@ export default function Home() {
                 <Chip className={notes.noteChip} bgColor="#4361ee" text={"Physics"} icon={"\u{1F320}"} />
               </div>
             </a>
+            </Link>
           </div>
         </section>
 
