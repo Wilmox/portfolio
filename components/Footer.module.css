@@ -43,6 +43,6 @@ div.backToTop {
 }
 
 div.backToTop a {
-    width: 5vw;
-    height: 5vw;
+    width: fit-content;
+    height: fit-content;
 }
