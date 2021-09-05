@@ -55,8 +55,8 @@ div.noteMeta {
 article.noteArticle {
     width: 100%;
     margin: 1vw auto;
-    max-width: 750px;
-    font-family: 'Roboto', sans-serif;
+    max-width: 950px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 1rem;
 }
@@ -66,7 +66,9 @@ article.noteArticle {
 }
 
 div.articleContent {
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    line-height:1.4rem;
 }
 
 /***********************************
@@ -74,6 +76,14 @@ div.articleContent {
 Styling generated HTML from Markdown
 
 ***********************************/
+.articleContent h1, .articleContent h2 {
+    font-family: 'Monument';
+    letter-spacing: 0.1rem;
+}
+
+.articleContent h1, .articleContent h2, .articleContent h3, .articleContent h4 {
+    
+}
 
 .articleContent h1 {
     font-weight: 800;
@@ -122,7 +132,7 @@ Styling generated HTML from Markdown
 .articleContent blockquote {
     font-size: 1.4em;
     margin: 50px 0;
-    font-family: Open Sans;
+    font-family: Open Sans !important;
     font-style: italic;
     color: rgba(255, 255, 255, 0.7);
     padding: 1.2em 30px 1.2em 75px;
