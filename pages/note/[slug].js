@@ -63,7 +63,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <article className={notestyle.noteArticle}>
           <p className={notestyle.abstract}>{abstract}</p>
 
-          <div class="prose" className={notestyle.articleContent}>
+          <div className={notestyle.articleContent}>
             <MDXRemote {...content} />
           </div>
 
