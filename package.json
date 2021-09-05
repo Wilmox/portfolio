@@ -15,8 +15,9 @@
     "@material-ui/icons": "^5.0.0-beta.5",
     "@material-ui/styles": "^4.11.4",
     "gray-matter": "^4.0.3",
-    "material-ui": "^1.0.0-beta.47",
+    "material-ui": "^0.15.0",
     "next": "11.1.0",
+    "next-mdx-remote": "^3.0.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },

@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { serialize } from 'next-mdx-remote/serialize'
+import { MDXRemote } from 'next-mdx-remote'
 
 import styles from '../../styles/Home.module.css';
 import notestyle from '../../styles/Slug.module.css';
@@ -10,7 +12,7 @@ import { Rating } from '@material-ui/core';
 
 import { getAllNotes } from '../../lib/data';
 
-export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug }) {
+export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content }) {
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -21,6 +23,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.4.x/dist/typography.min.css"/>
       </Head>
 
       <main className={styles.main}>
@@ -59,6 +62,10 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <article className={notestyle.noteArticle}>
           <p className={notestyle.abstract}>{abstract}</p>
 
+          <div class="prose" className={notestyle.articleContent}>
+            <MDXRemote {...content} />
+          </div>
+
           <p className={notestyle.slug}>{"simonwilmots.be/note/" + slug}</p>
         </article>
 
@@ -71,13 +78,16 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
 export async function getStaticProps(context) {
   const { params } = context;
   const allNotes = getAllNotes();
-  const { content, data } = allNotes.find((note) => note.slug === params.slug)
+  const { content, data } = allNotes.find((note) => note.slug === params.slug);
+
+  const mdxSource = await serialize(content)
+
 
   return {
     props: {
       //Here data serialising (dates, urls, ...),
       ...data,
-      content,
+      content: mdxSource,
     },
   };
 };

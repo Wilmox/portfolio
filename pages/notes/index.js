@@ -55,20 +55,19 @@ export default function Notes({ notes }) {
   )
 }
 
-export async function getStaticProps(context) {
-  const { params } = context;
+export async function getStaticProps() {
   const allNotes = getAllNotes();
   //const { content, data } = allNotes.find((note) => note.slug === params.slug)
 
   return {
     props: {
       //Here data serialising (dates, urls, ...),
-      notes: allNotes.map(({data, content, slug}) => ({
+      notes: allNotes.map(({ data, content, slug }) => ({
         ...data,
         content,
         slug,
       })),
-      
+
     },
   };
 };
