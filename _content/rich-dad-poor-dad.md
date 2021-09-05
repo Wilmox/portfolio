@@ -8,10 +8,8 @@ rating: 5
 amazonLink: 'https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194'
 slug: 'rich-dad-poor-dad'
 ---
-# Rich Dad Poor Dad Summary
 
-
-## Introduction: Rich Dad Poor Dad
+## Introduction
 
 _Poor Dad was Kiyosaki’s biological father, a man who was highly intelligent and very well educated. Poor Dad believed in studying hard and getting good grades, then finding a well-paying job. Yet, despite these seemingly positive attributes, Poor Dad didn’t do well financially._
 
@@ -40,7 +38,7 @@ An asset is something that **has **value, that **produces **income or appreciate
 
 Liabilities **take **money out of your pocket because of the **costs **associated with them.
 
-<span style="text-decoration:underline;">A personal residence  is **NOT **an asset  but a liability because it doesn’t produce any sort of income.</span>
+<span>A personal residence  is **NOT **an asset  but a liability because it doesn’t produce any sort of income.</span>
 
 
 ## Chapter 3: Mind Your Own Business
