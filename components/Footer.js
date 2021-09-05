@@ -10,6 +10,7 @@ const Footer = () => {
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/simon_wilmots/" className={styles.footerItem}>Instagram</a>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Wilmox" className={styles.footerItem}>Github</a>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/simon_wilmots/" className={styles.footerItem}>Twitter</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/user/simonwilmots?si=a7d39d68c5574621" className={styles.footerItem}>Spotify</a>
             </div>
             <div className={styles.backToTop}>
                 <a href="#top">
