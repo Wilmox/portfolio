@@ -105,7 +105,7 @@ Black holes are difficult for astronomers to find because they don't produce any
 In this chapter, Hawking talks about his famous bet with another scientist, Kip Thorne, that he made in 1974. Hawking argued that black holes did not exist, while Thorne argued that they did. Hawking lost the bet as new evidence proved that **Cygnus X-1** was indeed a black hole.
 
 
-## Chapter 7: Hawkings Radiation - Black holes aren’t that black
+## Chapter 7: Black holes aren’t that black
 
 _This chapter discusses an aspect of black hole behavior that Stephen Hawking discovered._
 

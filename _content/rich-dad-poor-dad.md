@@ -11,12 +11,12 @@ slug: 'rich-dad-poor-dad'
 
 ## Introduction
 
-_Poor Dad was Kiyosaki’s biological father, a man who was highly intelligent and very well educated. Poor Dad believed in studying hard and getting good grades, then finding a well-paying job. Yet, despite these seemingly positive attributes, Poor Dad didn’t do well financially._
+_Poor Dad was Kiyosaki’s biological father, a man who was highly intelligent and very well educated. Poor Dad believed in studying hard and getting good grades, then finding a well-paying job. Yet, despite these seemingly positive attributes, Poor Dad didn’t do well financially._<br /><br />
 
 _Rich Dad was the father of Kiyosaki’s best friend. He had a similar work ethic to Kiyosaki’s real dad, but with a twist. Rich Dad believed in financial education, learning how money works, and understanding how to make money work for you. Although he was an eighth-grade dropout, Rich Dad eventually became a millionaire by putting the power of money to work for him._
 
 
-## Chapter 1: The Rich Don’t Work for Money
+## The Rich Don’t Work for Money
 
 The rich work (hard and a lot), but not for **money**.
 
@@ -27,9 +27,9 @@ Having a regular job is just a **short-term solution** to the long-term problem 
 _“It’s **fear **that keeps most people working at a job: the fear of not paying their bills, the fear of being fired, the fear of not having enough money, and the fear of starting over. That’s the price of studying to learn a profession or trade, and then working for money. Most people become a **slave **to money – and then get angry at their boss.”_
 
 
-## Chapter 2: Why Teach Financial Literacy?
+## Why Teach Financial Literacy?
 
-Assets vs Liability
+### Asset vs Liability
 
 An asset is something that **has **value, that **produces **income or appreciates, and has a market where the asset can easily be bought and sold:
 
@@ -40,10 +40,10 @@ An asset is something that **has **value, that **produces **income or appreciate
 
 Liabilities **take **money out of your pocket because of the **costs **associated with them.
 
-<span>A personal residence  is **NOT **an asset  but a liability because it doesn’t produce any sort of income.</span>
+A personal residence  is **NOT** an asset  but a liability because it doesn’t produce any sort of income.
 
 
-## Chapter 3: Mind Your Own Business
+## Mind Your Own Business
 
 There are two key messages in this chapter.
 
@@ -54,10 +54,10 @@ There are two key messages in this chapter.
 
 Most people spend their entire lives working in somebody else’s business and making other people rich.
 
-_“The primary reason the majority of the poor and middle class are fiscally conservative is that they have no financial foundation. They have to cling to their jobs and play it safe. They can’t afford to take risks.”_
+>The primary reason the majority of the poor and middle class are fiscally conservative is that they have no financial foundation. They have to cling to their jobs and play it safe. They can’t afford to take risks.
 
 
-## Chapter 4: The History of Taxes and the Power of Corporations
+## The History of Taxes and the Power of Corporations
 
 _Rich Dad Poor Dad is a motivational book and not trying  to provide expert financial or tax advice._
 
@@ -86,7 +86,7 @@ Understanding the legal and tax advantages significantly contribute to building 
 For instance, a corporation can pay expenses before paying taxes, whereas an employee gets taxed first and must try to pay expenses on what is left. . . Corporations also offer legal protection from lawsuits. When someone sues a wealthy individual, they are often met with layers of legal protection and often find that the wealthy person actually owns nothing [in their own name]. They control everything, but [personally] own nothing.
 
 
-## Chapter 5: The Rich Invent Money
+## The Rich Invent Money
 
 _Inventing money means finding opportunities or deals that other people don’t have the skill, knowledge, resources, or contacts for._
 
@@ -103,7 +103,7 @@ There are two types of investors:
 _“Some people argue that there aren’t real estate bargains where they are, but there are prime opportunities everywhere that are overlooked. Most people aren’t trained financially to recognize the opportunities in front of them.”_
 
 
-## Chapter 6: Work to Learn – Don’t Work for Money
+## Work to Learn – Don’t Work for Money
 
 Poor Dad was intelligent and well educated and worked for money because job security meant everything to him. Rich Dad became a millionaire by **working to learn**.
 
@@ -118,7 +118,7 @@ The **synergy **of management skills needed for **success **in business:
 * People management
 
 
-## Chapter 7: Overcoming Obstacles
+## Overcoming Obstacles
 
 >The primary difference between a rich person and a poor person is how they manage fear.
 
@@ -180,7 +180,7 @@ Overcoming these five biggest obstacles on the path to real estate success requi
 Rich Dad Poor Dad suggests **filtering negative people and their fears out of your life**. Instead, concentrate on the big picture and always ask, **“What’s in it for me?”**
 
 
-## Chapter 8: Getting Started
+## Getting Started
 
 >There is gold everywhere, most people are not trained to see it.
 
