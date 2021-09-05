@@ -66,3 +66,7 @@ article.noteArticle {
 .noteArticle .abstract {
     font-size: 1.5rem;
 }
+
+div.articleContent {
+    margin: auto;
+}
