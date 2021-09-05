@@ -22,7 +22,9 @@ The rich work (hard and a lot), but not for **money**.
 
 Rich people – and people who want to become rich – work and learn every day how to put money to work for them. As Rich Dad says, “The poor and middle class work for money. The rich have money work for them.”
 
-Having a regular job is just a **short-term solution** to the long-term problem (or challenge) of creating **wealth **and financial freedom: _“It’s **fear **that keeps most people working at a job: the fear of not paying their bills, the fear of being fired, the fear of not having enough money, and the fear of starting over. That’s the price of studying to learn a profession or trade, and then working for money. Most people become a **slave **to money – and then get angry at their boss.”_
+Having a regular job is just a **short-term solution** to the long-term problem (or challenge) of creating **wealth **and financial freedom: 
+
+_“It’s **fear **that keeps most people working at a job: the fear of not paying their bills, the fear of being fired, the fear of not having enough money, and the fear of starting over. That’s the price of studying to learn a profession or trade, and then working for money. Most people become a **slave **to money – and then get angry at their boss.”_
 
 
 ## Chapter 2: Why Teach Financial Literacy?
@@ -81,7 +83,7 @@ Employees who work for corporations:
 
 Understanding the legal and tax advantages significantly contribute to building long-term wealth:
 
-_“For instance, a corporation can pay expenses before paying taxes, whereas an employee gets taxed first and must try to pay expenses on what is left. . . Corporations also offer legal protection from lawsuits. When someone sues a wealthy individual, they are often met with layers of legal protection and often find that the wealthy person actually owns nothing [in their own name]. They control everything, but [personally] own nothing.”_
+For instance, a corporation can pay expenses before paying taxes, whereas an employee gets taxed first and must try to pay expenses on what is left. . . Corporations also offer legal protection from lawsuits. When someone sues a wealthy individual, they are often met with layers of legal protection and often find that the wealthy person actually owns nothing [in their own name]. They control everything, but [personally] own nothing.
 
 
 ## Chapter 5: The Rich Invent Money
@@ -105,7 +107,7 @@ _“Some people argue that there aren’t real estate bargains where they are, b
 
 Poor Dad was intelligent and well educated and worked for money because job security meant everything to him. Rich Dad became a millionaire by **working to learn**.
 
-_“I recommend to young people to seek work for what they will learn, more than what they will earn. Look down the road at what skills they want to acquire before choosing a specific profession and before getting trapped in the Rat Race.”_
+>I recommend to young people to seek work for what they will learn, more than what they will earn. Look down the road at what skills they want to acquire before choosing a specific profession and before getting trapped in the Rat Race.
 
 The **synergy **of management skills needed for **success **in business:
 
@@ -118,7 +120,7 @@ The **synergy **of management skills needed for **success **in business:
 
 ## Chapter 7: Overcoming Obstacles
 
-_“The primary difference between a rich person and a poor person is how they manage fear.”_
+>The primary difference between a rich person and a poor person is how they manage fear.
 
 The five biggest obstacles people face on the path to becoming financially independent:
 
@@ -180,7 +182,7 @@ Rich Dad Poor Dad suggests **filtering negative people and their fears out of yo
 
 ## Chapter 8: Getting Started
 
-_“There is gold everywhere, most people are not trained to see it.”_
+>There is gold everywhere, most people are not trained to see it.
 
 Part of this lack of vision and clarity comes from the world we live in. We’re trained from a very young age to work hard for someone else, spend the money that we earn, and borrow more if we run short.
 
