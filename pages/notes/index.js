@@ -41,7 +41,7 @@ export default function Notes({ notes }) {
                   </p>
                   <div className={noteStyle.aboutNote}>
                     <Rating className={noteStyle.rating} name="half-rating-read" defaultValue={note.rating} precision={0.5} readOnly />
-                    <Chip className={noteStyle.noteChip} bgColor="#4361ee" text={"Physics"} icon={"\u{1F320}"} />
+                    <Chip className={noteStyle.noteChip} bgColor={note.labelColors[0]} text={note.labelText[0]} icon={note.labelIcons[0]} />
                   </div>
                 </a>
               </Link>

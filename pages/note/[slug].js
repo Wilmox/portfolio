@@ -6,13 +6,14 @@ import { MDXRemote } from 'next-mdx-remote'
 import styles from '../../styles/Home.module.css';
 import notestyle from '../../styles/Slug.module.css';
 
-import Footer from '../../components/Footer.js';
+import Footer from '../../components/Footer';
 import Navigation from '../../components/Navigation'
+import Chip from '../../components/Chip'
 import { Rating } from '@material-ui/core';
 
 import { getAllNotes } from '../../lib/data';
 
-export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content }) {
+export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content, labelColors, labelText, labelIcons }) {
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -23,8 +24,6 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
-        {//<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.4.x/dist/typography.min.css"/>
-        }
       </Head>
 
       <main className={styles.main}>
@@ -34,6 +33,8 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <header className={notestyle.header}>
           <h1 className={notestyle.title}>{title}</h1>
           <h2 className={notestyle.author}>{author}</h2>
+
+          { labelText.map( (label, i) => <Chip className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} /> )}
 
           <hr className={styles.divider} />
 
@@ -74,6 +75,12 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
       <Footer />
     </div>
   )
+}
+
+const Labels = (labelColors, labelText, labelIcons) => {
+  for (let i = 0; i < labelText.length; i++) {
+    <Chip className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />
+  }
 }
 
 export async function getStaticProps(context) {

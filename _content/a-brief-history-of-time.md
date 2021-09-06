@@ -7,6 +7,9 @@ readTime: '45 minutes'
 rating: 5
 amazonLink: 'https://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168'
 slug: 'a-brief-hisory-of-time'
+labelText: ['Physics']
+labelColors: ['#4361ee']
+labelIcons: ['☄️']
 ---
 
 ## Chapter 1: Our Picture of the Universe

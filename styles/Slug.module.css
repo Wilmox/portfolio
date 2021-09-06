@@ -230,8 +230,21 @@ Styling generated HTML from Markdown
 
 .articleContent img {
     margin: 2rem 0;
+    border-radius: 20px;
 }
 
 .articleContent .footnote {
 
 }
+
+@media screen and (max-width: 800px) {
+    .articleContent {
+      margin: auto !important;
+      width: 100% !important;
+      padding: 3vw !important;
+    }
+
+    .noteArticle {
+        margin: 5vw auto;
+    }
+  }

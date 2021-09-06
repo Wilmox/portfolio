@@ -2,11 +2,14 @@
 title: 'How To Win Friends And Influence People'
 author: 'Dale Carnegie'
 date: "Aug 11, 2021"
-abstract: "Needs abstract"
+abstract: "The core idea is that you can change other people’s behavior simply by changing your own. It teaches you the principles to better understand people, become a more likable person, improve relationships, win others over, and influence behavior through leadership."
 readTime: '10 minutes'
 rating: 3.5
 amazonLink: 'https://www.amazon.com/How-win-Friends-Influence-People/dp/8189297813/ref=pd_lpo_2?pd_rd_i=8189297813&psc=1'
 slug: 'how-to-win-friends-and-influence-people'
+labelText: ['Psychology', 'Entrepeneurship']
+labelColors: ['#e2819d', "#e74c3c"]
+labelIcons: ['🧠', '🚀']
 ---
 
 ## Fundamental Techniques in Handling People

@@ -7,6 +7,9 @@ readTime: '20 minutes'
 rating: 5
 amazonLink: 'https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194'
 slug: 'rich-dad-poor-dad'
+labelText: ['Finance', 'Entrepeneurship']
+labelColors: ['#118C4F', "#e74c3c"]
+labelIcons: ['💸', '🚀']
 ---
 
 ## Introduction

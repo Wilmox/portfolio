@@ -2,11 +2,14 @@
 title: 'The Magic of Thinking Big'
 author: 'David J. Schwartz'
 date: "Aug 11, 2021"
-abstract: "Needs abstract"
+abstract: "Dr. Schwartz presents a carefully designed program for getting the most out of your job, your marriage and family life, and your community. He proves that you don't need to be an intellectual or have innate talent to attain great success and satisfaction, but you do need to learn and understand the habit of thinking and behaving in ways that will get you there."
 readTime: "10 minutes"
 rating: 4
 amazonLink: 'https://www.amazon.com/Magic-Thinking-Big-David-Schwartz/dp/1897384424/ref=sr_1_2?crid=1ZVJ7H97IXAK7'
 slug: 'the-magic-of-thinking-big'
+labelText: ['Psychology', 'Entrepeneurship']
+labelColors: ['#e2819d', "#e74c3c"]
+labelIcons: ['🧠', '🚀']
 ---
 ## Believe you can succeed and you will
 

@@ -47,7 +47,6 @@
   letter-spacing: 0.01rem;
   margin: .2vw 0;
 }
-
 .aboutNote {
   margin-top: 16px;
   width: 100%;
@@ -61,9 +60,31 @@
 @media screen and (max-width: 800px) {
   .notes {
     grid-column-gap: 1vw;
-    grid-row-gap: 10vw;
+    grid-row-gap: 5vw;
     grid-template-areas: "a" "a" "a";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    margin: 5vw auto;
+  }
+}
+
+@media screen and (max-width: 625px) {
+
+  .noteCard h2 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .noteCard {
+    width: 100%;
+  }
+
+  .noteCard h2 {
+    font-size: 1rem !important;
+  }
+
+  .noteCard h3 {
+    font-size: 1rem;
   }
 }
