@@ -251,4 +251,12 @@ div.labels {
     .noteArticle {
         margin: 5vw auto;
     }
+
+    h1.title {
+        font-size: 2rem;
+    }
+
+    h2.author {
+        font-size: 1.5rem;
   }
+}
