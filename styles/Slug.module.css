@@ -237,6 +237,10 @@ Styling generated HTML from Markdown
 
 }
 
+div.labels {
+    margin: .5vw 0 .8vw 0;
+}
+
 @media screen and (max-width: 800px) {
     .articleContent {
       margin: auto !important;

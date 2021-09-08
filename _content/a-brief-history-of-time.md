@@ -14,19 +14,19 @@ labelIcons: ['☄️']
 
 ## Chapter 1: Our Picture of the Universe
 
-Aristotle & Ptolemy: “Earth is round but in the center”
+Aristotle & Ptolemy already believed that the Earth was round but thought that it was the center of our Solar system.
 
-Ptolemy's model: **Geocentric **model (earth in middle)
+Ptolemy's model or **Geocentric **model is a model of the solar system with the earth in the middle.
 
-Copernicus, later Galileo Galilei & Johannes Kepler: **Heliocentrism**
+Copernicus, and later Galileo Galilei & Johannes Kepler came up with **Heliocentrism**.<br /><br />
 
-**1687**: Isaac Newton: Principia Mathematica proved Heliocentrism
+In **1687**, Isaac Newton's Principia Mathematica proved Heliocentrism. 
 
-Newton's model also meant that stars, like the Sun, were not fixed but, rather, faraway moving objects. Nevertheless, Newton believed that the Universe was made up of an infinite number of stars which were more or less static. Many of his contemporaries, including German philosopher Heinrich Olbers, disagreed.
+Newton's model also meant that stars, like the Sun, were not fixed but, rather, faraway moving objects. Nevertheless, Newton believed that the Universe was made up of an infinite number of stars which were more or less static. Many of his contemporaries, including German philosopher Heinrich Olbers, disagreed.<br /><br />
 
-In 1929, astronomer Edwin Hubble discovered that most galaxies are **redshifting**. They gave a red glow which means that the galaxies are moving away from eachother. Which could only be explained if the Universe itself was growing in size. Between ten and twenty billion years ago, they were all together in one singular extremely dense place. 
+In 1929, astronomer Edwin Hubble discovered that most galaxies are **redshifting**. They gave a red glow which means that the galaxies are moving away from eachother. Which could only be explained if the Universe itself was growing in size. Between ten and twenty billion years ago, they were all together in one singular extremely dense place.<br /><br />
 
-Today, scientists use two theories, Albert Einstein's** general theory of relativity** and **quantum mechanics**, which partially describe the workings of the Universe. 
+Today, scientists use two theories, Albert Einstein's** general theory of relativity** and **quantum mechanics**, which partially describe the workings of the Universe.<br /><br />
 
 Scientists are still looking for a complete Grand Unified Theory that would describe everything in the Universe.
 
