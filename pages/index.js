@@ -48,7 +48,7 @@ export default function Home() {
           <div className={styles.about}>
             <h2>ABOUT</h2> <br />
             <p>
-              I've always been eager to learn from childhood. From <span>computers</span> and <span>space</span> to <span>psychology</span> and <span>science</span>, I had to find out how something functions. <br /><br />
+              I&apos;ve always been eager to learn from childhood. From <span>computers</span> and <span>space</span> to <span>psychology</span> and <span>science</span>, I had to find out how something functions. <br /><br />
               I am very passionate about <span>Personal development</span> and how you can always be the best version of yourself. <br /><br />
             </p>
             <details>
@@ -118,8 +118,8 @@ export default function Home() {
                 <h3>Robert Kiyosaki</h3>
                 <p>
                   This book advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing,
-                  starting and owning businesses, as well as increasing one's financial intelligence. <br />
-                  Rich Dad Poor Dad is written in the style of a set of parables, based on Kiyosaki's life.
+                  starting and owning businesses, as well as increasing one&apos;s financial intelligence. <br />
+                  Rich Dad Poor Dad is written in the style of a set of parables, based on Kiyosaki&apos;s life.
                 </p>
                 <div className={notes.aboutNote}>
                   <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
@@ -147,9 +147,9 @@ export default function Home() {
 
         <section id="contact" className={styles.contactSection}>
           <h1 className={styles.sectionHeading}>
-            I'm always interested in learning new things.
+            I&apos;m always interested in learning new things.
             Are you considering a project?
-            <a href="mailto:simon.wilmots1@gmail.com?subject=Let%27s%C2%A0Talk">Let's talk.</a>
+            <a href="mailto:simon.wilmots1@gmail.com?subject=Let%27s%C2%A0Talk">Let&apos;s talk.</a>
           </h1>
 
         </section>

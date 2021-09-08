@@ -35,7 +35,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           <h2 className={notestyle.author}>{author}</h2>
 
           <div className={notestyle.labels}>
-            { labelText.map( (label, i) => <Chip className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} /> )}
+            { labelText.map( (label, i) => <Chip key={labelText[0]} className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} /> )}
           </div>
           <hr className={styles.divider} />
 

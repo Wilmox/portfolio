@@ -32,16 +32,16 @@ export default function Notes({ notes }) {
           <div className={noteStyle.notes}>
 
             {notes.map((note) => (
-              <Link href={`/note/${note.slug}`}>
+              <Link key={note.slug} href={`/note/${note.slug}`}>
                 <a key={note.slug} className={noteStyle.noteCard}>
-                  <h2>{note.title}</h2>
-                  <h3>{note.author}</h3>
-                  <p>
+                  <h2 key="title">{note.title}</h2>
+                  <h3 key="author">{note.author}</h3>
+                  <p key="abstract">
                     {note.abstract}
                   </p>
                   <div className={noteStyle.aboutNote}>
-                    <Rating className={noteStyle.rating} name="half-rating-read" defaultValue={note.rating} precision={0.5} readOnly />
-                    <Chip className={noteStyle.noteChip} bgColor={note.labelColors[0]} text={note.labelText[0]} icon={note.labelIcons[0]} />
+                    <Rating key="rating" className={noteStyle.rating} name="half-rating-read" defaultValue={note.rating} precision={0.5} readOnly />
+                    <Chip key="label" className={noteStyle.noteChip} bgColor={note.labelColors[0]} text={note.labelText[0]} icon={note.labelIcons[0]} />
                   </div>
                 </a>
               </Link>
