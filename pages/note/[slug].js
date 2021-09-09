@@ -35,7 +35,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           <h2 className={notestyle.author}>{author}</h2>
 
           <div className={notestyle.labels}>
-            { labelText.map( (label, i) => <Chip key={labelText[0]} className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} /> )}
+            {labelText.map((label, i) => <Chip key={labelText[0]} className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
           </div>
           <hr className={styles.divider} />
 
@@ -54,7 +54,10 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
             </div>
             <div className={notestyle.metaItem}>
               <h4>Link</h4>
-              <Link href={amazonLink}><a target="_blank" rel="noopener noreferrer">Amazon</a></Link>
+              <div>
+                <Link href={amazonLink}><a target="_blank" rel="noopener noreferrer">Amazon</a></Link>
+                <Link href={amazonLink}><a target="_blank" rel="noopener noreferrer" className={notestyle.arrowLink}> &#x2197;</a></Link>
+              </div>
             </div>
           </div>
 

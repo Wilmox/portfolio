@@ -96,6 +96,10 @@ section h1 {
   section h1 {
     font-size: 3rem !important;
   }
+
+  .main {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 505px) {

@@ -26,11 +26,12 @@ hr.divider {
 }
 
 div.noteMeta {
+    width: 100%;
+    margin: 10px auto;
     display: flex;
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    margin: 1vw 0;
 }
 
 .metaItem {
@@ -52,6 +53,21 @@ div.noteMeta {
     font-weight: 300;
 }
 
+.metaItem a {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: white;
+}
+
+.metaItem span:hover {
+    cursor: pointer;
+}
+
+a.arrowLink {
+    text-decoration: none;
+    border: none;
+}
+
 article.noteArticle {
     width: 100%;
     margin: 1vw auto;
@@ -68,7 +84,7 @@ article.noteArticle {
 div.articleContent {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    line-height:1.4rem;
+    line-height: 1.4rem;
 }
 
 /***********************************
@@ -76,14 +92,13 @@ div.articleContent {
 Styling generated HTML from Markdown
 
 ***********************************/
+
 .articleContent h1, .articleContent h2 {
     font-family: 'Monument';
     letter-spacing: 0.1rem;
 }
 
-.articleContent h1, .articleContent h2, .articleContent h3, .articleContent h4 {
-    
-}
+.articleContent h1, .articleContent h2, .articleContent h3, .articleContent h4 {}
 
 .articleContent h1 {
     font-weight: 800;
@@ -139,7 +154,6 @@ Styling generated HTML from Markdown
     border-left: 4px solid white;
     line-height: 1.6;
     position: relative;
-    
 }
 
 .articleContent blockquote::before {
@@ -233,30 +247,40 @@ Styling generated HTML from Markdown
     border-radius: 20px;
 }
 
-.articleContent .footnote {
-
-}
+.articleContent .footnote {}
 
 div.labels {
     margin: .5vw 0 .8vw 0;
 }
 
+@media screen and (max-width: 1000px) {
+    .noteMeta {
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .articleContent {
-      margin: auto !important;
-      width: 100% !important;
-      padding: 3vw !important;
+        margin: auto !important;
+        width: 100% !important;
+        padding: 3vw !important;
     }
-
     .noteArticle {
         margin: 5vw auto;
     }
-
     h1.title {
         font-size: 2rem;
     }
-
     h2.author {
         font-size: 1.5rem;
-  }
+    }
+    .metaItem {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .noteMeta {
+        flex-direction: column;
+    }
 }
