@@ -148,7 +148,7 @@ export default function Home() {
         <section id="contact" className={styles.contactSection}>
           <h1 className={styles.sectionHeading}>
             I&apos;m always <br />interested <br />in learning <br />new things.<br />
-            Are you <br />considering a <br />project? <br />
+            Are you <br />considering <br />a project? <br />
             <a href="mailto:simon.wilmots1@gmail.com?subject=Let%27s%C2%A0Talk">Let&apos;s talk.</a>
           </h1>
 
