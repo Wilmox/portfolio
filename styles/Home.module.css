@@ -110,7 +110,17 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1500px) {}
+@media screen and (max-width: 1500px) {
+  .info {
+    height: 3rem;
+  }     
+}
+
+@media screen and (max-width: 1150px) {
+  .info {
+    height: 2rem;
+  }    
+}
 
 @media screen and (max-width: 1000px) {
   .title {
@@ -121,6 +131,7 @@ ul.breadcrumb li a:hover {
 @media screen and (max-width: 850px) {
   .info {
     width: 90%;
+    height: 2rem;
   }
 }
 
@@ -128,7 +139,6 @@ ul.breadcrumb li a:hover {
   .about {
     margin: 0;
     width: 100% !important;
-    border: 5px dashed rgba(255, 255, 255, 0.2);
     padding: 3vw !important;
   }
   .aboutSection {

@@ -61,7 +61,7 @@ export default function Home() {
               </p>
             </details>
           </div>
-          <CircleText text="About About About About About About About" />
+          <CircleText text="Simon Wilmots Simon Wilmots Simon Wilmots" /> {/*About About About About About About About*/}
         </section>
 
         <section className={projects.projectSection}>
