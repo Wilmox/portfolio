@@ -149,7 +149,7 @@ export default function Home() {
           <h1 className={styles.sectionHeading}>
             I&apos;m always <br />interested <br />in learning <br />new things.<br />
             Are you <br />considering <br />a project? <br />
-            <a href="mailto:simon.wilmots1@gmail.com?subject=Let%27s%C2%A0Talk">Let&apos;s talk.</a>
+            <a href="mailto:&#115;&#105;&#109;&#111;&#110;&#46;&#119;&#105;&#108;&#109;&#111;&#116;&#115;&#49;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;?subject=Let%27s%C2%A0Talk">Let&apos;s talk.</a>
           </h1>
 
         </section>
