@@ -9,6 +9,7 @@ import Chip from '../../components/Chip.js';
 import noteStyle from '../../styles/Notes.module.css';
 
 import { getAllNotes } from '../../lib/data';
+import Search from '../../components/Search';
 
 export default function Notes({ notes }) {
   return (
@@ -29,8 +30,10 @@ export default function Notes({ notes }) {
         </section>
         <section className={noteStyle.noteSection}>
           <h1>Notes & Summaries</h1>
-          <div className={noteStyle.notes}>
+          
+          <Search />
 
+          <div className={noteStyle.notes}>
             {notes.map((note) => (
               <Link key={note.slug} href={`/note/${note.slug}`}>
                 <a key={note.slug} className={noteStyle.noteCard}>
@@ -57,12 +60,20 @@ export default function Notes({ notes }) {
 
 export async function getStaticProps() {
   const allNotes = getAllNotes();
-  //const { content, data } = allNotes.find((note) => note.slug === params.slug)
+
+  const searchTerm = "";
+
+  //Searches in title, author & abstract data field for a match with the query
+  const searchNotes = allNotes.filter((note) => {
+    return note.data.title.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.author.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.abstract.toLowerCase().includes(searchTerm.toLowerCase())
+  });
+
+  
 
   return {
     props: {
       //Here data serialising (dates, urls, ...),
-      notes: allNotes.map(({ data, content, slug }) => ({
+      notes: searchNotes.map(({ data, content, slug }) => ({
         ...data,
         content,
         slug,

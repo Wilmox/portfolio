@@ -1,0 +1,31 @@
+div.search {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 40px 0;
+}
+
+div.search > input {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+div.search > input:focus {
+    outline: none;
+}
+
+.search__inputIcon {
+    color: gray;
+}
+.searchPage__result {
+    margin: 40px 0;
+}

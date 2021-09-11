@@ -5,7 +5,7 @@
 
 .notes {
   max-width: 1500px;
-  margin: 5vw auto;
+  margin: 2vw auto;
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 2vw;

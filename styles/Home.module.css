@@ -36,7 +36,6 @@
 
 .about {
   /*border: 5px dashed rgba(255, 255, 255, 0.2);*/
-  background-color: black;
   float: left;
   z-index: 9;
   padding: 1vw;
