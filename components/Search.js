@@ -1,13 +1,24 @@
 import style from './Search.module.css';
 import SearchIcon from '@mui/icons-material/Search';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router'
 
 export default function Search() {
     const [input, setInput] = useState('');
+    const router = useRouter();
+
+    useEffect(() => {
+        if (input != '') {
+            router.push('/notes?search=' + input);
+        } else {
+            router.push('/notes');
+        }
+        console.log("You searched", input);
+      }, [input]);
 
     const search = (e) => {
+        e.preventDefault();
         setInput(e.target.value);
-        console.log("You searched", input);
     }
 
     return (

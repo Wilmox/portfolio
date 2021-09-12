@@ -58,18 +58,22 @@ export default function Notes({ notes }) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps(context) {
   const allNotes = getAllNotes();
 
-  const searchTerm = "";
+  const searchTerm = context.query.search;
 
-  //Searches in title, author & abstract data field for a match with the query
-  const searchNotes = allNotes.filter((note) => {
-    return note.data.title.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.author.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.abstract.toLowerCase().includes(searchTerm.toLowerCase())
-  });
+  let searchNotes = allNotes;
+
+  if (searchTerm != null) {
+    searchNotes = searchNotes.filter((note) => {
+      //Searches in title, author & abstract data field for a match with the query
+      return note.data.title.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.author.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.abstract.toLowerCase().includes(searchTerm.toLowerCase())
+    });
+  }
 
   
-
+  
   return {
     props: {
       //Here data serialising (dates, urls, ...),
