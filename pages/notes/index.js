@@ -29,7 +29,11 @@ export default function Notes({ notes }) {
           <Navigation />
         </section>
         <section className={noteStyle.noteSection}>
-          <h1>Notes & Summaries</h1>
+          <header>
+            <h1>Notes & Summaries</h1>
+            <p>These are notes I've taken or summaries I've made of the things I read or listen to. Parts may come straight from the source, while others are written by me. <br />
+            I do this to get the author's high-level idea or to brush up on something for later, or for people who don't feel like reading / listening to a whole book.</p>
+          </header>
           
           <Search />
 
