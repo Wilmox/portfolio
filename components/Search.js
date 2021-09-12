@@ -10,10 +10,10 @@ export default function Search() {
     useEffect(() => {
         if (input != '') {
             router.push('/notes?search=' + input);
+            console.log("You searched", input);
         } else {
             router.push('/notes');
         }
-        console.log("You searched", input);
       }, [input]);
 
     const search = (e) => {

@@ -5,7 +5,7 @@ import AsciiArt from './ConsoleLogAsciiArt';
 const Navigation = ({ hideHomeButton = false }) => {
     return (
         <nav className={styles.navigation}>
-            <AsciiArt />
+            {/*<AsciiArt />*/}
             {hideHomeButton ? (
                 <ul className={styles.list}>
                     <li className={styles.listItem, styles.listItem_Hidden}><a>simonwilmots</a></li>

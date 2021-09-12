@@ -65,12 +65,12 @@ export default function Notes({ notes }) {
 export async function getServerSideProps(context) {
   const allNotes = getAllNotes();
 
-  const searchTerm = context.query.search;
+  const searchTerm = context.query.search ?? "";
 
   let searchNotes = allNotes;
 
   if (searchTerm != null) {
-    searchNotes = searchNotes.filter((note) => {
+    searchNotes =  searchNotes.filter((note) => {
       //Searches in title, author & abstract data field for a match with the query
       return note.data.title.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.author.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.abstract.toLowerCase().includes(searchTerm.toLowerCase())
     });
