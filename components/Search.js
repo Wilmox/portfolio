@@ -8,11 +8,11 @@ export default function Search() {
     const router = useRouter();
 
     useEffect(() => {
-        /*if (input != '') {*/
+        if (input != '') {
             router.push('/notes?search=' + input);
-        /*} else {
+        } else {
             router.push('/notes');
-        }*/
+        }
         console.log("You searched", input);
       }, [input]);
 
