@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../../styles/Home.module.css';
-import Footer from '../../components/Footer.js';
-import Navigation from '../../components/Navigation';
+import Footer from '../../components/Footer/Footer';
+import Navigation from '../../components/Navigation/Navigation';
 import { Rating } from '@material-ui/core';
-import Chip from '../../components/Chip.js';
+import Chip from '../../components/Chip/Chip';
 
 import noteStyle from '../../styles/Notes.module.css';
 
 import { getAllNotes } from '../../lib/data';
-import Search from '../../components/Search';
+import Search from '../../components/Search/Search';
 
 export default function Notes({ notes }) {
   return (

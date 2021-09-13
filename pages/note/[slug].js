@@ -6,9 +6,9 @@ import { MDXRemote } from 'next-mdx-remote'
 import styles from '../../styles/Home.module.css';
 import notestyle from '../../styles/Slug.module.css';
 
-import Footer from '../../components/Footer';
-import Navigation from '../../components/Navigation'
-import Chip from '../../components/Chip'
+import Footer from '../../components/Footer/Footer';
+import Navigation from '../../components/Navigation/Navigation'
+import Chip from '../../components/Chip/Chip'
 import { Rating } from '@material-ui/core';
 
 import { getAllNotes } from '../../lib/data';
@@ -35,7 +35,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           <h2 className={notestyle.author}>{author}</h2>
 
           <div className={notestyle.labels}>
-            {labelText.map((label, i) => <Chip key={labelText[0]} className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
+            {labelText.map((label, i) => <Chip key={labelText[i]} className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
           </div>
           <hr className={styles.divider} />
 

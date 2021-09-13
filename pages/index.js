@@ -6,14 +6,14 @@ import styles from '../styles/Home.module.css';
 import projects from '../styles/Projects.module.css';
 import notes from '../styles/Notes.module.css';
 
-import Navigation from '../components/Navigation.js';
-import OutlinedArrow from '../components/OutlinedArrowSVG.js';
-import StatusText from '../components/StatusText.js';
-import CircleText from '../components/CircleText.js';
-import Chip from '../components/Chip.js';
-import Arrow from '../components/ArrowSVG.js';
+import Navigation from '../components/Navigation/Navigation';
+import OutlinedArrow from '../components/OutlinedArrowSVG/OutlinedArrowSVG.js';
+import StatusText from '../components/StatusText/StatusText';
+import CircleText from '../components/CircleText/CircleText';
+import Chip from '../components/Chip/Chip';
+import Arrow from '../components/ArrowSVG/ArrowSVG';
 import Rating from '@material-ui/core/Rating';
-import Footer from '../components/Footer.js';
+import Footer from '../components/Footer/Footer';
 
 export default function Home() {
   return (

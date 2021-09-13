@@ -1,6 +1,6 @@
 import styles from './Navigation.module.css';
 import Link from 'next/link';
-import AsciiArt from './ConsoleLogAsciiArt';
+import AsciiArt from '../ConsoleLogAsciiArt/ConsoleLogAsciiArt';
 
 const Navigation = ({ hideHomeButton = false }) => {
     return (
