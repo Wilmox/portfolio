@@ -9,11 +9,10 @@ import notestyle from '../../styles/Slug.module.css';
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation'
 import Chip from '../../components/Chip/Chip'
-import { Rating } from '@material-ui/core';
 
 import { getAllProjects } from '../../lib/data';
 
-export default function ProjectPage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content, labelColors, labelText, labelIcons }) {
+export default function ProjectPage({ title, description, duration, headerImg, slug, labelText, labelColors, labelIcons, teamSize, content}) {
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -32,7 +31,7 @@ export default function ProjectPage({ title, author, date, abstract, readTime, r
         </section>
         <header className={notestyle.header}>
           <h1 className={notestyle.title}>{title}</h1>
-          <h2 className={notestyle.author}>{author}</h2>
+          <h2 className={notestyle.author}>Subtitle</h2>
 
           <div className={notestyle.labels}>
             {labelText.map((label, i) => <Chip key={labelText[0]} className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
@@ -41,23 +40,12 @@ export default function ProjectPage({ title, author, date, abstract, readTime, r
 
           <div className={notestyle.noteMeta}>
             <div className={notestyle.metaItem}>
-              <h4>Date</h4>
-              <p>{date}</p>
+              <h4>Duration</h4>
+              <p>{duration}</p>
             </div>
             <div className={notestyle.metaItem}>
-              <h4>Read Time</h4>
-              <p>{readTime}</p>
-            </div>
-            <div className={notestyle.metaItem}>
-              <h4>Rating</h4>
-              <Rating name="half-rating-read" defaultValue={rating} precision={0.5} readOnly />
-            </div>
-            <div className={notestyle.metaItem}>
-              <h4>Link</h4>
-              <div>
-                <Link href={amazonLink}><a target="_blank" rel="noopener noreferrer">Amazon</a></Link>
-                <Link href={amazonLink}><a target="_blank" rel="noopener noreferrer" className={notestyle.arrowLink}> &#x2197;</a></Link>
-              </div>
+              <h4>Team Size</h4>
+              <p>{teamSize}</p>
             </div>
           </div>
 
@@ -66,13 +54,13 @@ export default function ProjectPage({ title, author, date, abstract, readTime, r
         </header>
 
         <article className={notestyle.noteArticle}>
-          <p className={notestyle.abstract}>{abstract}</p>
+          <p className={notestyle.abstract}>{description}</p>
 
           <div className={notestyle.articleContent}>
             <MDXRemote {...content} />
           </div>
 
-          <p className={notestyle.slug}>{"simonwilmots.be/note/" + slug}</p>
+          <p className={notestyle.slug}>{"simonwilmots.be/project/" + slug}</p>
         </article>
 
       </main>
@@ -81,16 +69,10 @@ export default function ProjectPage({ title, author, date, abstract, readTime, r
   )
 }
 
-const Labels = (labelColors, labelText, labelIcons) => {
-  for (let i = 0; i < labelText.length; i++) {
-    <Chip className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />
-  }
-}
-
 export async function getStaticProps(context) {
   const { params } = context;
-  const allNotes = getAllNotes();
-  const { content, data } = allNotes.find((note) => note.slug === params.slug);
+  const allProjects = getAllProjects();
+  const { content, data } = allProjects.find((project) => project.slug === params.slug);
 
   const mdxSource = await serialize(content)
 
@@ -106,9 +88,9 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
   return {
-    paths: getAllNotes().map(note => ({
+    paths: getAllProjects().map(project => ({
       params: {
-        slug: note.slug
+        slug: project.slug
       }
     })),
     fallback: false,
