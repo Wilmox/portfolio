@@ -1,12 +1,14 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import Navigation from '../../components/Navigation';
+import Navigation from '../../components/Navigation/Navigation';
 import styles from '../../styles/Projects.module.css';
-import Footer from '../../components/Footer.js';
-import Chip from '../../components/Chip.js';
+import Footer from '../../components/Footer/Footer.js';
+import Chip from '../../components/Chip/Chip.js';
 
-export default function Projects() {
+import { getAllProjects } from '../../lib/data';
+
+export default function Projects({ projects }) {
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -28,6 +30,23 @@ export default function Projects() {
           <h1>Projects_:</h1>
 
           <div className={styles.projects}>
+
+          {projects.map((project) => (
+              <Link key={project.slug} href={`/project/${project.slug}`}>
+                <a key={project.slug} className={styles.projectCard}>
+                  <Image src={project.headerImg} width={1241} height={745} />
+
+                  <div className={styles.cardText}>
+                    <h2>{project.title}</h2>
+                    <p>{project.description}</p>
+                  </div>
+                  <div className={styles.labels}>
+                    {project.labelText.map((label, i) => <Chip key={project.labelText[i]} /*className={notestyle.noteChip}*/ bgColor={project.labelColors[i]} text={project.labelText[i]} icon={project.labelIcons[i]} />)}
+                  </div>
+                </a>
+              </Link>
+            ))}
+                {/*
             <a className={styles.projectCard}>
               <Image src="/assets/img/project-openremote.jpg" width={1241} height={745} />
 
@@ -78,7 +97,7 @@ export default function Projects() {
                 <Chip bgColor="#5b3975" text={"Space"} icon={"\u{1F30C}"} />
                 <Chip bgColor="#343A40" text={"Unity Engine"} icon={"\u{1F4BB}"} />
               </div>
-            </a>
+          </a>*/}
           </div>
 
         </section>
@@ -88,5 +107,22 @@ export default function Projects() {
     </div>
   )
 }
+
+export async function getStaticProps() {
+  const allProjects = getAllProjects();
+  let searchProjects = allProjects;
+
+  return {
+    props: {
+      //Here data serialising (dates, urls, ...),
+      projects: searchProjects.map(({ data, content, slug }) => ({
+        ...data,
+        content,
+        slug,
+      })),
+
+    },
+  };
+};
 
 //    https://mathiasbynens.github.io/rel-noopener/
