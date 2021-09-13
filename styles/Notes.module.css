@@ -56,6 +56,11 @@
   text-shadow: 0 0 1px transparent;
   letter-spacing: 0.01rem;
   margin: .2vw 0;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 }
 .aboutNote {
   margin-top: 16px;
@@ -83,6 +88,10 @@
 
   .noteCard h2 {
     font-size: 1.5rem !important;
+  }
+
+  a.noteCard {
+    border: 2px solid white !important;
   }
 }
 
