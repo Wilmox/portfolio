@@ -40,10 +40,18 @@
 }
 
 .cardText h2 {
-    font-size: 1.2rem;
-    margin: .5vw 0;
-    letter-spacing: 0.04rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    margin: .25vw 0;
 }
+
+.cardText h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    opacity: .5;
+    padding: 0 0 .2vw 0;
+  }
 
 .cardText p {
     font-family: 'Roboto', sans-serif;

@@ -4,7 +4,7 @@ import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
 
 import styles from '../../styles/Home.module.css';
-import notestyle from '../../styles/Slug.module.css';
+import slugStyle from '../../styles/Slug.module.css';
 
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation'
@@ -12,7 +12,7 @@ import Chip from '../../components/Chip/Chip'
 
 import { getAllProjects } from '../../lib/data';
 
-export default function ProjectPage({ title, description, duration, headerImg, slug, labelText, labelColors, labelIcons, teamSize, content}) {
+export default function ProjectPage({ title, type, description, duration, headerImg, slug, labelText, labelColors, labelIcons, teamSize, content}) {
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -29,22 +29,22 @@ export default function ProjectPage({ title, description, duration, headerImg, s
         <section>
           <Navigation />
         </section>
-        <header className={notestyle.header}>
-          <h1 className={notestyle.title}>{title}</h1>
-          <h2 className={notestyle.author}>Subtitle</h2>
+        <header className={slugStyle.header}>
+          <h1 className={slugStyle.title}>{title}</h1>
+          <h2 className={slugStyle.author}>{type}</h2>
 
-          <div className={notestyle.labels}>
-            {labelText.map((label, i) => <Chip key={labelText[0]} className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
+          <div className={slugStyle.labels}>
+            {labelText.map((label, i) => <Chip key={labelText[0]} className={slugStyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
           </div>
           <hr className={styles.divider} />
 
-          <div className={notestyle.noteMeta}>
-            <div className={notestyle.metaItem}>
+          <div className={slugStyle.noteMeta}>
+            <div className={slugStyle.metaItem}>
               <h4>Duration</h4>
               <p>{duration}</p>
             </div>
-            <div className={notestyle.metaItem}>
-              <h4>Team Size</h4>
+            <div className={slugStyle.metaItem}>
+              <h4>Team size</h4>
               <p>{teamSize}</p>
             </div>
           </div>
@@ -53,14 +53,14 @@ export default function ProjectPage({ title, description, duration, headerImg, s
           </div>
         </header>
 
-        <article className={notestyle.noteArticle}>
-          <p className={notestyle.abstract}>{description}</p>
+        <article className={slugStyle.noteArticle}>
+          <p className={slugStyle.abstract}>{description}</p>
 
-          <div className={notestyle.articleContent}>
+          <div className={slugStyle.articleContent}>
             <MDXRemote {...content} />
           </div>
 
-          <p className={notestyle.slug}>{"simonwilmots.be/project/" + slug}</p>
+          <p className={slugStyle.slug}>{"simonwilmots.be/project/" + slug}</p>
         </article>
 
       </main>

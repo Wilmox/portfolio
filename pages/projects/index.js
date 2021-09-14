@@ -38,6 +38,7 @@ export default function Projects({ projects }) {
 
                   <div className={styles.cardText}>
                     <h2>{project.title}</h2>
+                    <h3>{project.type}</h3>
                     <p>{project.description}</p>
                   </div>
                   <div className={styles.labels}>
@@ -46,58 +47,6 @@ export default function Projects({ projects }) {
                 </a>
               </Link>
             ))}
-                {/*
-            <a className={styles.projectCard}>
-              <Image src="/assets/img/project-openremote.jpg" width={1241} height={745} />
-
-              <div className={styles.cardText}>
-                <h2>OpenRemote Energy Challenge</h2>
-                <p>Using a prediction model, the goal is to observe and make energy consumption predictions.</p>
-              </div>
-              <div className={styles.labels}>
-                <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
-                <Chip bgColor="#343A40" text={"AI & Robotics"} icon={"\u{1F916}"} />
-              </div>
-            </a>
-
-            <a className={styles.projectCard}>
-              <Image src="/assets/img/project-conecta.jpg" width={1241} height={745} />
-
-              <div className={styles.cardText}>
-                <h2>Conecta Software</h2>
-                <p>Three week internship at Conecta Software & Erasmus in Tenerife, Spain in connection with IoT & smart devices</p>
-              </div>
-              <div className={styles.labels}>
-                <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
-                <Chip bgColor="#307bc7" text={"Docker"} icon={"\u{1F40B}"} />
-              </div>
-            </a>
-
-            <a className={styles.projectCard}>
-              <Image src="/assets/img/project-tictactoe-minmax.jpg" width={1241} height={745} />
-
-              <div className={styles.cardText}>
-                <h2>Tic Tac Toe AI</h2>
-                <p>Making an unbeatable Tic-Tac-Toe opponent using the MiniMax decision theory algorithm.</p>
-              </div>
-              <div className={styles.labels}>
-                <Chip bgColor="rgba(243, 156, 18, .7)" text={"Learning"} icon={"\u{1F4DA}"} />
-                <Chip bgColor="#343A40" text={"AI & Robotics"} icon={"\u{1F916}"} />
-              </div>
-            </a>
-
-            <a className={styles.projectCard}>
-              <Image src="/assets/img/project-solar-system.jpg" width={1241} height={745} />
-
-              <div className={styles.cardText}>
-                <h2>Solar System simulation</h2>
-                <p>A selfmade 1:1 simulation of our Solar System using the Unity 3D engine. Inspired by SpaceEngine on Steam.</p>
-              </div>
-              <div className={styles.labels}>
-                <Chip bgColor="#5b3975" text={"Space"} icon={"\u{1F30C}"} />
-                <Chip bgColor="#343A40" text={"Unity Engine"} icon={"\u{1F4BB}"} />
-              </div>
-          </a>*/}
           </div>
 
         </section>

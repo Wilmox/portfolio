@@ -4,7 +4,7 @@ import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
 
 import styles from '../../styles/Home.module.css';
-import notestyle from '../../styles/Slug.module.css';
+import slugStyle from '../../styles/Slug.module.css';
 
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation'
@@ -30,33 +30,33 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <section>
           <Navigation />
         </section>
-        <header className={notestyle.header}>
-          <h1 className={notestyle.title}>{title}</h1>
-          <h2 className={notestyle.author}>{author}</h2>
+        <header className={slugStyle.header}>
+          <h1 className={slugStyle.title}>{title}</h1>
+          <h2 className={slugStyle.author}>{author}</h2>
 
-          <div className={notestyle.labels}>
-            {labelText.map((label, i) => <Chip key={labelText[i]} className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
+          <div className={slugStyle.labels}>
+            {labelText.map((label, i) => <Chip key={labelText[i]} className={slugStyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
           </div>
           <hr className={styles.divider} />
 
-          <div className={notestyle.noteMeta}>
-            <div className={notestyle.metaItem}>
+          <div className={slugStyle.noteMeta}>
+            <div className={slugStyle.metaItem}>
               <h4>Date</h4>
               <p>{date}</p>
             </div>
-            <div className={notestyle.metaItem}>
-              <h4>Read Time</h4>
+            <div className={slugStyle.metaItem}>
+              <h4>Read time</h4>
               <p>{readTime}</p>
             </div>
-            <div className={notestyle.metaItem}>
+            <div className={slugStyle.metaItem}>
               <h4>Rating</h4>
               <Rating name="half-rating-read" defaultValue={rating} precision={0.5} readOnly />
             </div>
-            <div className={notestyle.metaItem}>
+            <div className={slugStyle.metaItem}>
               <h4>Link</h4>
               <div>
                 <Link href={amazonLink}><a target="_blank" rel="noopener noreferrer">Amazon</a></Link>
-                <Link href={amazonLink}><a target="_blank" rel="noopener noreferrer" className={notestyle.arrowLink}> &#x2197;</a></Link>
+                <Link href={amazonLink}><a target="_blank" rel="noopener noreferrer" className={slugStyle.arrowLink}> &#x2197;</a></Link>
               </div>
             </div>
           </div>
@@ -65,14 +65,14 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           </div>
         </header>
 
-        <article className={notestyle.noteArticle}>
-          <p className={notestyle.abstract}>{abstract}</p>
+        <article className={slugStyle.noteArticle}>
+          <p className={slugStyle.abstract}>{abstract}</p>
 
-          <div className={notestyle.articleContent}>
+          <div className={slugStyle.articleContent}>
             <MDXRemote {...content} />
           </div>
 
-          <p className={notestyle.slug}>{"simonwilmots.be/note/" + slug}</p>
+          <p className={slugStyle.slug}>{"simonwilmots.be/note/" + slug}</p>
         </article>
 
       </main>
@@ -83,7 +83,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
 
 const Labels = (labelColors, labelText, labelIcons) => {
   for (let i = 0; i < labelText.length; i++) {
-    <Chip className={notestyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />
+    <Chip className={slugStyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />
   }
 }
 

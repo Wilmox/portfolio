@@ -72,7 +72,7 @@ export default function Home() {
               <Image src="/assets/img/project-openremote.jpg" width={1241} height={745} />
 
               <div className={projects.cardText}>
-                <h2>OpenRemote Energy Challenge</h2>
+                <h2>Energy Transition Challenge</h2>
                 <p>Using a prediction model, the goal is to observe and make energy consumption predictions.</p>
               </div>
               <div className={projects.labels}>

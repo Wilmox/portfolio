@@ -1,7 +1,8 @@
 ---
 title: 'Conecta Software'
+type: 'International Internship'
 description: 'Three week internship at Conecta Software & Erasmus in Tenerife, Spain in connection with IoT & smart devices'
-duration: "Aug 11, 2021"
+duration: "3 weeks"
 teamSize: 3
 headerImg: '/assets/img/project-conecta.jpg'
 slug: 'conecta-software'
@@ -10,6 +11,4 @@ labelColors: ['rgba(52, 73, 94,1)', '#307bc7']
 labelIcons: ['🔍', '🐳']
 ---
 
-# TITEL
-
-> Quote
+# [WIP]
