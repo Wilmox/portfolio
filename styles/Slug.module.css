@@ -3,6 +3,7 @@ header.header {
     width: 100%;
     margin: 1vw auto;
     max-width: 1500px;
+    overflow: hidden;
 }
 
 h1.title {

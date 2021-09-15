@@ -6,6 +6,7 @@ abstract: "This book advocates the importance of financial literacy, financial i
 readTime: '20 minutes'
 rating: 5
 amazonLink: 'https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194'
+bookCover: '/assets/img/bookcovers/rich-dad-poor-dad.jpg'
 slug: 'rich-dad-poor-dad'
 labelText: ['Finance']
 labelColors: ['#118C4F']

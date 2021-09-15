@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
 
@@ -13,7 +14,7 @@ import { Rating } from '@material-ui/core';
 
 import { getAllNotes } from '../../lib/data';
 
-export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content, labelColors, labelText, labelIcons }) {
+export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content, labelColors, labelText, labelIcons, bookCover }) {
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -37,6 +38,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           <div className={slugStyle.labels}>
             {labelText.map((label, i) => <Chip key={labelText[i]} className={slugStyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
           </div>
+
           <hr className={styles.divider} />
 
           <div className={slugStyle.noteMeta}>
@@ -66,8 +68,10 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         </header>
 
         <article className={slugStyle.noteArticle}>
-          <p className={slugStyle.abstract}>{abstract}</p>
 
+          {/*<Image className={slugStyle.bookCover} src={bookCover} width={135} height={210} />  */}
+          
+          <p className={slugStyle.abstract}>{abstract}</p>          
           <div className={slugStyle.articleContent}>
             <MDXRemote {...content} />
           </div>
@@ -79,12 +83,6 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
       <Footer />
     </div>
   )
-}
-
-const Labels = (labelColors, labelText, labelIcons) => {
-  for (let i = 0; i < labelText.length; i++) {
-    <Chip className={slugStyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />
-  }
 }
 
 export async function getStaticProps(context) {

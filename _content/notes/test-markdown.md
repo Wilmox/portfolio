@@ -4,6 +4,7 @@ author: 'Simon Wilmots'
 date: "Aug 11, 2021"
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 readTime: '1 minute'
+bookCover: '/assets/img/bookcovers/rich-dad-poor-dad.jpg'
 rating: 2.5
 amazonLink: 'simonwilmots.be'
 slug: 'test-page'
