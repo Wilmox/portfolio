@@ -34,4 +34,4 @@ yarn-error.log*
 .vercel
 
 #Custom
-/_content/notes/test-markdown.md
+_content/notes/test-markdown.md
