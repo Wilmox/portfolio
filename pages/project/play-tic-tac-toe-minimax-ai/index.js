@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Script from 'next/script';
 
 import styles from '../../../styles/Minimax.module.css';
 import { useEffect } from 'react';
@@ -13,11 +13,8 @@ export default function PlayTicTacToePage() {
 
       
         <div id="tic-tac-toe" className={styles.tic_tac_toe}>
-          <Head>
-            <script type="text/javascript" src="/scripts/board.js"></script>
-            <script type="text/javascript" src="/scripts/minimax.js"></script>
-          </Head>
-          
+          <Script src="/scripts/board.js"></Script>
+          <Script src="/scripts/minimax.js"></Script>
         </div>
   )
 }
