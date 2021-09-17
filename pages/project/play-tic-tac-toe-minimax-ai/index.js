@@ -3,7 +3,7 @@ import Head from 'next/head';
 import styles from '../../../styles/Minimax.module.css';
 import { useEffect } from 'react';
 
-export default function playTicTacToePage() {
+export default function PlayTicTacToePage() {
   useEffect(() => {
     window.addEventListener("load", function(){
       setup();
