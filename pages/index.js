@@ -68,31 +68,34 @@ export default function Home() {
           <h1>Projects_:</h1>
 
           <div className={projects.projects}>
-            <a className={projects.projectCard}>
-              <Image src="/assets/img/project-openremote.jpg" width={1241} height={745} />
+            <Link href="/project/openremote-energy-transition-challenge">
+              <a className={projects.projectCard}>
+                <Image src="/assets/img/project-openremote.jpg" width={1241} height={745} />
 
-              <div className={projects.cardText}>
-                <h2>Energy Transition Challenge</h2>
-                <p>Using a prediction model, the goal is to observe and make energy consumption predictions.</p>
-              </div>
-              <div className={projects.labels}>
-                <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
-                <Chip bgColor="#343A40" text={"AI & Robotics"} icon={"\u{1F916}"} />
-              </div>
-            </a>
+                <div className={projects.cardText}>
+                  <h2>Energy Transition Challenge</h2>
+                  <p>Using a prediction model, the goal is to observe and make energy consumption predictions.</p>
+                </div>
+                <div className={projects.labels}>
+                  <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
+                  <Chip bgColor="#343A40" text={"AI & Robotics"} icon={"\u{1F916}"} />
+                </div>
+              </a>
+            </Link>
+            <Link href="/project/conecta-software">
+              <a className={projects.projectCard}>
+                <Image src="/assets/img/project-conecta.jpg" width={1241} height={745} />
 
-            <a className={projects.projectCard}>
-              <Image src="/assets/img/project-conecta.jpg" width={1241} height={745} />
-
-              <div className={projects.cardText}>
-                <h2>Conecta Software</h2>
-                <p>Three week internship at Conecta Software & Erasmus in Tenerife, Spain in connection with IoT & smart devices</p>
-              </div>
-              <div className={projects.labels}>
-                <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
-                <Chip bgColor="#307bc7" text={"Docker"} icon={"\u{1F40B}"} />
-              </div>
-            </a>
+                <div className={projects.cardText}>
+                  <h2>Conecta Software</h2>
+                  <p>Three week internship at Conecta Software & Erasmus in Tenerife, Spain in connection with IoT & smart devices</p>
+                </div>
+                <div className={projects.labels}>
+                  <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
+                  <Chip bgColor="#307bc7" text={"Docker"} icon={"\u{1F40B}"} />
+                </div>
+              </a>
+            </Link>
           </div>
 
           <Link href="/projects">
@@ -112,6 +115,21 @@ export default function Home() {
           </ul>
 
           <div className={notes.notes}>
+            <Link href="/note/a-brief-history-of-time">
+              <a className={notes.noteCard}>
+                <h2>A Brief History Of Time</h2>
+                <h3>Stephen Hawking</h3>
+                <p>
+                  Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe. He talks about basic concepts like space and time,
+                  basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity).
+                </p>
+                <div className={notes.aboutNote}>
+                  <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
+                  <Chip className={notes.noteChip} bgColor="#4361ee" text={"Physics"} icon={"\u{1F320}"} />
+                </div>
+              </a>
+            </Link>
+
             <Link href="/note/rich-dad-poor-dad">
               <a className={notes.noteCard}>
                 <h2>Rich Dad Poor Dad</h2>
@@ -126,21 +144,6 @@ export default function Home() {
                   <Chip className={notes.noteChip} bgColor="#118C4F" text={"Finance"} icon={"\u{1F4B8}"} />
                 </div>
               </a>
-            </Link>
-
-            <Link href="/note/a-brief-history-of-time">
-            <a className={notes.noteCard}>
-              <h2>A Brief History Of Time</h2>
-              <h3>Stephen Hawking</h3>
-              <p>
-                Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe. He talks about basic concepts like space and time,
-                basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity).
-              </p>
-              <div className={notes.aboutNote}>
-                <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                <Chip className={notes.noteChip} bgColor="#4361ee" text={"Physics"} icon={"\u{1F320}"} />
-              </div>
-            </a>
             </Link>
           </div>
         </section>

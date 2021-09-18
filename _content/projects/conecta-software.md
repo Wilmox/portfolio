@@ -1,5 +1,5 @@
 ---
-title: 'Conecta Software'
+title: '[WIP] Conecta Software'
 type: 'International Internship'
 description: 'Three week internship at Conecta Software & Erasmus in Tenerife, Spain in connection with IoT & smart devices'
 duration: "3 weeks"
