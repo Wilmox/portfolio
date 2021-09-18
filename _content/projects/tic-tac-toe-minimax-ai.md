@@ -31,8 +31,9 @@ The key to the Minimax algorithm is a back and forth between the two players, wh
 One player will always try to maximize his score, while the other one needs to minimize his score.
 
 ## My implementation
-I started my implementation with the pseudocode of Wikipedia and turned it into Javascript code.
+I started my implementation with the pseudocode from Wikipedia and turned it into Javascript code.
 You can view, clone, fork, ... my full implementation on my [GitHub](https://github.com/Wilmox).
+
 ```js
 function minimax(node, depth, maximizingPlayer) is
     if depth = 0 or node is a terminal node then
@@ -55,7 +56,7 @@ minimax(origin, depth, TRUE)
 
 
 ## Play it yourself!
-
+_(Works best on a computer or tablet)_ <br/>
 Click [HERE](/project/play-tic-tac-toe-minimax-ai) to play in fullscreen. GLHF!
 
 <iframe src="/project/play-tic-tac-toe-minimax-ai" title="Tic Tac Toe VS Minimax Algorithm"></iframe>

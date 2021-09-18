@@ -34,7 +34,7 @@ export default function ProjectPage({ title, type, description, duration, header
           <h2 className={slugStyle.author}>{type}</h2>
 
           <div className={slugStyle.labels}>
-            {labelText.map((label, i) => <Chip key={labelText[0]} className={slugStyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
+            {labelText.map((label, i) => <Chip key={labelText[i]} className={slugStyle.noteChip} bgColor={labelColors[i]} text={labelText[i]} icon={labelIcons[i]} />)}
           </div>
           <hr className={styles.divider} />
 
