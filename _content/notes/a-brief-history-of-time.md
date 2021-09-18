@@ -198,4 +198,6 @@ Hawking states that humans have always wanted to make sense of the Universe and 
 Historically, the study of cosmology (the study of the origin, evolution, and end of Earth and the Universe as a whole) has been primarily motivated by a search for philosophical and religious insights, for instance, to better understand the nature of God, or even whether God exists at all. However, most scientists today who work on these theories approach them with mathematical calculation and empirical observation, rather than asking such philosophical questions. The increasingly technical nature of these theories have caused modern cosmology to become increasingly divorced from philosophical discussion. Hawking expresses hope that one day everybody would talk about these theories in order to understand the true origin and nature of the Universe, and accomplish "the ultimate triumph of human reasoning".
 
 
-## Glossary
+## Glossary [WIP]
+
+[WIP]
