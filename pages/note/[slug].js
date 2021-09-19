@@ -11,10 +11,18 @@ import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation'
 import Chip from '../../components/Chip/Chip'
 import { Rating } from '@material-ui/core';
+import { motion } from 'framer-motion';
 
 import { getAllNotes } from '../../lib/data';
 
 export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content, labelColors, labelText, labelIcons, bookCover }) {
+  
+  const variants = {
+    hidden: { opacity: 0, x: 0, y: 0 },
+    enter: { opacity: 1, x: 0, y: 0 },
+    exit: { opacity: 0, x: 0, y: 0 },
+  }
+  
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -27,7 +35,14 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
       </Head>
 
-      <main className={styles.main}>
+      <motion.main
+        className={styles.main}
+        variants={variants} // Pass the variant object into Framer Motion 
+        initial="hidden" // Set the initial state to variants.hidden
+        animate="enter" // Animated state to variants.enter
+        exit="exit" // Exit state (used later) to variants.exit
+        transition={{ type: 'linear' }} // Set the transition to linear
+      >
         <section>
           <Navigation />
         </section>
@@ -79,7 +94,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           <p className={slugStyle.slug}>{"simonwilmots.be/note/" + slug}</p>
         </article>
 
-      </main>
+      </motion.main>
       <Footer />
     </div>
   )

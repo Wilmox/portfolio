@@ -5,10 +5,18 @@ import Navigation from '../../components/Navigation/Navigation';
 import styles from '../../styles/Projects.module.css';
 import Footer from '../../components/Footer/Footer.js';
 import Chip from '../../components/Chip/Chip.js';
+import { motion } from 'framer-motion';
 
 import { getAllProjects } from '../../lib/data';
 
 export default function Projects({ projects }) {
+    
+  const variants = {
+    hidden: { opacity: 0, x: 0, y: 0 },
+    enter: { opacity: 1, x: 0, y: 0 },
+    exit: { opacity: 0, x: 0, y: 0 },
+  }
+  
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -21,7 +29,14 @@ export default function Projects({ projects }) {
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
       </Head>
 
-      <main className={styles.main}>
+      <motion.main
+        className={styles.main}
+        variants={variants} // Pass the variant object into Framer Motion 
+        initial="hidden" // Set the initial state to variants.hidden
+        animate="enter" // Animated state to variants.enter
+        exit="exit" // Exit state (used later) to variants.exit
+        transition={{ type: 'linear' }} // Set the transition to linear
+      >
         <section>
           <Navigation />
         </section>
@@ -51,7 +66,7 @@ export default function Projects({ projects }) {
 
         </section>
 
-      </main>
+      </motion.main>
       <Footer />
     </div>
   )
