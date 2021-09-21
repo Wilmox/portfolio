@@ -189,3 +189,10 @@ ul.breadcrumb li a:hover {
     font-size: 2rem !important;
   }
 }
+
+.errorSection h2 {
+  font-size: 4rem;
+  color: black;
+  background-color: white;
+  width: fit-content;
+}
