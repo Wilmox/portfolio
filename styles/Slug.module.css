@@ -274,6 +274,13 @@ Styling generated HTML from Markdown
     border-radius: 20px;
 }
 
+.cover {
+    margin: 2vw auto;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
 .articleContent .footnote {}
 
 div.labels {
