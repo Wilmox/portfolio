@@ -14,6 +14,7 @@
     vertical-align: middle;
     text-decoration: none;
     justify-content: center;
+    color: white;
 }
 .chip_head{
     display: flex;
@@ -36,4 +37,52 @@
     user-select: none;
     white-space: nowrap;
     padding: 0 15px 0 5px;
-    }
+}
+
+.finance {
+    background-color: #118C4F !important;
+}
+
+.physics {
+    background-color: #4361ee !important;
+}
+
+.philosophy {
+    background-color: #9c9c9c !important;
+}
+
+.stoicism {
+    background-color: #343A40 !important;
+}
+
+.psychology {
+    background-color: #e2819d !important;
+}
+
+.entrepeneurship {
+    background-color: #e74c3c !important;
+}
+
+.research {
+    background-color: #34495e !important;
+}
+
+.docker {
+    background-color: #307bc7 !important;
+}
+
+.airobotics {
+    background-color: #343A40 !important;
+}
+
+.space {
+    background-color: #5b3975 !important;
+}
+
+.unityengine {
+    background-color: #343A40 !important;
+}
+
+.learning {
+    background-color: #f39c12b3 !important;
+}
