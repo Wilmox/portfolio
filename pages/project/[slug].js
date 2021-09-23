@@ -75,7 +75,7 @@ export default function ProjectPage({ title, type, description, duration, header
             <MDXRemote {...content} />
           </div>
 
-          <p className={slugStyle.slug}>{"simonwilmots.be/project/" + slug}</p>
+          <p className={slugStyle.slug}>{"simonwilmots.com/project/" + slug}</p>
         </article>
 
       </motion.main>

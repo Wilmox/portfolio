@@ -96,7 +96,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
             ) : (console.log("No cover image found"))
           
           }
-          <p className={slugStyle.slug}>{"simonwilmots.be/note/" + slug}</p>
+          <p className={slugStyle.slug}>{"simonwilmots.com/note/" + slug}</p>
         </article>
 
       </motion.main>
