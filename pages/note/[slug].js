@@ -85,9 +85,6 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <article className={slugStyle.noteArticle}>          
           <p className={slugStyle.abstract}>{abstract}</p>
 
-          <div className={slugStyle.articleContent}>
-            <MDXRemote {...content} />
-          </div>
           {/* Image test  */}
           {bookCover ? (
             <div className={slugStyle.cover}>
@@ -96,6 +93,10 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
             ) : (console.log("No cover image found"))
           
           }
+
+          <div className={slugStyle.articleContent}>
+            <MDXRemote {...content} />
+          </div>
           <p className={slugStyle.slug}>{"simonwilmots.com/note/" + slug}</p>
         </article>
 
