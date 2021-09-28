@@ -16,13 +16,13 @@ import { motion } from 'framer-motion';
 import { getAllNotes } from '../../lib/data';
 
 export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content, labelColors, labelText, labelIcons, bookCover }) {
-  
+
   const variants = {
     hidden: { opacity: 0, x: 0, y: 0 },
     enter: { opacity: 1, x: 0, y: 0 },
     exit: { opacity: 0, x: 0, y: 0 },
   }
-  
+
   return (
     <div id="top" className={styles.container}>
       <Head>
@@ -82,16 +82,30 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           </div>
         </header>
 
-        <article className={slugStyle.noteArticle}>          
+        <article className={slugStyle.noteArticle}>
           <p className={slugStyle.abstract}>{abstract}</p>
 
           {/* Image test  */}
           {bookCover ? (
             <div className={slugStyle.cover}>
-              <Image src={bookCover} width={135} height={210} />
+                <div className={slugStyle.book}>
+                  <div className={slugStyle.inner_book}>
+                    <div className={slugStyle.img} style={{paddingTop: "calc(1.07 * 100%)"}}>
+                      <Image src={bookCover} width={135} height={210} />
+                    </div>
+                    <div className={slugStyle.page}></div>
+                    <div className={[slugStyle.page, slugStyle.page_2].join(" ")}></div>
+                    <div className={[slugStyle.page, slugStyle.page_3].join(" ")}></div>
+                    <div className={[slugStyle.page, slugStyle.page_4].join(" ")}></div>
+                    <div className={[slugStyle.page, slugStyle.page_5].join(" ")}></div>
+                    <div className={[slugStyle.img, slugStyle.final_page].join(" ")} style={{paddingTop: "calc(1.07 * 100%)"}}>
+                      <Image src={bookCover} width={135} height={210} />
+                    </div>
+                  </div>
+              </div>
             </div>
-            ) : (console.log("No cover image found"))
-          
+          ) : (console.log("No cover image found"))
+
           }
 
           <div className={slugStyle.articleContent}>
