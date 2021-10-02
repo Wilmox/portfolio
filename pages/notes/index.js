@@ -46,8 +46,8 @@ export default function Notes({ notes }) {
         <section className={noteStyle.noteSection}>
           <header>
             <h1>Notes & Summaries</h1>
-            <p>These are notes I&apos;ve taken or summaries I&apos;ve made of the things I read or listen to. Parts may come straight from the source, while others are written by me. <br />
-            I do this to get the author&apos;s high-level idea or to brush up on something for later, or for people who don&apos;t feel like reading / listening to a whole book.</p>
+            <p>These are notes I&apos;ve taken, or summaries I&apos;ve made of the things I read or listen to. Parts may come straight from the source, while others are written by me. <br />
+            I do this to get the author&apos;s high-level idea, to brush up on something, or for people who don&apos;t feel like reading / listening to a whole book.</p>
           </header>
           
           {/*<Search />*/}
@@ -63,7 +63,7 @@ export default function Notes({ notes }) {
                   </p>
                   <div className={noteStyle.aboutNote}>
                     <Rating key="rating" className={noteStyle.rating} name="half-rating-read" defaultValue={note.rating} precision={0.5} readOnly />
-                    <Chip key="label" className={noteStyle.noteChip} bgColor={note.labelColors[0]} text={note.labelText[0]} icon={note.labelIcons[0]} />
+                    <Chip key="label" className={noteStyle.noteChip} text={note.labelText[0]} icon={note.labelIcons[0]} />
                   </div>
                 </a>
               </Link>

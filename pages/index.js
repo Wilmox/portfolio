@@ -90,11 +90,12 @@ export default function Home() {
 
                 <div className={projects.cardText}>
                   <h2>Energy Transition Challenge</h2>
+                  <h3>International Research Project</h3>
                   <p>Using a prediction model, the goal is to observe and make energy consumption predictions.</p>
                 </div>
                 <div className={projects.labels}>
-                  <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
-                  <Chip bgColor="#343A40" text={"AI & Robotics"} icon={"\u{1F916}"} />
+                  <Chip text={"Research"} icon={"\u{1F50D}"} />
+                  <Chip text={"AI & Robotics"} icon={"\u{1F916}"} />
                 </div>
               </a>
             </Link>
@@ -104,11 +105,12 @@ export default function Home() {
 
                 <div className={projects.cardText}>
                   <h2>Conecta Software</h2>
+                  <h3>International Internship</h3>
                   <p>Three week internship at Conecta Software & Erasmus in Tenerife, Spain in connection with IoT & smart devices</p>
                 </div>
                 <div className={projects.labels}>
-                  <Chip bgColor="rgba(52, 73, 94,1)" text={"Research"} icon={"\u{1F50D}"} />
-                  <Chip bgColor="#307bc7" text={"Docker"} icon={"\u{1F40B}"} />
+                  <Chip text={"Research"} icon={"\u{1F50D}"} />
+                  <Chip text={"Docker"} icon={"\u{1F40B}"} />
                 </div>
               </a>
             </Link>
@@ -141,7 +143,7 @@ export default function Home() {
                 </p>
                 <div className={notes.aboutNote}>
                   <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                  <Chip className={notes.noteChip} bgColor="#4361ee" text={"Physics"} icon={"\u{1F320}"} />
+                  <Chip className={notes.noteChip} text={"Physics"} icon={"\u{1F320}"} />
                 </div>
               </a>
             </Link>
@@ -157,7 +159,7 @@ export default function Home() {
                 </p>
                 <div className={notes.aboutNote}>
                   <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                  <Chip className={notes.noteChip} bgColor="#118C4F" text={"Finance"} icon={"\u{1F4B8}"} />
+                  <Chip className={notes.noteChip} text={"Finance"} icon={"\u{1F4B8}"} />
                 </div>
               </a>
             </Link>

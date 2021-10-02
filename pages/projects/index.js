@@ -57,7 +57,7 @@ export default function Projects({ projects }) {
                     <p>{project.description}</p>
                   </div>
                   <div className={styles.labels}>
-                    {project.labelText.map((label, i) => <Chip key={project.labelText[i]} /*className={notestyle.noteChip}*/ bgColor={project.labelColors[i]} text={project.labelText[i]} icon={project.labelIcons[i]} />)}
+                    {project.labelText.map((label, i) => <Chip key={project.labelText[i]} /*className={notestyle.noteChip}*/ text={project.labelText[i]} icon={project.labelIcons[i]} />)}
                   </div>
                 </a>
               </Link>
