@@ -7,8 +7,7 @@ teamSize: 3
 headerImg: '/assets/img/project-conecta.jpg'
 slug: 'conecta-software'
 labelText: ['Research', "Docker"]
-labelColors: ['#34495e', '#307bc7']
 labelIcons: ['🔍', '🐳']
 ---
 
-# [KIP]
+# [WIP]

@@ -7,7 +7,6 @@ teamSize: 6
 headerImg: '/assets/img/project-openremote.jpg'
 slug: 'openremote-energy-transition-challenge'
 labelText: ['Research', "AI & Robotics"]
-labelColors: ['rgba(52, 73, 94,1)', '#343A40']
 labelIcons: ['🔍', '🤖']
 ---
 

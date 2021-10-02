@@ -8,9 +8,8 @@ rating: 3.5
 amazonLink: 'https://www.amazon.com/How-win-Friends-Influence-People/dp/8189297813/ref=pd_lpo_2?pd_rd_i=8189297813&psc=1'
 bookCover: '/assets/img/bookcovers/how-to-win-friends-and-influence-people.jpg'
 slug: 'how-to-win-friends-and-influence-people'
-labelText: ['Psychology', 'Entrepeneurship']
-labelColors: ['#e2819d', "#e74c3c"]
-labelIcons: ['🧠', '🚀']
+labelText: ['Entrepeneurship', 'Psychology']
+labelIcons: ['🚀', '🧠']
 ---
 
 ## Fundamental Techniques in Handling People

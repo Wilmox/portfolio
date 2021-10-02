@@ -9,7 +9,6 @@ amazonLink: 'https://www.amazon.com/Magic-Thinking-Big-David-Schwartz/dp/1897384
 bookCover: '/assets/img/bookcovers/the-magic-of-thinking-big.jpg'
 slug: 'the-magic-of-thinking-big'
 labelText: ['Psychology', 'Entrepeneurship']
-labelColors: ['#e2819d', "#e74c3c"]
 labelIcons: ['🧠', '🚀']
 ---
 ## Believe you can succeed and you will

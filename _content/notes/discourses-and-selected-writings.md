@@ -9,7 +9,6 @@ amazonLink: 'https://www.amazon.com/Discourses-Selected-Writings-Penguin-Classic
 bookCover: '/assets/img/bookcovers/discourses-and-selected-writings.jpg'
 slug: 'discourses-and-selected-writings'
 labelText: ['Philosophy', 'Stoicism']
-labelColors: ['#9c9c9c', "#343A40"]
 labelIcons: ['💡', '🗿']
 ---
 

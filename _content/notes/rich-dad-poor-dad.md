@@ -9,7 +9,6 @@ amazonLink: 'https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194'
 bookCover: '/assets/img/bookcovers/rich-dad-poor-dad.jpg'
 slug: 'rich-dad-poor-dad'
 labelText: ['Finance']
-labelColors: ['#118C4F']
 labelIcons: ['💸']
 ---
 

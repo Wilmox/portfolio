@@ -9,7 +9,6 @@ amazonLink: 'https://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/055338
 bookCover: '/assets/img/bookcovers/a-brief-history-of-time.jpg'
 slug: 'a-brief-history-of-time'
 labelText: ['Physics']
-labelColors: ['#4361ee']
 labelIcons: ['☄️']
 ---
 
