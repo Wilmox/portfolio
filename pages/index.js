@@ -68,7 +68,7 @@ export default function Home() {
               I am very passionate about <span>Personal development</span> and how you can always be the best version of yourself. <br /><br />
             </p>
             <details>
-              <summary>Show more</summary>
+              <summary>More about me</summary>
               <p>
                 <br />
                 In <span>2016</span> I started my first study in Computer Science at the Miniemeninstituut in Leuven {"\u{1F1E7}\u{1F1EA}"}. In this education I have  received the basis that will serve me well in my next studie(s).<br /><br />
