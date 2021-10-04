@@ -29,9 +29,38 @@ export default function Home() {
     <div id="top" className={styles.container}>
       <Head>
         <title>Simon Wilmots {"\u{1F680}"}</title>
-        <meta name="description" content="SIMONWILMOTS PORTFOLIO WEBISTE" />
+        <meta name="keywords" content="portfolio, simon, wilmots, Simon, Wilmots"/>
+        <meta name="description" content="AI & Robotics Student, Computer Nerd, Astronomy Freak, Verified Freelancer, Your Next Hire." />
+        <meta name="subject" content="Simon Wilmots's Portfolio" />
+        <meta name="copyright"content="Simon Wilmots" />
+        <meta name="language" content="en_GB" />
+        <meta name="robots" content="index,follow" />
+        <meta name="abstract" content="AI & Robotics Student, Computer Nerd, Astronomy Freak, Verified Freelancer, Your Next Hire." />
+        <meta name="summary" content="AI & Robotics Student, Computer Nerd, Astronomy Freak, Verified Freelancer, Your Next Hire." />
+        <meta name="Classification" content="Personal" />
+        <meta name="author" content="Simon Wilmots" />
+        <meta name="owner" content="Simon Wilmots"/>
+        <meta name="url" content="http://www.simonwilmots.com"/>
+        <meta name="rating" content="General" />
+
+        <meta name="og:title" content="Simon Wilmots 🚀"/>
+        <link rel="canonical" href="https://simonwilmots.com" />
+        <meta property="og:locale" content="en_GB" />
+        <meta name="og:type" content="website"/>
+        <meta name="og:url" content="http://simonwilmots.com"/>
+        <meta name="og:image" content="/assets/img/favicon.ico" />
+        <meta name="og:description" content="AI & Robotics Student, Astronomy Freak, Computer Nerd, Verified Freelancer, Your Next Hire."/>
+        <meta name="og:site_name" content="Simon Wilmots 🚀"/>
+
+        <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta content="yes" name="apple-touch-fullscreen" />
+
         <link rel="icon" href="/assets/img/favicon.ico" />
+        <link rel="apple-touch-icon" href="/assets/img/favicon.ico" />
+        <link rel="shortcut icon" href="/assets/img/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
