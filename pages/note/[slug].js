@@ -45,8 +45,8 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <link rel="canonical" href={"simonwilmots.com/note/" + slug} />
         <meta property="og:locale" content="en_GB" />
         <meta name="og:type" content="website"/>
+        {bookCover ? <meta name="og:image" content={bookCover} /> : <meta name="og:image" content={bookCover} content="/assets/img/favico.ico" />}
         <meta name="og:url" content={"simonwilmots.com/note/" + slug}/>
-        <meta name="og:image" content="/assets/img/favicon.ico" />
         <meta name="og:description" content={title + " by " + author + " | Notes & Summaries"}/>
         <meta name="og:site_name" content={title + " by " + author + " | Notes & Summaries"}/>
 
