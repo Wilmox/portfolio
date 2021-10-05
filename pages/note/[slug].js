@@ -33,8 +33,8 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <meta name="copyright"content="Simon Wilmots" />
         <meta name="language" content="en_GB" />
         <meta name="robots" content="index,follow" />
-        <meta name="abstract" content={title + " by " + author + " | Notes & Summaries"} />
-        <meta name="summary" content={title + " by " + author + " | Notes & Summaries"} />
+        <meta name="abstract" content={abstract} />
+        <meta name="summary" content={abstract} />
         <meta name="Classification" content="Personal" />
         <meta name="author" content="Simon Wilmots" />
         <meta name="owner" content="Simon Wilmots"/>
@@ -47,8 +47,8 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <meta name="og:type" content="website"/>
         {bookCover ? <meta name="og:image" content={bookCover} /> : <meta name="og:image" content={bookCover} content="/assets/img/favico.ico" />}
         <meta name="og:url" content={"simonwilmots.com/note/" + slug}/>
-        <meta name="og:description" content={title + " by " + author + " | Notes & Summaries"}/>
-        <meta name="og:site_name" content={title + " by " + author + " | Notes & Summaries"}/>
+        <meta name="og:description" content={abstract}/>
+        <meta name="og:site_name" content={"simonwilmots.com/note/" + slug}/>
 
         <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
