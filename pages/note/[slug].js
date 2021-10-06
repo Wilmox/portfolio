@@ -41,15 +41,15 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <meta name="url" content={"simonwilmots.com/note/" + slug}/>
         <meta name="rating" content="General" />
 
-        <meta name="og:title" content={title + " by " + author + " | Notes & Summaries"}/>
-        <link rel="canonical" href={"simonwilmots.com/note/" + slug} />
+        <meta name="og:title" content={title + " by " + author + " | Notes & Summaries"} />
         <meta property="og:locale" content="en_GB" />
-        <meta name="og:type" content="website"/>
-        {bookCover ? <meta name="og:image" content={bookCover} /> : <meta name="og:image" content={bookCover} content="/assets/img/favico.ico" />}
         <meta name="og:url" content={"simonwilmots.com/note/" + slug}/>
         <meta name="og:description" content={abstract}/>
         <meta name="og:site_name" content={"simonwilmots.com/note/" + slug}/>
+        <meta name="og:image" content={bookCover} />
+        <meta name="og:type" content="website"/>
 
+        <link rel="canonical" href={"simonwilmots.com/note/" + slug} />
         <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
