@@ -159,7 +159,6 @@ export async function getStaticProps(context) {
 
   return {
     props: {
-      //Here data serialising (dates, urls, ...),
       ...data,
       content: mdxSource,
     },
