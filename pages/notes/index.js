@@ -24,7 +24,7 @@ export default function Notes({ notes }) {
     <div id="top" className={styles.container}>
       <Head>
         <title>Notes & Summaries {"\u{1F4DD}"}</title>
-        <meta name="keywords" content="portfolio, simon, wilmots, Simon, Wilmots, notes, summaries"/>
+        <meta name="keywords" content="portfolio, simon, wilmots, Simon, Wilmots, notes, summaries" />
         <meta name="description" content="Simon Wilmots' Notes & Summaries" />
         <meta name="subject" content="Simon Wilmots' Notes & Summaries" />
         <meta name="copyright"content="Simon Wilmots" />
@@ -47,7 +47,7 @@ export default function Notes({ notes }) {
         <meta name="og:description" content="Simon Wilmots' Notes & Summaries"/>
         <meta name="og:site_name" content="Notes & Summaries 📝"/>
 
-        <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="apple-mobile-web-app-capable" content="yes" />

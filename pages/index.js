@@ -52,7 +52,7 @@ export default function Home() {
         <meta name="og:description" content="AI & Robotics Student, Astronomy Freak, Computer Nerd, Verified Freelancer, Your Next Hire."/>
         <meta name="og:site_name" content="Simon Wilmots 🚀"/>
 
-        <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
