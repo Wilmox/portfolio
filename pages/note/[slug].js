@@ -26,7 +26,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
   return (
     <div id="top" className={styles.container}>
       <Head>
-      <title>{title + " by " + author + " | Notes & Summaries"} {"\u{1F4DD}"}</title>
+      <title>{title + " by " + author + " | Notes & Summaries \u{1F4DD}"}</title>
         <meta name="keywords" content="portfolio, simon, wilmots, Simon, Wilmots, note"/>
         <meta name="description" content={title + " by " + author + " | Notes & Summaries"} />
         <meta name="subject" content="Simon Wilmots' Notes & Summaries" />

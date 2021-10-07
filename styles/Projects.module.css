@@ -4,6 +4,16 @@
     /*border: 1px solid white;*/
 }
 
+.projectSection header {
+    max-width: 1500px;
+    margin: 0 auto !important;
+}
+  
+.projectSection header h1 {
+    padding: 0;
+    text-align: left !important;
+}
+
 .projects {
     text-align: left !important;
     max-width: 1500px;
@@ -54,9 +64,12 @@
   }
 
 .cardText p {
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    opacity: .7;
+  line-height: 160%;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0 0 1px transparent;
+  letter-spacing: 0.01rem;
+  margin: .2vw 0;
 }
 
 .labels {
