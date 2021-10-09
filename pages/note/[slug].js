@@ -26,7 +26,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
   return (
     <div id="top" className={styles.container}>
       <Head>
-      <title>{title + " by " + author + " | Notes & Summaries"} {"\u{1F4DD}"}</title>
+      <title>{title + " by " + author + " | Notes & Summaries \u{1F4DD}"}</title>
         <meta name="keywords" content="portfolio, simon, wilmots, Simon, Wilmots, note"/>
         <meta name="description" content={title + " by " + author + " | Notes & Summaries"} />
         <meta name="subject" content="Simon Wilmots' Notes & Summaries" />
@@ -41,24 +41,24 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <meta name="url" content={"simonwilmots.com/note/" + slug}/>
         <meta name="rating" content="General" />
 
-        <meta name="og:title" content={title + " by " + author + " | Notes & Summaries"}/>
-        <link rel="canonical" href={"simonwilmots.com/note/" + slug} />
+        <meta name="og:title" content={title + " by " + author + " | Notes & Summaries"} />
         <meta property="og:locale" content="en_GB" />
-        <meta name="og:type" content="website"/>
-        {bookCover ? <meta name="og:image" content={bookCover} /> : <meta name="og:image" content={bookCover} content="/assets/img/favico.ico" />}
         <meta name="og:url" content={"simonwilmots.com/note/" + slug}/>
         <meta name="og:description" content={abstract}/>
         <meta name="og:site_name" content={"simonwilmots.com/note/" + slug}/>
+        <meta name="og:image" content={bookCover} />
+        <meta name="og:type" content="website"/>
 
-        <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
+        <link rel="canonical" href={"simonwilmots.com/note/" + slug} />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta content="yes" name="apple-touch-fullscreen" />
 
-        <link rel="icon" href="/assets/img/favicon.ico" />
-        <link rel="apple-touch-icon" href="/assets/img/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+        <link rel="icon" href="/assets/img/ico.ico" />
+        <link rel="apple-touch-icon" href="/assets/img/ico.ico" />
+        <link rel="shortcut icon" href="/assets/img/ico.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />

@@ -20,10 +20,39 @@ export default function Projects({ projects }) {
   return (
     <div id="top" className={styles.container}>
       <Head>
-        <title>Simon Wilmots {"\u{1F680}"}</title>
-        <meta name="description" content="SIMONWILMOTS" />
+        <title>Projects & Work {"\u{1F6A7}"}</title>
+        <meta name="keywords" content="portfolio, simon, wilmots, Simon, Wilmots, projects, work" />
+        <meta name="description" content="Simon Wilmots' Projects" />
+        <meta name="subject" content="Simon Wilmots' Projects" />
+        <meta name="copyright"content="Simon Wilmots" />
+        <meta name="language" content="en_GB" />
+        <meta name="robots" content="index,follow" />
+        <meta name="abstract" content="Simon Wilmots' Projects" />
+        <meta name="summary" content="Simon Wilmots' Projects" />
+        <meta name="Classification" content="Personal" />
+        <meta name="author" content="Simon Wilmots" />
+        <meta name="owner" content="Simon Wilmots"/>
+        <meta name="url" content="http://www.simonwilmots.com/projects"/>
+        <meta name="rating" content="General" />
+
+        <meta name="og:title" content="Projects & Work 🚧"/>
+        <link rel="canonical" href="https://simonwilmots.com/projects" />
+        <meta property="og:locale" content="en_GB" />
+        <meta name="og:type" content="website"/>
+        <meta name="og:url" content="http://simonwilmots.com/projects"/>
+        <meta name="og:image" content="/assets/img/ico.ico" />
+        <meta name="og:description" content="Simon Wilmots' Projects"/>
+        <meta name="og:site_name" content="Projects & Works 🚧"/>
+
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/assets/img/favicon.ico" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta content="yes" name="apple-touch-fullscreen" />
+
+        <link rel="icon" href="/assets/img/ico.ico" />
+        <link rel="apple-touch-icon" href="/assets/img/ico.ico" />
+        <link rel="shortcut icon" href="/assets/img/ico.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
@@ -42,7 +71,10 @@ export default function Projects({ projects }) {
         </section>
         <section className={styles.projectSection}>
           
-          <h1>Projects_:</h1>
+          <header>
+            <h1>Projects & Work_:</h1>
+            <p>Projects I worked on or participated with. These can be side project where I worked on in my free time or things I made for a company as an employee or intern.</p>
+          </header>
 
           <div className={styles.projects}>
 

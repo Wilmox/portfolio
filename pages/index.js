@@ -48,19 +48,19 @@ export default function Home() {
         <meta property="og:locale" content="en_GB" />
         <meta name="og:type" content="website"/>
         <meta name="og:url" content="http://simonwilmots.com"/>
-        <meta name="og:image" content="/assets/img/favicon.ico" />
+        <meta name="og:image" content="/assets/img/ico.ico" />
         <meta name="og:description" content="AI & Robotics Student, Astronomy Freak, Computer Nerd, Verified Freelancer, Your Next Hire."/>
-        <meta name="og:site_name" content="Simon Wilmots 🚀"/>
+        <meta name="og:site_name" content="http://www.simonwilmots.com"/>
 
-        <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta content="yes" name="apple-touch-fullscreen" />
 
-        <link rel="icon" href="/assets/img/favicon.ico" />
-        <link rel="apple-touch-icon" href="/assets/img/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+        <link rel="icon" href="/assets/img/ico.ico" />
+        <link rel="apple-touch-icon" href="/assets/img/ico.ico" />
+        <link rel="shortcut icon" href="/assets/img/ico.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />

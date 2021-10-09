@@ -13,7 +13,7 @@ import Chip from '../../components/Chip/Chip'
 import { getAllProjects } from '../../lib/data';
 import { motion } from 'framer-motion';
 
-export default function ProjectPage({ title, type, description, duration, headerImg, slug, labelText, labelColors, labelIcons, teamSize, content}) {
+export default function ProjectPage({ title, type, description, duration, headerImg, slug, labelText, labelIcons, teamSize, content}) {
     
   const variants = {
     hidden: { opacity: 0, x: 0, y: 0 },
@@ -24,10 +24,39 @@ export default function ProjectPage({ title, type, description, duration, header
   return (
     <div id="top" className={styles.container}>
       <Head>
-        <title>Simon Wilmots {"\u{1F680}"}</title>
-        <meta name="description" content="SIMONWILMOTS" />
+      <title>{title + " | Projects & Work"}</title>
+        <meta name="keywords" content="portfolio, simon, wilmots, Simon, Wilmots, project"/>
+        <meta name="description" content={title + " | Projects & Work"} />
+        <meta name="subject" content="Simon Wilmots' Projects & Work" />
+        <meta name="copyright"content="Simon Wilmots" />
+        <meta name="language" content="en_GB" />
+        <meta name="robots" content="index,follow" />
+        <meta name="abstract" content={description} />
+        <meta name="summary" content={description} />
+        <meta name="Classification" content="Personal" />
+        <meta name="author" content="Simon Wilmots" />
+        <meta name="owner" content="Simon Wilmots" />
+        <meta name="url" content={"simonwilmots.com/project/" + slug}/>
+        <meta name="rating" content="General" />
+
+        <meta name="og:title" content={title + " | Projects & Work"} />
+        <meta property="og:locale" content="en_GB" />
+        <meta name="og:url" content={"simonwilmots.com/project/" + slug}/>
+        <meta name="og:description" content={description}/>
+        <meta name="og:site_name" content={"simonwilmots.com/project/" + slug}/>
+        <meta name="og:image" content={headerImg} />
+        <meta name="og:type" content="website"/>
+
+        <link rel="canonical" href={"simonwilmots.com/project/" + slug} />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/assets/img/favicon.ico" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta content="yes" name="apple-touch-fullscreen" />
+
+        <link rel="icon" href="/assets/img/ico.ico" />
+        <link rel="apple-touch-icon" href="/assets/img/ico.ico" />
+        <link rel="shortcut icon" href="/assets/img/ico.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
