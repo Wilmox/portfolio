@@ -45,7 +45,7 @@ export default function Notes({ notes }) {
         <meta name="og:url" content="http://simonwilmots.com/notes"/>
         <meta name="og:image" content="/assets/img/ico.ico" />
         <meta name="og:description" content="Simon Wilmots' Notes & Summaries"/>
-        <meta name="og:site_name" content="Notes & Summaries 📝"/>
+        <meta name="og:site_name" content="http://simonwilmots.com/notes"/>
 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
