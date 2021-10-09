@@ -42,7 +42,7 @@ export default function Projects({ projects }) {
         <meta name="og:url" content="http://simonwilmots.com/projects"/>
         <meta name="og:image" content="/assets/img/ico.ico" />
         <meta name="og:description" content="Simon Wilmots' Projects"/>
-        <meta name="og:site_name" content="Projects & Works 🚧"/>
+        <meta name="og:site_name" content="https://www.simonwilmots.com/projects"/>
 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
