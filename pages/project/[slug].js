@@ -54,9 +54,9 @@ export default function ProjectPage({ title, type, description, duration, header
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta content="yes" name="apple-touch-fullscreen" />
 
-        <link rel="icon" href="/assets/img/favicon.ico" />
-        <link rel="apple-touch-icon" href="/assets/img/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+        <link rel="icon" href="/assets/img/ico.ico" />
+        <link rel="apple-touch-icon" href="/assets/img/ico.ico" />
+        <link rel="shortcut icon" href="/assets/img/ico.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />

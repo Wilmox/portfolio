@@ -40,7 +40,7 @@ export default function Projects({ projects }) {
         <meta property="og:locale" content="en_GB" />
         <meta name="og:type" content="website"/>
         <meta name="og:url" content="http://simonwilmots.com/projects"/>
-        <meta name="og:image" content="/assets/img/favicon.ico" />
+        <meta name="og:image" content="/assets/img/ico.ico" />
         <meta name="og:description" content="Simon Wilmots' Projects"/>
         <meta name="og:site_name" content="Projects & Works 🚧"/>
 
@@ -50,9 +50,9 @@ export default function Projects({ projects }) {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta content="yes" name="apple-touch-fullscreen" />
 
-        <link rel="icon" href="/assets/img/favicon.ico" />
-        <link rel="apple-touch-icon" href="/assets/img/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+        <link rel="icon" href="/assets/img/ico.ico" />
+        <link rel="apple-touch-icon" href="/assets/img/ico.ico" />
+        <link rel="shortcut icon" href="/assets/img/ico.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
@@ -73,7 +73,7 @@ export default function Projects({ projects }) {
           
           <header>
             <h1>Projects & Work_:</h1>
-            <p>Projects I worked on or participated with. These can be side project where I worked on in my free time or things I made for a company an employee or intern</p>
+            <p>Projects I worked on or participated with. These can be side project where I worked on in my free time or things I made for a company as an employee or intern.</p>
           </header>
 
           <div className={styles.projects}>

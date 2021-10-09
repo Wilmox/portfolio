@@ -17,7 +17,7 @@
 .projects {
     text-align: left !important;
     max-width: 1500px;
-    margin: auto;
+    margin: 2vw auto;
     display: grid;
     grid-auto-columns: 1fr;
     grid-column-gap: 2vw;
@@ -61,15 +61,16 @@
     font-weight: lighter;
     opacity: .5;
     padding: 0 0 .2vw 0;
-  }
+}
 
-.cardText p {
+.cardText p, .projectSection header p  {
     font-weight: 300;
-  line-height: 160%;
-  font-family: 'Roboto', sans-serif;
-  text-shadow: 0 0 1px transparent;
-  letter-spacing: 0.01rem;
-  margin: .2vw 0;
+    line-height: 160%;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 1px transparent;
+    letter-spacing: 0.01rem;
+    margin: .2vw 0;
+    text-align: left;
 }
 
 .labels {
