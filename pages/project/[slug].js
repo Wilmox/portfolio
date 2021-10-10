@@ -9,6 +9,7 @@ import slugStyle from '../../styles/Slug.module.css';
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation'
 import Chip from '../../components/Chip/Chip'
+import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
 
 import { getAllProjects } from '../../lib/data';
 import { motion } from 'framer-motion';
@@ -61,6 +62,8 @@ export default function ProjectPage({ title, type, description, duration, header
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
       </Head>
+
+      <ScrollProgress />
 
       <motion.main
         className={styles.main}

@@ -32,19 +32,7 @@ section {
 }
 
 ::-webkit-scrollbar {
-  width: .6vw;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  display: none;
 }
 
 ::selection {
@@ -74,9 +62,7 @@ summary::hover {
 }
 
 .container {
-  min-height: 100vh;
   position: relative;
-  height: 100vh;
 }
 
 .main {
@@ -92,13 +78,40 @@ section h1 {
   letter-spacing: 0.2rem;
 }
 
+progress#scrollProgress {
+  -webkit-appearance: none;
+  appearance: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translate(calc(50% - 3px), calc(50vh - 50%)) rotate(90deg);
+  width: 100vh;
+  height: 6px;
+  user-select:none;
+}
+
+progress#scrollProgress::-webkit-progress-bar {
+  background-color: transparent;
+  user-select:none;
+}
+
+progress#scrollProgress::-webkit-progress-value {
+  background-color: white;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  user-select:none;
+}
+
 @media screen and (max-width: 625px) {
   section h1 {
     font-size: 3rem !important;
   }
-
   .main {
     padding: 0;
+  }
+
+  progress#scrollProgress {
+    height: 4px !important;
   }
 }
 

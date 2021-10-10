@@ -10,6 +10,8 @@ import slugStyle from '../../styles/Slug.module.css';
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation'
 import Chip from '../../components/Chip/Chip'
+import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
+
 import { Rating } from '@material-ui/core';
 import { motion } from 'framer-motion';
 
@@ -63,6 +65,8 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
       </Head>
+
+      <ScrollProgress />
 
       <motion.main
         className={styles.main}
