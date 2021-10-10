@@ -5,6 +5,8 @@ import Navigation from '../../components/Navigation/Navigation';
 import styles from '../../styles/Projects.module.css';
 import Footer from '../../components/Footer/Footer.js';
 import Chip from '../../components/Chip/Chip.js';
+import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
+
 import { motion } from 'framer-motion';
 
 import { getAllProjects } from '../../lib/data';
@@ -57,6 +59,8 @@ export default function Projects({ projects }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
       </Head>
+
+      <ScrollProgress />
 
       <motion.main
         className={styles.main}

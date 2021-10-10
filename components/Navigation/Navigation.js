@@ -1,13 +1,11 @@
 import styles from './Navigation.module.css';
 import Link from 'next/link';
 import AsciiArt from '../ConsoleLogAsciiArt/ConsoleLogAsciiArt';
-import ScrollProgress from '../ScrollProgress/ScrollProgress';
 
 const Navigation = ({ hideHomeButton = false }) => {
     return (
         <nav className={styles.navigation}>
             {/*<AsciiArt />*/}
-            <ScrollProgress />
             {hideHomeButton ? (
                 <ul className={styles.list}>
                     <li className={styles.listItem, styles.listItem_Hidden}><a>simonwilmots</a></li>
