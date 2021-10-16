@@ -12,7 +12,7 @@ import Navigation from '../../components/Navigation/Navigation'
 import Chip from '../../components/Chip/Chip'
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
 
-import { Rating } from '@material-ui/core';
+import { Rating } from '@mui/material';
 import { motion } from 'framer-motion';
 
 import { getAllNotes } from '../../lib/data';

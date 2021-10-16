@@ -12,7 +12,7 @@ import StatusText from '../components/StatusText/StatusText';
 import CircleText from '../components/CircleText/CircleText';
 import Chip from '../components/Chip/Chip';
 import Arrow from '../components/ArrowSVG/ArrowSVG';
-import Rating from '@material-ui/core/Rating';
+import { Rating } from '@mui/material';
 import Footer from '../components/Footer/Footer';
 import ScrollProgress from '../components/ScrollProgress/ScrollProgress';
 

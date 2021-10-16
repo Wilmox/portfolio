@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from '../../styles/Home.module.css';
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
-import { Rating } from '@material-ui/core';
+import { Rating } from '@mui/material';
 import Chip from '../../components/Chip/Chip';
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
 
