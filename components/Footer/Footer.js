@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css"
-import ArrowUpwardRoundedIcon from '@material-ui/icons/ArrowUpwardRounded';
+import ArrowUpwardOutlinedIcon from '@mui/icons-material/ArrowUpwardOutlined';
 const Footer = () => {
     return (
         <footer className={styles.footer}>
@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className={styles.backToTop}>
                 <a href="#top">
-                    <ArrowUpwardRoundedIcon />
+                    <ArrowUpwardOutlinedIcon />
                 </a>
             </div>
         </footer>
