@@ -4,7 +4,7 @@ h2.status {
     font-weight: lighter;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1350px) {
     h2.status {
       font-size: 3rem;
     }     

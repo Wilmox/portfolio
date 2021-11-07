@@ -4,7 +4,7 @@
 }
 
 .noteSection header {
-  max-width: 1500px;
+  max-width: 1350px;
   margin: 0 auto !important;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .notes {
-  max-width: 1500px;
+  max-width: 1350px;
   margin: 2vw auto;
   display: grid;
   grid-auto-columns: 1fr;

@@ -53,7 +53,7 @@ div.about p {
 
 ul.breadcrumb {
   list-style: none;
-  max-width: 1500px;
+  max-width: 1350px;
   margin: auto;
 }
 
@@ -97,7 +97,7 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1350px) {
   .info {
     height: 3rem;
   }     

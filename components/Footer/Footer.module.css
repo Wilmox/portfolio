@@ -1,6 +1,6 @@
 footer.footer {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1350px;
     margin: auto;
     padding-right: 40px;
     padding-left: 40px;
@@ -48,7 +48,7 @@ div.backToTop a {
     height: fit-content;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1350px) {
     footer div.socials {
         justify-content: space-between;
         flex-wrap: wrap;

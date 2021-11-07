@@ -11,6 +11,7 @@ const StatusText = ({text="Student"}) => {
       "Computer Nerd", //\u{1F468}\u{200D}\u{1F4BB}
       "Astronomy Freak", //\u{1F30C}
       "Verified Freelancer", //\u{1F468}\u{200D}\u{1F4BC}
+      "Web developer",
       "Your Next Hire."
     ]
 
