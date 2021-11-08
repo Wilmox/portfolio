@@ -51,6 +51,19 @@ div.about p {
   letter-spacing: 0.02rem;
 }
 
+.about img {
+  border-radius: 50%;
+  float: left;
+  opacity: .5;
+  transition: .5s;
+  cursor: crosshair;
+}
+
+.about img:hover {
+  opacity: 1;
+  transition: .5s;
+}
+
 ul.breadcrumb {
   list-style: none;
   max-width: 1350px;

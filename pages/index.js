@@ -95,6 +95,7 @@ export default function Home() {
 
           <div className={styles.about}>
             <h2>ABOUT</h2> <br />
+            {/*<Image src="/assets/img/me.jpeg" width={200} height={200} />*/}
             <p>
               I&apos;ve always been eager to learn from childhood. From <span>computers</span> and <span>space</span> to <span>psychology</span> and <span>science</span>, I had to find out how something functions. <br /><br />
               I am very passionate about <span>Personal development</span> and how you can always be the best version of yourself. <br /><br />
