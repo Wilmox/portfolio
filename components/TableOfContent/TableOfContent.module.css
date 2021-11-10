@@ -1,0 +1,16 @@
+.ToC h1, .ToC h2, .ToC h3 {
+    font-size: 1rem !important;
+    color: white !important;
+    font-weight: lighter !important;
+}
+
+.ToC h4, .ToC h5, .ToC h6 {
+    font-size: .7rem !important;
+    color: white !important;
+    font-weight: lighter !important;
+}
+
+.ToC h1:hover, .ToC h2:hover, .ToC h3:hover, .ToC h4:hover, .ToC h5:hover, .ToC h6:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

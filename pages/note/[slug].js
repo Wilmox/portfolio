@@ -11,13 +11,14 @@ import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation'
 import Chip from '../../components/Chip/Chip'
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
+import TableOfContent from '../../components/TableOfContent/TableOfContent';
 
 import { Rating } from '@mui/material';
 import { motion } from 'framer-motion';
 
 import { getAllNotes } from '../../lib/data';
 
-export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content, labelColors, labelText, labelIcons, bookCover }) {
+export default function NotePage({ title, author, date, abstract, readTime, rating, amazonLink, slug, content, labelText, labelIcons, bookCover }) {
 
   const variants = {
     hidden: { opacity: 0, x: 0, y: 0 },
@@ -79,6 +80,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
         <section>
           <Navigation />
         </section>
+
         <header className={slugStyle.header}>
           <h1 className={slugStyle.title}>{title}</h1>
           <h2 className={slugStyle.author}>{author}</h2>
@@ -115,6 +117,8 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           </div>
         </header>
 
+        <TableOfContent {...content}/>
+
         <article className={slugStyle.noteArticle}>
           <p className={slugStyle.abstract}>{abstract}</p>
 
@@ -138,10 +142,9 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
               </div>
             </div>
           ) : (console.log("No cover image found"))
-
           }
 
-          <div className={slugStyle.articleContent}>
+          <div id="content" className={slugStyle.articleContent}>
             <MDXRemote {...content} />
           </div>
           <p className={slugStyle.slug}>{"simonwilmots.com/note/" + slug}</p>
@@ -157,10 +160,8 @@ export async function getStaticProps(context) {
   const { params } = context;
   const allNotes = getAllNotes();
   const { content, data } = allNotes.find((note) => note.slug === params.slug);
-
+  
   const mdxSource = await serialize(content)
-
-
   return {
     props: {
       ...data,
