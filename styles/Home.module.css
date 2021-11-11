@@ -70,7 +70,7 @@ ul.breadcrumb {
   margin: auto;
 }
 
-ul.breadcrumb li {
+ul.breadcrumb li{
   width: 10vw !important;
   display: inline;
   font-size: 1rem;
@@ -84,13 +84,13 @@ ul.breadcrumb li+li:before {
   content: "/\00a0";
 }
 
-ul.breadcrumb li a {
+ul.breadcrumb lia {
   opacity: .5;
   text-decoration: none;
   transition: .5s;
 }
 
-ul.breadcrumb li a:hover {
+ul.breadcrumb lia:hover {
   text-decoration: underline;
   cursor: pointer;
   transition: .5s;

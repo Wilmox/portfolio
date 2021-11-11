@@ -4,12 +4,30 @@ import styles from './TableOfContent.module.css';
 const TableOfContents = () => {
 
     useEffect(() => {
+        let toc = document.getElementById("ToC");
+
         var headings = document.getElementById("content").querySelectorAll("h1, h2, h3, h4, h5, h6");
         for (var i=0, max=headings.length; i < max; i++) {
             console.log(headings[i]);
 
-            switch (headings[i].tagName) {
+            let tocList = document.createElement("li")
+            let tocLink = document.createElement("a")
+            let tocLinkText = document.createTextNode(headings[i].textContent)
+            
+            tocList.setAttribute('href', headings[i])
+            //tocList.setAttribute('id', headings[i].tagName.toLowerCase())
+
+            tocLink.appendChild(tocLinkText);
+            tocList.appendChild(tocLink);
+            
+            console.log(tocList);
+            
+            toc.appendChild(tocList)
+
+
+            /*switch (headings[i].tagName) {
                 case "H1":
+                    tocElement.appendChild()
                     console.log("1", headings[i].textContent)
                     break;
 
@@ -35,7 +53,7 @@ const TableOfContents = () => {
                     
                 default:
                     break;
-            }
+            }*/
         }
     }, []);
 

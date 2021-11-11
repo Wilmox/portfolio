@@ -201,7 +201,7 @@ Styling generated HTML from Markdown
     list-style-type: decimal !important;
 }
 
-.articleContent li {
+.articleContent li{
     margin: .5rem 0;
 }
 

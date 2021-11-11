@@ -1,16 +1,17 @@
-.ToC h1, .ToC h2, .ToC h3 {
+li#h1 a, li#h2 a, li#h3 a {
     font-size: 1rem !important;
     color: white !important;
     font-weight: lighter !important;
+    font-family: 'Roboto', sans-serif;
 }
 
-.ToC h4, .ToC h5, .ToC h6 {
+li#h4 a, li#h5 a, li#h6 a {
     font-size: .7rem !important;
     color: white !important;
     font-weight: lighter !important;
 }
 
-.ToC h1:hover, .ToC h2:hover, .ToC h3:hover, .ToC h4:hover, .ToC h5:hover, .ToC h6:hover {
+li#h1 a:hover, li#h2 a:hover, li#h3 a:hover, li#h4 a:hover, li#h5 a:hover, li#h6 a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
