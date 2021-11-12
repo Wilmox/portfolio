@@ -117,8 +117,6 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           </div>
         </header>
 
-        <TableOfContent {...content}/>
-
         <article className={slugStyle.noteArticle}>
           <p className={slugStyle.abstract}>{abstract}</p>
 
@@ -143,6 +141,8 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
             </div>
           ) : (console.log("No cover image found"))
           }
+
+          <TableOfContent />
 
           <div id="content" className={slugStyle.articleContent}>
             <MDXRemote {...content} />

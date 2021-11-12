@@ -1,17 +1,44 @@
-li#h1 a, li#h2 a, li#h3 a {
-    font-size: 1rem !important;
-    color: white !important;
-    font-weight: lighter !important;
+nav.ToC {
+    max-width: 950px;
+    margin: 2vw auto;
+    border-radius: 25px;
+}
+
+nav.ToC h1 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    line-height: 1.1;
+    letter-spacing: .1rem;
+}
+
+nav.ToC ol {
+    margin: auto;
+}
+
+nav.ToC ol li {
+    width: max-content;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;  
+}
+
+nav.ToC li a{
     font-family: 'Roboto', sans-serif;
-}
-
-li#h4 a, li#h5 a, li#h6 a {
-    font-size: .7rem !important;
-    color: white !important;
-    font-weight: lighter !important;
-}
-
-li#h1 a:hover, li#h2 a:hover, li#h3 a:hover, li#h4 a:hover, li#h5 a:hover, li#h6 a:hover {
+    font-weight: 300;
+    transition: .5s;
+    color: #ffffff70;
     text-decoration: underline;
-    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+nav.ToC li a:hover {
+    transition: .5s;
+    color: white;
+}
+
+nav.ToC li#h2 {
+    color: red !important;
+    font-weight: 70;
+    padding: 5vw;
 }

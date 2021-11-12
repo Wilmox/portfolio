@@ -12,14 +12,14 @@ labelText: ['Finance']
 labelIcons: ['💸']
 ---
 
-## Introduction
+# Introduction
 
 _Poor Dad was Kiyosaki’s biological father, a man who was highly intelligent and very well educated. Poor Dad believed in studying hard and getting good grades, then finding a well-paying job. Yet, despite these seemingly positive attributes, Poor Dad didn’t do well financially._<br /><br />
 
 _Rich Dad was the father of Kiyosaki’s best friend. He had a similar work ethic to Kiyosaki’s real dad, but with a twist. Rich Dad believed in financial education, learning how money works, and understanding how to make money work for you. Although he was an eighth-grade dropout, Rich Dad eventually became a millionaire by putting the power of money to work for him._
 
 
-## The Rich Don’t Work for Money
+# The Rich Don’t Work for Money
 
 The rich work (hard and a lot), but not for **money**.
 
@@ -30,9 +30,9 @@ Having a regular job is just a **short-term solution** to the long-term problem 
 _“It’s **fear **that keeps most people working at a job: the fear of not paying their bills, the fear of being fired, the fear of not having enough money, and the fear of starting over. That’s the price of studying to learn a profession or trade, and then working for money. Most people become a **slave **to money – and then get angry at their boss.”_
 
 
-## Why Teach Financial Literacy?
+# Why Teach Financial Literacy?
 
-### Asset vs Liability
+## Asset vs Liability
 
 An asset is something that **has **value, that **produces **income or appreciates, and has a market where the asset can easily be bought and sold:
 
@@ -46,7 +46,7 @@ Liabilities **take **money out of your pocket because of the **costs **associate
 A personal residence  is **NOT** an asset  but a liability because it doesn’t produce any sort of income.
 
 
-## Mind Your Own Business
+# Mind Your Own Business
 
 There are two key messages in this chapter.
 
@@ -60,7 +60,7 @@ Most people spend their entire lives working in somebody else’s business and m
 >The primary reason the majority of the poor and middle class are fiscally conservative is that they have no financial foundation. They have to cling to their jobs and play it safe. They can’t afford to take risks.
 
 
-## The History of Taxes and the Power of Corporations
+# The History of Taxes and the Power of Corporations
 
 _Rich Dad Poor Dad is a motivational book and not trying  to provide expert financial or tax advice._
 
@@ -89,7 +89,7 @@ Understanding the legal and tax advantages significantly contribute to building 
 For instance, a corporation can pay expenses before paying taxes, whereas an employee gets taxed first and must try to pay expenses on what is left. . . Corporations also offer legal protection from lawsuits. When someone sues a wealthy individual, they are often met with layers of legal protection and often find that the wealthy person actually owns nothing [in their own name]. They control everything, but [personally] own nothing.
 
 
-## The Rich Invent Money
+# The Rich Invent Money
 
 _Inventing money means finding opportunities or deals that other people don’t have the skill, knowledge, resources, or contacts for._
 
@@ -106,7 +106,7 @@ There are two types of investors:
 _“Some people argue that there aren’t real estate bargains where they are, but there are prime opportunities everywhere that are overlooked. Most people aren’t trained financially to recognize the opportunities in front of them.”_
 
 
-## Work to Learn – Don’t Work for Money
+# Work to Learn – Don’t Work for Money
 
 Poor Dad was intelligent and well educated and worked for money because job security meant everything to him. Rich Dad became a millionaire by **working to learn**.
 
@@ -121,7 +121,7 @@ The **synergy **of management skills needed for **success **in business:
 * People management
 
 
-## Overcoming Obstacles
+# Overcoming Obstacles
 
 >The primary difference between a rich person and a poor person is how they manage fear.
 
@@ -138,14 +138,14 @@ The five biggest obstacles people face on the path to becoming financially indep
 These roadblocks – and the failure to overcome them – are why people who have studied and achieved financial literacy are still unable to develop assets that generate plentiful amounts of cash flow.
 
 
-### Fear
+## Fear
 
 Losing money is a fact of investing life, and so is the fear that comes along with it. Kiyosaki notes that he’s **never met a rich person who has never lost money**, but he’s **met plenty of poor people who have never lost a dime** because they’ve never invested.
 
 Real estate investors who choose to act only on a “sure thing” are paralyzed by fear in disguise. People who can’t see the big picture and think big are the ones who almost never, ever succeed in investing or in life.
 
 
-### Cynicism
+## Cynicism
 
 **Everybody has doubts** that affect self-confidence, and it’s easy to fall into the trap of playing “What if?” especially when friends and family are constantly reminding you of your potential shortcomings.
 
@@ -154,7 +154,7 @@ Things like the economy crashing, interest rates rising, and tenants not paying 
 Don’t be affected by other people’s opinions.
 
 
-### Laziness
+## Laziness
 
 In today’s interconnected world it’s easy to confuse being busy with actually accomplishing things that matter. In fact, according to Rich Dad Poor Dad, **busy people are often the most lazy**.
 
@@ -163,7 +163,7 @@ Busy people arrive at the office early and leave late. They bring work home to f
 Instead of giving in to the call of the rat race and mistaking action for accomplishment, successful real estate investors are proactive and take care of themselves and their wealth first.
 
 
-### Bad habits
+## Bad habits
 
 **Habits control behavior**. For example, most people pay their bills first before they pay themselves. The result is that there’s usually very little left over at the end of the month for investing.
 
@@ -172,7 +172,7 @@ Instead of giving in to the call of the rat race and mistaking action for accomp
 When you develop the habit of paying yourself first, you become **motivated by the fear of not being able to pay creditors**. In turn, you begin looking for other forms of income like investment real estate.
 
 
-### Arrogance
+## Arrogance
 
 Investors know what makes them money. But it’s the things they don’t know – and don’t know they don’t know – that makes them lose money. When people become truly arrogant, they honestly believe that what they don’t know doesn’t matter.
 
@@ -183,7 +183,7 @@ Overcoming these five biggest obstacles on the path to real estate success requi
 Rich Dad Poor Dad suggests **filtering negative people and their fears out of your life**. Instead, concentrate on the big picture and always ask, **“What’s in it for me?”**
 
 
-## Getting Started
+# Getting Started
 
 >There is gold everywhere, most people are not trained to see it.
 
@@ -209,7 +209,7 @@ Here are the ten steps to follow to develop your financial genius and discover t
 10. Realize that i**f you want something**, **you need to give something first**.
 
 
-## Still Want More? Here Are Some To-Do’s
+# Still Want More? Here Are Some To-Do’s
 
 A summary of the book into a checklist of actions you can start taking today:
 

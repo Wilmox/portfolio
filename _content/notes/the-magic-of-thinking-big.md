@@ -11,14 +11,14 @@ slug: 'the-magic-of-thinking-big'
 labelText: ['Psychology', 'Entrepeneurship']
 labelIcons: ['🧠', '🚀']
 ---
-## Believe you can succeed and you will
+# Believe you can succeed and you will
 
  _Develop the power of belief_
 
 * Think success, don’t think failure
 * Remind yourself you’re better than you think you are
 * Believe big: Little goals, little achievements
-## Cure yourself of excusitis, the failure disease
+# Cure yourself of excusitis, the failure disease
 
 _"My health isn’t good” _
 
@@ -36,7 +36,7 @@ _“Too young/old” _
 _“Bad luck”_
 
 * Other’s luck = preparation, planning. Don’t be a wishful thinker.
-## Build confidence and destroy fear
+# Build confidence and destroy fear
 
 Isolate fear, then take action (ex. Fear of failing exams -> convert worry time into study time)
 
@@ -54,7 +54,7 @@ Build confidence
 * Walk 25% faster
 * Practice speaking up
 * Smile big
-## How to think big
+# How to think big
 
 Think about what you have that successful people don’t have (you are bigger than you think)
 
@@ -80,7 +80,7 @@ Big thinking:
 * Good speech: knowledge and desire of speech > “Don’t let see your notes”, “Don’t make mistakes”,... (Think about things that REALLY matter)
 * Quarrels: 99% is avoidable and irrelevant, “Is it really important?”
 * Keep your eye focused on the big objectives
-## How to think and dream creatively
+# How to think and dream creatively
 
 When you believe, your mind finds ways to do.
 
@@ -92,7 +92,7 @@ Tradition thinking -> “It’s been like this for … years” “Why risk a ch
 * Be an experimental person (try new things)
 * Develop an intrest in other elements of your work -> prepares for higher function
 
-### Strengthen your creativity by listening
+## Strengthen your creativity by listening
 
 
 
@@ -100,7 +100,7 @@ Tradition thinking -> “It’s been like this for … years” “Why risk a ch
 * Tell your own views in the form of a question: “What do you think …”
 * Concentrate on what the other person is saying (Evaluate it, ask questions, ...)
 
-### Creative thinking
+## Creative thinking
 
 
 
@@ -110,13 +110,13 @@ Tradition thinking -> “It’s been like this for … years” “Why risk a ch
 * “How can i do more?”
 * Practice asking AND listening
 * Stretch your mind
-## You are what you think you are
+# You are what you think you are
 
 **Look** important, it helps you think important.
 Pay more on quality clothing, buy half of your usual amount of clothing
 Think your work is important (building cathedral) -> gives mental signals to do work better.
 
-## Manage your environment: Go First Class
+# Manage your environment: Go First Class
 * Be environment-conscious
 * Make your enviroment work for you
 * Don’t let small-thinkers hold you back
@@ -124,7 +124,7 @@ Think your work is important (building cathedral) -> gives mental signals to do 
 * Get psychological sunshine (new groups, discover new things)
 * Throw poison out of your environment, avoid gossip, talk positive
 * Go first in everything you do
-## Make your Attitudes your allies
+# Make your Attitudes your allies
 
 Grow the attitude of:
 
@@ -147,7 +147,7 @@ Grow the “You are important” attitude:
 
 Put service first, money later
 
-## Think right toward people
+# Think right toward people
 
 Be more likeable:
 
@@ -174,7 +174,7 @@ Win friends:
 * Don’t be a reformer (keep negative opinions for yourself)
 * Don’t blame others for setbacks
 
-## Get the action habit
+# Get the action habit
 * Be an activationist
 * Don’t wait until the conditions are perfect
 * Ideas alone don’t bring success
@@ -183,38 +183,38 @@ Win friends:
 * Get down to business. Don’t waste time.
 * Follow every initiative
 
-## How to turn defeat into Victory
+# How to turn defeat into Victory
 * Study setbacks to pave your way to success. When you lose, learn, win next time
 * Seek out your own faults and correct them
 * Stop blaming luck. Research your own luck
 * Blend persistence with experimentation: Stay with goal but try new approaches, experiment
 * There is a good side to every situation
 
-## Use goals to help you grow
+# Use goals to help you grow
 
 10 years from now
 
-### Work department
+## Work department
 
 * What level of income do i want to have?
 * What responsibility do i seek?
 * How much authority do i want to command?
 * What prestige do I want from my work?
 
-### Home department
+## Home department
 
 * What kind of standard living do I want to attain, what to provide for family?
 * What kind of house do I want to live in?
 * What vacations do I want to take?
 * What financial support do I want my children to have?
 
-### Social department
+## Social department
 
 * What friends do I want to have?
 * What social groups do I want to join?
 * What community leaderships would I like to host?
 
-### Destroy these success suicides
+## Destroy these success suicides
 
 * Self-deprecation 
 * Securitis
@@ -222,37 +222,37 @@ Win friends:
 * Parental Dictation
 * Family Responsibility
 
-### Break these habits
+## Break these habits
 
 * Putting off things
 * Negative language
 * Watching TV more than 60 minutes
 * Gossip
 
-### Acquire these habits
+## Acquire these habits
 
 * A morning examination of the smartness of my appearence
 * Plan each day the night before
 * Compliment at every opportunity
 
-### Increase value to employers
+## Increase value to employers
 
 * Do a better job of developing my subordinates
 * Learn more about my company
 * Be more efficient (with time and space)
 
-### Increase value to my home
+## Increase value to my home
 
 
 
 * Show appreciation for the little things
 * Once a week do something special
 
-### Sharpen your mind
+## Sharpen your mind
 
 * Spend 30 minutes a day in quiet
 
-### Take action
+## Take action
 
 * Get a clear fix on where you want to go
 * Surrender to you desires
@@ -268,16 +268,16 @@ Win friends:
 * Take time out to confer with yourself
 
 
-## Use TMOTB IRL
+# Use TMOTB IRL
 
-### When Little people try to drive you down, think big
+## When Little people try to drive you down, think big
 
 * You win when you refuse to fight petty people
 * Expect to be sniped at.
 * Remember that snipers are psychologically sick, feel sorry for them
 * Think big enough to be immune to attacks of petty people
 
-### When those“I-haven’t-got-what-it-takes” thoughts are overtaking you
+## When those“I-haven’t-got-what-it-takes” thoughts are overtaking you
 
 >If you think you are weak, you are.
 
@@ -287,24 +287,24 @@ Win friends:
 * Think big how good you are
 
 
-### When an argument happens
+## When an argument happens
 
 * Is it really that important to argue about?
 * You always lose something when in an argument, even if you win THE argument
 * Think big enough to see that arguments are not worth it
 
 
-### When you feel defeated
+## When you feel defeated
 
 * Setbacks are normal
 * See it as a lesson, Learn from it, research from it, USE IT, free knowledge
 
-### When romance starts to slip
+## When romance starts to slip
 
 * Concentrate on the big qualities of your partner, little things are second
 * Do something special
 * 
-### When you feel progress on the job is slowing down
+## When you feel progress on the job is slowing down
 
 * Think “I can do better”
 * “The best is not unattainable”
