@@ -7,10 +7,10 @@ nav.ToC {
 nav.ToC h1 {
     font-weight: 800;
     font-size: 1.5rem;
-    margin-top: 0;
+    margin-top: 1rem;
     margin-bottom: 0.9rem;
     line-height: 1.1;
-    letter-spacing: .1rem;
+    letter-spacing: .07rem;
 }
 
 nav.ToC ol {
@@ -27,7 +27,7 @@ nav.ToC li a{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     transition: .5s;
-    color: #ffffff70;
+    color: #ffffff85;
     text-decoration: underline;
     font-size: 1.1rem;
 }
@@ -35,10 +35,4 @@ nav.ToC li a{
 nav.ToC li a:hover {
     transition: .5s;
     color: white;
-}
-
-nav.ToC li#h2 {
-    color: red !important;
-    font-weight: 70;
-    padding: 5vw;
 }

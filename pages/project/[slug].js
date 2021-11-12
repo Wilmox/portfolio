@@ -10,6 +10,7 @@ import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation'
 import Chip from '../../components/Chip/Chip'
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
+import BackToTop from '../../components/BackToTop/BackToTop';
 
 import { getAllProjects } from '../../lib/data';
 import { motion } from 'framer-motion';
@@ -64,7 +65,7 @@ export default function ProjectPage({ title, type, description, duration, header
       </Head>
 
       <ScrollProgress />
-
+      
       <motion.main
         className={styles.main}
         variants={variants} // Pass the variant object into Framer Motion 
@@ -100,10 +101,12 @@ export default function ProjectPage({ title, type, description, duration, header
           </div>
         </header>
 
+        <BackToTop />
+
         <article className={slugStyle.noteArticle}>
           <p className={slugStyle.abstract}>{description}</p>
 
-          <div className={slugStyle.articleContent}>
+          <div id="content" className={slugStyle.articleContent}>
             <MDXRemote {...content} />
           </div>
 

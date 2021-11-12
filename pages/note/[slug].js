@@ -12,6 +12,7 @@ import Navigation from '../../components/Navigation/Navigation'
 import Chip from '../../components/Chip/Chip'
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
 import TableOfContent from '../../components/TableOfContent/TableOfContent';
+import BackToTop from '../../components/BackToTop/BackToTop';
 
 import { Rating } from '@mui/material';
 import { motion } from 'framer-motion';
@@ -143,6 +144,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           }
 
           <TableOfContent />
+          <BackToTop />
 
           <div id="content" className={slugStyle.articleContent}>
             <MDXRemote {...content} />

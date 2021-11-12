@@ -6,6 +6,7 @@ import Navigation from '../../components/Navigation/Navigation';
 import { Rating } from '@mui/material';
 import Chip from '../../components/Chip/Chip';
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
+import BackToTop from '../../components/BackToTop/BackToTop';
 
 import noteStyle from '../../styles/Notes.module.css';
 
@@ -63,6 +64,7 @@ export default function Notes({ notes }) {
       </Head>
 
       <ScrollProgress />
+      <BackToTop />
 
       <motion.main
         className={styles.main}
