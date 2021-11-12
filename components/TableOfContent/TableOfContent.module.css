@@ -1,0 +1,38 @@
+nav.ToC {
+    max-width: 950px;
+    margin: 2vw auto;
+    border-radius: 25px;
+}
+
+nav.ToC h1 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+    line-height: 1.1;
+    letter-spacing: .07rem;
+}
+
+nav.ToC ol {
+    margin: auto;
+}
+
+nav.ToC ol li {
+    width: max-content;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;  
+}
+
+nav.ToC li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    transition: .5s;
+    color: #ffffff85;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+nav.ToC li a:hover {
+    transition: .5s;
+    color: white;
+}

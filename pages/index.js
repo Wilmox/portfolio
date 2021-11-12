@@ -15,6 +15,7 @@ import Arrow from '../components/ArrowSVG/ArrowSVG';
 import { Rating } from '@mui/material';
 import Footer from '../components/Footer/Footer';
 import ScrollProgress from '../components/ScrollProgress/ScrollProgress';
+import BackToTop from '../components/BackToTop/BackToTop';
 
 import { motion } from 'framer-motion';
 
@@ -68,6 +69,7 @@ export default function Home() {
       </Head>
 
       <ScrollProgress />
+      <BackToTop />
 
       <motion.main
         className={styles.main}

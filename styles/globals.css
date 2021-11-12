@@ -97,8 +97,6 @@ progress#scrollProgress::-webkit-progress-bar {
 
 progress#scrollProgress::-webkit-progress-value {
   background-color: white;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
   user-select:none;
 }
 

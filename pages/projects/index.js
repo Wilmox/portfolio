@@ -6,6 +6,7 @@ import styles from '../../styles/Projects.module.css';
 import Footer from '../../components/Footer/Footer.js';
 import Chip from '../../components/Chip/Chip.js';
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
+import BackToTop from '../../components/BackToTop/BackToTop';
 
 import { motion } from 'framer-motion';
 
@@ -61,6 +62,7 @@ export default function Projects({ projects }) {
       </Head>
 
       <ScrollProgress />
+      <BackToTop />
 
       <motion.main
         className={styles.main}

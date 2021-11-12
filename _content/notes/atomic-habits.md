@@ -500,4 +500,8 @@ The key to mitigating these losses of identity is to redefine yourself such that
 <br />
 
 # Conclusion
-Coming soon
+One coin won't make you rich, one positive change like meditating for one minute or reading on epage each day is unlikely to deliver a noticeable difference.<br /><br />
+
+Gradually, though, as you cintinue to layer small changes on top of one other, the scales of life start to move. Each improvement is like adding a grain of sand to the positive side of the scale, slowly tilting things in your favor. Eventually, if you stick with it, you hit a tipping point.<br /><br />
+
+This is a continuous process. There is no finish line or permanent solution. Whenever you're looking to improve, you can rotate through the <span>Four Laws of Behaviour Change</span> until you find the next bottleneck. Make it obvious, attractive, easy & satisfying. <span>Always look for the next way to get 1 percent better</span>. **Never stop improving**. <br /><br />

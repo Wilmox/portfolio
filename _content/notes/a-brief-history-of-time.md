@@ -12,7 +12,7 @@ labelText: ['Physics']
 labelIcons: ['☄️']
 ---
 
-## Our Picture of the Universe
+# Our Picture of the Universe
 
 Aristotle & Ptolemy already believed that the Earth was round but thought that it was the center of our Solar system.
 
@@ -33,7 +33,7 @@ Scientists are still looking for a complete Grand Unified Theory that would desc
 Hawking believes that the discovery of a complete unified theory may not aid the survival of our species, and may not even affect our lifestyle, but that humanity's deepest desire for knowledge is justification enough for our continuing quest, and that our goal is nothing less than a complete description of the Universe we live in.
 
 
-## Space and Time
+# Space and Time
 
 Aristotle's theory of absolute space came to an end following the introduction of Newtonian mechanics:
 
@@ -54,7 +54,7 @@ Einstein's general theory of relativity explains how the path of a ray of light 
 The **twin paradox**, a thought experiment in special relativity involving identical twins, considers that twins can age differently if they move at different speeds relative to each other, or even if they lived in different locations with unequal spacetime curvature. Special relativity is based upon arenas of space and time where events take place, whereas general relativity is dynamic where force could change spacetime curvature and which gives rise to the expanding Universe. Hawking and Roger Penrose worked upon this and later proved using general relativity that if the Universe had a beginning then it also must have an end.
 
 
-## The Expanding Universe
+# The Expanding Universe
 
 _In this chapter, Hawking first describes how physicists and astronomers calculated the relative distance of stars from the Earth._
 
@@ -73,7 +73,7 @@ This concept of the beginning of time (proposed by the Belgian Catholic priest *
 Roger Penrose used light cones and general relativity to **prove **that a **collapsing star** could result in a region of** zero size and infinite density** and curvature called a **Black Hole**. Hawking and Penrose proved together that the Universe should have arisen from a singularity, which <span >Hawking himself disproved once quantum effects are taken into account</span>.
 
 
-## The Uncertainty Principle
+# The Uncertainty Principle
 
 **Werner Heisenberg's uncertainty principle** says that the <span >speed and the position of a particle **cannot** be precisely known</span>. To find where a particle is, scientists shine light at the particle. If a **high-frequency** light is used, the light can find the **position** more accurately <span >but the particle's speed will be less certain</span> (because the light will change the speed of the particle). If a **lower frequency** is used, the light can find the **speed **more accurately <span >but the particle's position will be less certain</span>. The uncertainty principle disproved the idea of a theory that was deterministic or something that would predict everything in the future.<br /><br />
 
@@ -82,7 +82,7 @@ The wave-particle duality behavior of light is also discussed in this chapter. L
 Light waves have _crests and troughs_. The **highest point** of a wave is the **crest**, and the **lowest part** of the wave is a **trough**. Sometimes more than one of these waves can interfere with each other. When light waves interfere with each other, they behave like a single wave with properties different from those of the individual light waves.
 
 
-## Elementary Particles and Forces of Nature
+# Elementary Particles and Forces of Nature
 
 Quarks and other elementary particles are the topic of this chapter. Quarks are elementary particles which comprise the majority of matter in the universe. There are six different "flavors" of quarks: up, down, strange, charm, bottom, and top. Quarks also have three "colors": red, green, and blue. There are also antiquarks, which differ in some properties from quarks. <br /><br />
 
@@ -97,7 +97,7 @@ Besides the force of gravity and the electromagnetic forces, there are weak and 
 At extremely high temperature, the electromagnetic force and weak nuclear force behave as a single electroweak force. It is expected at even higher temperature, the electroweak force and strong nuclear force would also behave as a single force. Theories which attempt to describe the behavior of this "combined" force are called Grand Unified Theories, which may help us explain many of the mysteries of physics that scientists have yet to solve.
 
 
-## Black Holes
+# Black Holes
 
 Black holes are regions of spacetime where gravity is so strong that **nothing** can escape from within it. Most black holes are formed when very massive stars collapse under their own gravity. Black holes then collapse at the end of their lives. A star must be at least 5-25 times heavier than the Sun to collapse into a black hole. The boundary around a black hole from which no particle can escape to the rest of spacetime is called the **event horizon**.<br /><br />
 
@@ -108,7 +108,7 @@ Black holes are difficult for astronomers to find because they don't produce any
 In this chapter, Hawking talks about his famous bet with another scientist, Kip Thorne, that he made in 1974. Hawking argued that black holes did not exist, while Thorne argued that they did. Hawking lost the bet as new evidence proved that **Cygnus X-1** was indeed a black hole.
 
 
-## Black holes aren’t that black
+# Black holes aren’t that black
 
 _This chapter discusses an aspect of black hole behavior that Stephen Hawking discovered._<br /><br />
 
@@ -117,7 +117,7 @@ According to older theories, black holes can only become larger, and never small
 According to Hawking's theory, Black Holes must very slowly shrink over time because of this radiation, rather than continue living forever as scientists had previously believed. Though his theory was initially viewed with great skepticism, it would soon be recognized as a scientific breakthrough, earning Hawking significant recognition within the scientific community.
 
 
-## The Origin and Fate of the Universe
+# The Origin and Fate of the Universe
 
 _The beginning and the end of the universe are discussed in this chapter._<br /><br />
 
@@ -136,7 +136,7 @@ The field of quantum gravity is actively developing, and theorists are exploring
 One of the difficulties of formulating a quantum gravity theory is that quantum gravitational effects only appear at length scales near the Planck scale, around 10<sup>−35</sup> meters, a scale far smaller, and hence only accessible with far higher energies, than those currently available in high energy particle accelerators. Therefore, physicists lack experimental data which could distinguish between the competing theories which have been proposed, and thus thought experiment approaches are suggested as a testing tool for these theories.
 
 
-## The Arrow of Time
+# The Arrow of Time
 
 _In this chapter Hawking talks about why "real time", as Hawking calls time as humans observe and experience it (in contrast to "imaginary time", which Hawking claims is inherent to the laws of science) seems to have a certain direction, notably from the past towards the future. Hawking then discusses three "arrows of time" which, in his view, give time this property._<br /><br />
 
@@ -151,7 +151,7 @@ Hawking claims that the "no-boundary proposal" for the universe implies that the
 Hawking argues that, because of the no-boundary proposal, <span >a contracting universe would not have a well-defined thermodynamic arrow</span> and therefore <span >only a Universe that is in an expansion phase can support intelligent life</span>. Using the weak anthropic principle, Hawking goes on to argue that the thermodynamic arrow must agree with the cosmological arrow in order for either to be observed by intelligent life. This, in Hawking's view, is why humans experience these three arrows of time going in the same direction.
 
 
-## Wormholes and Time Travel
+# Wormholes and Time Travel
 
 Many physicists have attempted to devise possible methods by humans with advanced technology may be able to travel faster than the speed of light, or travel backwards in time, and these concepts have become mainstays of science fiction.<br /><br />
 
@@ -168,7 +168,7 @@ In a 1992 paper, Hawking uses the metaphorical device of a "Chronology Protectio
 _“It seems that there is a Chronology Protection Agency which prevents the appearance of closed timelike curves and so makes the universe safe for historians.”_
 
 
-## The Unification of Physics
+# The Unification of Physics
 
 Quantum field theory (**QFT**) and general relativity (**GR**) describe the physics of the Universe with astounding accuracy within their own domains of applicability. However, these two theories **contradict **each other. For example, the uncertainty principle of QFT is incompatible with GR. This contradiction, and the fact that QFT and GR do not fully explain observed phenomena, have led physicists to search for a theory of "quantum gravity" that is both internally consistent and explains observed phenomena just as well as or better than existing theories do.<br /><br />
 
@@ -190,13 +190,13 @@ The third possibility has been sidestepped by acknowledging the limits set by th
 Hawking believes that such refinement has a limit and that by studying the very early stages of the Universe in a laboratory setting, a complete theory of Quantum **Gravity **will be found in the 21st century allowing physicists to solve many of the currently unsolved problems in physics.
 
 
-## Conclusion
+# Conclusion
 
 Hawking states that humans have always wanted to make sense of the Universe and their place in it. At first, events were considered random and controlled by human-like emotional spirits. But in astronomy and in some other situations, regular patterns in the workings of the universe were recognized. With scientific advancement in recent centuries, the inner workings of the universe have become far better understood. Laplace suggested at the beginning of the nineteenth century that the Universe's structure and evolution could eventually be precisely explained by a set of laws, but that the origin of these laws was left in God's domain. In the twentieth century, quantum theory introduced the uncertainty principle, which set limits to the predictive accuracy of future laws to be discovered.<br /><br />
 
 Historically, the study of cosmology (the study of the origin, evolution, and end of Earth and the Universe as a whole) has been primarily motivated by a search for philosophical and religious insights, for instance, to better understand the nature of God, or even whether God exists at all. However, most scientists today who work on these theories approach them with mathematical calculation and empirical observation, rather than asking such philosophical questions. The increasingly technical nature of these theories have caused modern cosmology to become increasingly divorced from philosophical discussion. Hawking expresses hope that one day everybody would talk about these theories in order to understand the true origin and nature of the Universe, and accomplish "the ultimate triumph of human reasoning".
 
 
-## Glossary [WIP]
+# Glossary [WIP]
 
 [WIP]
