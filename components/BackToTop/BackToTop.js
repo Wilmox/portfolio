@@ -1,3 +1,4 @@
+import ArrowUpwardOutlined from '@mui/icons-material/ArrowUpwardOutlined';
 import { useEffect } from 'react';
 import styles from './BackToTop.module.css';
 
@@ -20,7 +21,7 @@ const BackToTop = () => {
     }, []);
 
     return (
-        <a id="backToTop" href="#top" className={styles.backToTop}>&#11165;</a>
+        <a id="backToTop" href="#top" className={styles.backToTop}><ArrowUpwardOutlined/></a>
     );
 };
 
