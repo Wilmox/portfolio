@@ -62,7 +62,7 @@ In 1924, Edwin Hubble discovered a method to measure the distance using the brig
 
 The stars are very far away from us, so we can only observe their one characteristic feature, their **light**. When this light is passed through a prism, it gives rise to a spectrum. Every star has its own spectrum, and since each element has its own unique spectra, we can measure a star's light spectra to know its chemical composition. We use thermal spectra of the stars to know their temperature. In 1920, when scientists were examining spectra of different galaxies, they found that some of the characteristic lines of the star spectrum were **shifted **towards the red end of the spectrum. The implications of this phenomenon were given by the **Doppler effect**, and it was clear that many galaxies were moving away from us.<br /><br />
 
-It was assumed that, since some galaxies are red shifted, some galaxies would also be blue shifted. However, redshifted galaxies far outnumbered blueshifted galaxies. Hubble found that the amount of redshift is directly proportional to relative distance. From this, he determined that the Universe is expanding and had had a beginning. Despite this, the concept of a static Universe persisted until the 20th century. Einstein was so sure of a static Universe that he developed the 'cosmological constant' and introduced 'anti-gravity' forces to allow a universe of infinite age to exist. Moreover, many astronomers also tried to avoid the implications of general relativity and stuck with their static Universe, with one especially notable exception, the Russian physicist Alexander Friedmann.<br /><br />
+It was assumed that, since some galaxies are red shifted, some galaxies would also be blue shifted. However, redshifted galaxies far outnumbered blueshifted galaxies. Hubble found that the amount of redshift is directly proportional to relative distance. From this, he determined that the Universe is expanding and had had a beginning. Despite this, the concept of a static Universe persisted until the 20th century. Einstein was so sure of a static Universe that he developed the 'cosmological constant' and introduced 'anti-gravity'* forces to allow a universe of infinite age to exist. Moreover, many astronomers also tried to avoid the implications of general relativity and stuck with their static Universe, with one especially notable exception, the Russian physicist Alexander Friedmann.<br /><br />
 
 Friedmann's model gave rise to three different types of models for the evolution of the Universe. First, the Universe would expand for a given amount of time, and if the expansion rate is less than the density of the Universe (leading to gravitational attraction), it would ultimately **lead to the collapse of the Universe**. Secondly, the Universe would expand, and at some time, if the expansion rate and the density of the Universe became equal, it would expand slowly and stop, leading to a somewhat **static Universe**. Thirdly, the Universe would continue to **expand forever**, if the density of the Universe is less than the critical amount required to balance the expansion rate of the Universe.<br /><br />
 
@@ -84,7 +84,7 @@ Light waves have _crests and troughs_. The **highest point** of a wave is the **
 
 # Elementary Particles and Forces of Nature
 
-Quarks and other elementary particles are the topic of this chapter. Quarks are elementary particles which comprise the majority of matter in the universe. There are six different "flavors" of quarks: up, down, strange, charm, bottom, and top. Quarks also have three "colors": red, green, and blue. There are also antiquarks, which differ in some properties from quarks. <br /><br />
+Quarks and other elementary particles are the topic of this chapter. Quarks are elementary particles which comprise the majority of matter in the universe. There are six different "flavors" of quarks: up, down, strange, charm, bottom, and top. Quarks also have three "colors": red, green, and blue. There are also antiquarks*, which differ in some properties from quarks. <br /><br />
 
 All particles (for example, the quarks) have a property called **spin**. The spin of a particle shows us <span >what a particle looks like from different directions</span>. For example, a particle of spin 0 looks the same from every direction. A particle of spin 1 looks different in every direction unless the particle is spun completely around (**360 degrees**). Hawking's example of a particle of spin 1 is an **arrow**. A particle of spin two needs to be turned around halfway (or **180 degrees**) to look the same. The example given in the book is of a **double-headed arrow**.<br /><br />
 
@@ -148,7 +148,7 @@ Hawking's third and final arrow of time is the **cosmological arrow of time**. T
 
 Hawking claims that the "no-boundary proposal" for the universe implies that the universe will expand for some time before contracting back again. He goes on to argue that the no-boundary proposal is what drives entropy and that it predicts the existence of a well-defined thermodynamic arrow of time if and only if the universe is expanding, as it implies that the universe must have started in a smooth and ordered state that must grow toward disorder as time advances.<br /><br />
 
-Hawking argues that, because of the no-boundary proposal, <span >a contracting universe would not have a well-defined thermodynamic arrow</span> and therefore <span >only a Universe that is in an expansion phase can support intelligent life</span>. Using the weak anthropic principle, Hawking goes on to argue that the thermodynamic arrow must agree with the cosmological arrow in order for either to be observed by intelligent life. This, in Hawking's view, is why humans experience these three arrows of time going in the same direction.
+Hawking argues that, because of the no-boundary proposal, <span >a contracting universe would not have a well-defined thermodynamic arrow</span> and therefore <span >only a Universe that is in an expansion phase can support intelligent life</span>. Using the weak anthropic principle*, Hawking goes on to argue that the thermodynamic arrow must agree with the cosmological arrow in order for either to be observed by intelligent life. This, in Hawking's view, is why humans experience these three arrows of time going in the same direction.
 
 
 # Wormholes and Time Travel
@@ -197,6 +197,51 @@ Hawking states that humans have always wanted to make sense of the Universe and 
 Historically, the study of cosmology (the study of the origin, evolution, and end of Earth and the Universe as a whole) has been primarily motivated by a search for philosophical and religious insights, for instance, to better understand the nature of God, or even whether God exists at all. However, most scientists today who work on these theories approach them with mathematical calculation and empirical observation, rather than asking such philosophical questions. The increasingly technical nature of these theories have caused modern cosmology to become increasingly divorced from philosophical discussion. Hawking expresses hope that one day everybody would talk about these theories in order to understand the true origin and nature of the Universe, and accomplish "the ultimate triumph of human reasoning".
 
 
-# Glossary [WIP]
+# Glossary
 
-[WIP]
+* _**Anthropic principle**_: We see the universe the way it is, because if it were different we would not be here to observe it.
+* _**Anti-particle**_: Each type of matter particle has a corresponding antiparticle; When they collide, they annihilate eachother, leaving only energy.
+* _**Big bang**_: The singularity at the beginning of the universe.
+* _**Big crunch**_: The singularity at the end of the universe.
+* _**Black hole area theorem**_: Ignoring the quantum mechanics, the surface of a black hole can only grow with time.
+* _**Casimir effect**_: The attractive pressure between two flat, parallel metal plates placed very near each other in a vaccuum.
+* _**Chandrasekhar limit**_: The maximum possible mass of a cold star. If you go above the mass, it MUST collapse into a black hole.
+* _**Conservation of energy**_: The law of science that states: Energy can neither be crated or destroyed.
+* _**Dark energy**_: An unknown form of energy which is accelerating the expansion of the universe.
+* _**Dark matter**_: Matter in galaxies, clusters, and possibly between clusters, that cannot be observed directly but can be detected by its gravitational effect. (90% of the mass of the universe is)
+* _**Duality**_: When two different theories lead to the same physical result.
+* _**Edwin Hubble**_: American Astronomer who discovered that galaxies where (red)-shifting away from Earth.
+* _**Einstein-Rosen bridge**_: A tube in space-time linking two black holes (wormhole)
+* _**Electromagnetic force**_: The force between two particles with an electric charge.
+* _**Event horizon**_: The boundary of a black hole.
+* _**Exclusion principle**_: The idea that two identical spin-1/2 particles cannot have both the same position and velocity.
+* _**Friedmann models**_: Based on general relativity, these models predict that the universe will eventually collapse in on itself in a "big crunch".
+* _**Gamma rays**_: Electromagnetic rays of very short wavelength, produced in radioactive decay or by collisions of elementary particles.
+* _**General relativity**_: Einstein's theory based on the idea that the laws of science should be the same for all observers, no matter how they are moving. It also explains the force of gravity in terms of the curvature of a four-dimensional space-time.
+* _**Geodesic**_: The shortest (or longest) path between two points.
+* _**Gravitational waves**_: Ripples in the curvature of space.
+* _**Inflation**_: The theory that space expanded rapidly in the early universe.
+* _**Information paradox**_: The information that goes into a black hole seems lost, but this contradicts the laws of quantum mechanics.
+* _**Microwave background radiation**_: The radiation from the glowing of the hot early universe, now so greatly red-shifted that it appears as microwaves
+* _**Naked singularity**_: A space-time singularity not surrounded by a black hole/event horizon.
+* _**Neutrino**_: An extremely light (possible massless) particle.
+* _**Neutron**_: An uncharged particle, similar to a proton. (Half of the particles in an atomic nucleus)
+* _**Neutron star**_: A cold star, supported by the explusion principle replusion between neutrons
+* _**No boundary condition**_: The idea that the univers is finite but has no boundary (in imaginary time).
+* _**Nucleus**_: The center of an atom (Protons + neutrons).
+* _**Photon**_: A quantum of light.
+* _**Planck's quantum principle**_: The idea that light (or any other wave) can be emitted or absored only in discrete quanta, whose energy is proportional to their wavelength.
+* _**Proton**_: A positively charged particle.
+* _**Pulsar**_: A rotating neutron star that emits regular pulses of radio waves.
+* _**Quantum**_: The indivisible unit in which waves may be emitted or absorbed.
+* _**Quantum mechanics**_: The theory developed from Planck's principle and Heisenberg's uncertainty principle.
+* _**Quark**_: A (charged) particle. (Photons and neutrons are each composed of three quarks).
+* _**Red shift**_: The reddening of light from a star that is moving aways from us, due to the Doppler effect.
+* _**Singularity**_: A point in space-time at which the space-time curvature becomes infinite.
+* _**Space-time**_: The four-dimensional space whose points are events.
+* _**Special relativity**_: Einstein's theory based on the idea that the laws of science should be the same for all observers, no matter how they are moving, in absence of gravity.
+* _**Spin**_: A property of elementary particles, related to, but not identical to , the everyday concept of spin.
+* _**String theory**_: A theory of physics in which particles are described as waves on strings. Strings have length but no other dimension.
+* _**Uncertainty principle**_: One can never be exactly sure of both the position and and the velocity of a particle.
+* _**Wave/particle duality**_: In quantum mechanics, there is no disinction between waves and particles; because they behave the same.
+* _**White dwarf**_: A stable cold star
