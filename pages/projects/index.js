@@ -84,22 +84,26 @@ export default function Projects({ projects }) {
 
           <div className={styles.projects}>
 
-          {projects.map((project) => (
-              <Link key={project.slug} href={`/project/${project.slug}`}>
-                <a key={project.slug} className={styles.projectCard}>
-                  <Image src={project.headerImg} width={1241} height={745} />
+          {projects.map(project => {
+              if(!project.title.includes('i-Talent')) {
+                return (
+                  <Link key={project.slug} href={`/project/${project.slug}`}>
+                    <a key={project.slug} className={styles.projectCard}>
+                      <Image src={project.headerImg} width={1241} height={745} />
 
-                  <div className={styles.cardText}>
-                    <h2>{project.title}</h2>
-                    <h3>{project.type}</h3>
-                    <p>{project.description}</p>
-                  </div>
-                  <div className={styles.labels}>
-                    {project.labelText.map((label, i) => <Chip key={project.labelText[i]} /*className={notestyle.noteChip}*/ text={project.labelText[i]} icon={project.labelIcons[i]} />)}
-                  </div>
-                </a>
-              </Link>
-            ))}
+                      <div className={styles.cardText}>
+                        <h2>{project.title}</h2>
+                        <h3>{project.type}</h3>
+                        <p>{project.description}</p>
+                      </div>
+                      <div className={styles.labels}>
+                        {project.labelText.map((label, i) => <Chip key={project.labelText[i]} /*className={notestyle.noteChip}*/ text={project.labelText[i]} icon={project.labelIcons[i]} />)}
+                      </div>
+                    </a>
+                  </Link>
+                )
+              }
+          })}
           </div>
 
         </section>

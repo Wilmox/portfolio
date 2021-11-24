@@ -11,6 +11,7 @@ import Navigation from '../../components/Navigation/Navigation'
 import Chip from '../../components/Chip/Chip'
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
 import BackToTop from '../../components/BackToTop/BackToTop';
+import TableOfContents from '../../components/TableOfContent/TableOfContent';
 
 import { getAllProjects } from '../../lib/data';
 import { motion } from 'framer-motion';
@@ -100,11 +101,14 @@ export default function ProjectPage({ title, type, description, duration, header
           <div>
           </div>
         </header>
-
         <BackToTop />
 
         <article className={slugStyle.noteArticle}>
           <p className={slugStyle.abstract}>{description}</p>
+
+          {title.includes('i-Talent') &&     
+          <TableOfContents />
+          }
 
           <div id="content" className={slugStyle.articleContent}>
             <MDXRemote {...content} />

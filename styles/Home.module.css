@@ -97,13 +97,13 @@ ul.breadcrumb lia:hover {
 }
 
 .contactSection {
-  max-width: 850px;
+  max-width: 680px;
   margin: auto;
 }
 
-.contactSection h1.sectionHeading {
+.contactSection h1 {
   text-align: left !important;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .contactSection h1.sectionHeading a:hover {
