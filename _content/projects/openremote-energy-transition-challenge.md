@@ -15,15 +15,9 @@ labelIcons: ['🔍', '🤖']
 International variation of the PXL Digital Research Project, in collaboration with Fontys Hogeschool in the Netherlands and Belgium Campus University in South Africa.
 Together we are working on the OpenRemote Energy Transition Challenge.
 
-<br/><br/>
-
 Eco-friendly houses that run on green energy are becoming more popular every day. The challenge with green energy is consistency. The weather changes often and the locations where these differences are adapted are vastly different. As a result, energy production occurs every day, in every place differently. There is therefore a need for a solution to view the energy production and use of off-grid (not connected to the electricity grid) houses (eg through IoT devices).
 
-<br/><br/>
-
 Our job is to work with homes and/or properties equipped with off-grid (not connected to the powergrid) infrastructure such as solar panels, wind turbines, energy storage batteries and IoT devices that monitor the system for power production, power consumption, etc. The system needs power and an internet connection.
-
-<br/><br/>
 
 The ultimate goal is to ensure that energy consumption is predicted by a machine learning model. And based on that, decide how the house or building should receive power (via battery or directly via green energy).
 The purpose of using green energy is to move away from traditional fossil fuels that cause pollution and deplete our Earth's resources.
@@ -82,10 +76,10 @@ In Microsoft Teams, each research group had been given its own channel. Our meet
 The research project was hardly mentioned in the WhatsApp group. This was intended more as a recreational platform.
 
 ## Technical Implementation
-_The technical solution with a deeper understanding of machine learning_<br/><br/>
+_The technical solution with a deeper understanding of machine learning_<br />
 
 ### Front-end
-The front-end consists of a web application made in the Javascript framework ReactJS. The app provides a visual representation of all predictions made in the machine learning model. <br/><br/>
+The front-end consists of a web application made in the Javascript framework ReactJS. The app provides a visual representation of all predictions made in the machine learning model. <br />
 
 The first API has also been developed in the front-end. Thanks to this API, OpenRemote data is available in every part of the project. The API is set up in an Ubuntu and Nginx docker container on a **VPS(*)** at the cloud computing specialist: **OVHcloud**. The VPS belongs to a member of the group and this person has given full permission to use it during this project. On the nginx, HTTPS is used, i.e. there is secure communication between the sender and receiver of the information.
 <br/>
@@ -96,7 +90,7 @@ The front-end itself also makes calls to a third-party API with weather informat
 The back-end mainly consists of the Spring framework for the Java platform in combination with a MongoDB database. The core features of the framework can be used by any Java application, but there are extensions for building web backends on top of the Java EE (Enterprise Edition).
 <br/>
 The back-end also has its own API. With this API, new or previous predictions from the machine learning model can be requested.
-<br/><br/>
+<br />
 Secure HTTPS communication has also been used here in combination with API call logging. I.e. that with every API call, information about the requester is noted in a log file. This API also cannot be accessed without authentication. So there are several layers of security in the back-end. This ensures that any intruders cannot get in. This is also known as multifactorial authentication.
 <br/>
 
@@ -132,20 +126,20 @@ We have chosen a “**Random Forest**” model.
 As the name suggests, “Random Forest” is an algorithm that contains a number of **decision trees(*)** for different subsets of the given dataset and averages it to improve the predictive accuracy of that dataset.
 <br/>
 Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority "votes" of the predictions, it predicts the final output.
-<br/><br/>
+<br />
 The greater number of trees in the forest leads to higher accuracy and avoids the problem of overfitting.
-After implementing, training and testing this model, it is possible to make the most accurate decisions.<br/><br/>
+After implementing, training and testing this model, it is possible to make the most accurate decisions.<br />
 
 ## Conclusion & Reflection
-_The ultimate goal is to ensure that energy consumption is predicted on the basis of machine learning. And based on that, decide how the house or building should receive power (via battery or directly via green energy)._<br/><br/>
+_The ultimate goal is to ensure that energy consumption is predicted on the basis of machine learning. And based on that, decide how the house or building should receive power (via battery or directly via green energy)._<br />
 
 The goal that OpenRemote had in mind has certainly been achieved on most points. There is a working, accurate prediction model based on the UV values and the data from OpenRemote. These predictions can be shown on a user-friendly dashboard with comparisons and warnings in the form of graphs and tables. The data is neatly stored in the database and can be retrieved again using the custom APIs. Integration with existing OpenRemote systems was not part of this research project.
 
-<br/><br/>
+<br />
 
 ---
 
-<br/><br/>
+<br />
 
 _**(*)**_<br/>
 **VPS**: _Een Virtual Private Server, is een virtuele machine die als een service wordt verkocht door een internethostingservice._ 

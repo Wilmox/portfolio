@@ -12,7 +12,7 @@ labelIcons: ['📚', '🤖']
 
 ## A perfect game of Tic Tac Toe
 If you play perfectly, every time you play you will either win the game, or you will draw the game. Furthermore if you play against another perfect player, you will always draw the game.
-<br/><br/>
+<br />
 There are 3 "end-conditions" in the Tic Tac Toe game:
 
 - You win! You get 10 points, the AI loses 10 points.
