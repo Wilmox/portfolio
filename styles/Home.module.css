@@ -172,7 +172,7 @@ ul.breadcrumb lia:hover {
 
 @media screen and (max-width: 505px) {
   .title {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
   .info {
     height: 10vw;

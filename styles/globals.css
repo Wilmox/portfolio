@@ -1,4 +1,5 @@
 @import url("./responsive.css");
+
 @font-face {
   font-family: 'Monument';
   src: url('./webfontkit/monumentextended-regular-webfont.woff') format('woff');
@@ -74,7 +75,7 @@ summary::hover {
 section h1 {
   text-align: center;
   font-size: 4rem;
-  padding: 0 0 3vw 0;
+  /*padding: 0 0 3vw 0;*/
   letter-spacing: 0.2rem;
 }
 
@@ -87,23 +88,24 @@ progress#scrollProgress {
   transform: translate(calc(50% - 3px), calc(50vh - 50%)) rotate(90deg);
   width: 100vh;
   height: 6px;
-  user-select:none;
+  user-select: none;
 }
 
 progress#scrollProgress::-webkit-progress-bar {
   background-color: transparent;
-  user-select:none;
+  user-select: none;
 }
 
 progress#scrollProgress::-webkit-progress-value {
   background-color: white;
-  user-select:none;
+  user-select: none;
 }
 
 @media screen and (max-width: 625px) {
   section h1 {
     font-size: 3rem !important;
   }
+
   .main {
     padding: 0;
   }

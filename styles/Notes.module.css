@@ -9,7 +9,6 @@
 }
 
 .noteSection header h1 {
-  padding: 0;
   text-align: left !important;
 }
 
@@ -32,13 +31,13 @@
   grid-column-start: span 1;
   grid-row-end: span 1;
   grid-row-start: span 1;
-  padding: 1vw;
+  padding: 1rem;
 }
 
 .noteCard h2 {
   font-size: 2rem;
   letter-spacing: 0.1rem;
-  padding: 0 0 .2vw 0;
+  padding: 0 0 .2rem 0;
 }
 
 .noteCard h3 {
@@ -46,7 +45,7 @@
   font-size: 1.5rem;
   font-weight: lighter;
   opacity: .5;
-  padding: 0 0 .2vw 0;
+  padding: 0 0 .2rem 0;
 }
 
 .noteCard p, .noteSection header p {
