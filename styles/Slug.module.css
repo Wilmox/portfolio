@@ -83,6 +83,7 @@ div.articleContent {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     line-height: 1.4rem;
+    text-align: justify;
 }
 
 /***********************************
@@ -99,8 +100,9 @@ Styling generated HTML from Markdown
 .articleContent h1 {
     font-family: 'Monument';
     font-size: 2.25em;
+    text-align: left !important;
     margin-top: 3rem;
-    margin-bottom: .05rem;
+    margin-bottom: 1rem;
     line-height: 1.1;
     letter-spacing: 0.05rem;
 }
@@ -122,6 +124,11 @@ Styling generated HTML from Markdown
     margin-bottom: .5em;
 }
 
+.articleContent p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .articleContent p a {
     font-weight: bold;
     text-decoration: underline;
@@ -135,7 +142,7 @@ Styling generated HTML from Markdown
     background: rgba(255, 255, 0, 0.5);
 }
 
-.articleContent em {
+.articleContent p em {
     opacity: .7;
     font-style: italic;
 }
