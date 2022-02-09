@@ -8,8 +8,8 @@ rating: 5
 amazonLink: 'https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299'
 bookCover: '/assets/img/bookcovers/atomic-habits.jpg'
 slug: 'atomic-habits'
-labelText: ['Psychology']
-labelIcons: ['🧠']
+labelText: ['Psychology', 'Self-improvement']
+labelIcons: ['🧠', '📈']
 ---
 
 # The Fundamentals
