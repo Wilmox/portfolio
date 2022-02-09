@@ -30,28 +30,28 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
   return (
     <div id="top" className={styles.container}>
       <Head>
-      <title>{title + " by " + author + " | Notes & Summaries \u{1F4DD}"}</title>
-        <meta name="keywords" content="portfolio, simon, wilmots, Simon, Wilmots, note"/>
+        <title>{title + " by " + author + " | Notes & Summaries \u{1F4DD}"}</title>
+        <meta name="keywords" content="portfolio, simon, wilmots, Simon, Wilmots, note" />
         <meta name="description" content={title + " by " + author + " | Notes & Summaries"} />
         <meta name="subject" content="Simon Wilmots' Notes & Summaries" />
-        <meta name="copyright"content="Simon Wilmots" />
+        <meta name="copyright" content="Simon Wilmots" />
         <meta name="language" content="en_GB" />
         <meta name="robots" content="index,follow" />
         <meta name="abstract" content={abstract} />
         <meta name="summary" content={abstract} />
         <meta name="Classification" content="Personal" />
         <meta name="author" content="Simon Wilmots" />
-        <meta name="owner" content="Simon Wilmots"/>
-        <meta name="url" content={"simonwilmots.com/note/" + slug}/>
+        <meta name="owner" content="Simon Wilmots" />
+        <meta name="url" content={"simonwilmots.com/note/" + slug} />
         <meta name="rating" content="General" />
 
         <meta name="og:title" content={title + " by " + author + " | Notes & Summaries"} />
         <meta property="og:locale" content="en_GB" />
-        <meta name="og:url" content={"simonwilmots.com/note/" + slug}/>
-        <meta name="og:description" content={abstract}/>
-        <meta name="og:site_name" content={"simonwilmots.com/note/" + slug}/>
+        <meta name="og:url" content={"simonwilmots.com/note/" + slug} />
+        <meta name="og:description" content={abstract} />
+        <meta name="og:site_name" content={"simonwilmots.com/note/" + slug} />
         <meta name="og:image" content={bookCover} />
-        <meta name="og:type" content="website"/>
+        <meta name="og:type" content="website" />
 
         <link rel="canonical" href={"simonwilmots.com/note/" + slug} />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -124,20 +124,20 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           {/* Image test  */}
           {bookCover ? (
             <div className={slugStyle.cover}>
-                <div className={slugStyle.book}>
-                  <div className={slugStyle.inner_book}>
-                    <div className={slugStyle.img} style={{paddingTop: "calc(1.07 * 100%)"}}>
-                      <Image src={bookCover} width={135} height={210} />
-                    </div>
-                    <div className={slugStyle.page}></div>
-                    <div className={[slugStyle.page, slugStyle.page_2].join(" ")}></div>
-                    <div className={[slugStyle.page, slugStyle.page_3].join(" ")}></div>
-                    <div className={[slugStyle.page, slugStyle.page_4].join(" ")}></div>
-                    <div className={[slugStyle.page, slugStyle.page_5].join(" ")}></div>
-                    <div className={[slugStyle.img, slugStyle.final_page].join(" ")} style={{paddingTop: "calc(1.07 * 100%)"}}>
-                      <Image src={bookCover} width={135} height={210} />
-                    </div>
+              <div className={slugStyle.book}>
+                <div className={slugStyle.inner_book}>
+                  <div className={slugStyle.img} style={{ paddingTop: "calc(1.07 * 100%)" }}>
+                    <Image src={bookCover} width={135} height={210} />
                   </div>
+                  <div className={slugStyle.page}></div>
+                  <div className={[slugStyle.page, slugStyle.page_2].join(" ")}></div>
+                  <div className={[slugStyle.page, slugStyle.page_3].join(" ")}></div>
+                  <div className={[slugStyle.page, slugStyle.page_4].join(" ")}></div>
+                  <div className={[slugStyle.page, slugStyle.page_5].join(" ")}></div>
+                  <div className={[slugStyle.img, slugStyle.final_page].join(" ")} style={{ paddingTop: "calc(1.07 * 100%)" }}>
+                    <Image src={bookCover} width={135} height={210} />
+                  </div>
+                </div>
               </div>
             </div>
           ) : (console.log("No cover image found"))
@@ -149,7 +149,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
           <div id="content" className={slugStyle.articleContent}>
             <MDXRemote {...content} />
           </div>
-          <p className={slugStyle.slug}>{"simonwilmots.com/note/" + slug}</p>
+          {/*<p className={slugStyle.slug}>{"simonwilmots.com/note/" + slug}</p>*/}
         </article>
 
       </motion.main>
@@ -162,7 +162,7 @@ export async function getStaticProps(context) {
   const { params } = context;
   const allNotes = getAllNotes();
   const { content, data } = allNotes.find((note) => note.slug === params.slug);
-  
+
   const mdxSource = await serialize(content)
   return {
     props: {

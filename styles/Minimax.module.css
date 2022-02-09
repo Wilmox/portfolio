@@ -15,7 +15,7 @@ div.tic_tac_toe table {
     border: none;
     margin: 5vw auto;
 }
-  
+
 div.tic_tac_toe table td {
     border: 1px solid white;
     width: 12vw;
@@ -27,19 +27,19 @@ div.tic_tac_toe table td {
 div.tic_tac_toe table td:hover {
     cursor: pointer;
 }
-  
+
 div.tic_tac_toe table tr:first-child td {
     border-top: none;
 }
-  
+
 div.tic_tac_toe table tr:last-child td {
     border-bottom: none;
 }
-  
+
 div.tic_tac_toe table tr td:first-child {
     border-left: none;
 }
-  
+
 div.tic_tac_toe table tr td:last-child {
     border-right: none;
 }

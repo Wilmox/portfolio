@@ -19,7 +19,7 @@
   grid-auto-columns: 1fr;
   grid-column-gap: 2vw;
   grid-row-gap: 2vw;
-  grid-template-areas: "a a" "a  a" "a  a";
+  grid-template-areas: "a a""a  a""a  a";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
@@ -61,6 +61,7 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
 }
+
 .aboutNote {
   margin-top: 16px;
   width: 100%;
@@ -76,7 +77,7 @@
   .notes {
     grid-column-gap: 1vw;
     grid-row-gap: 5vw;
-    grid-template-areas: "a" "a" "a";
+    grid-template-areas: "a""a""a";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin: 5vw auto;
