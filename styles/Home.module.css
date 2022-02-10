@@ -84,30 +84,39 @@ ul.breadcrumb li+li:before {
   content: "/\00a0";
 }
 
-ul.breadcrumb lia {
+ul.breadcrumb li a {
   opacity: .5;
   text-decoration: none;
   transition: .5s;
+  padding-bottom: 2px;
 }
 
-ul.breadcrumb lia:hover {
-  text-decoration: underline;
+ul.breadcrumb li a:hover {
+  border-bottom: 1px solid white;
   cursor: pointer;
-  transition: .5s;
+  transition: 1s;
 }
 
 .contactSection {
-  max-width: 680px;
+  max-width: 800px;
   margin: auto;
 }
 
 .contactSection h1 {
   text-align: left !important;
+  padding-bottom: 1px; 
   font-size: 4rem;
 }
 
-.contactSection h1.sectionHeading a:hover {
-  text-decoration: underline;
+.contactSection h1 a {
+  border-bottom: 4px solid white;
+  transition: .5s;
+}
+
+.contactSection h1 a:hover {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: black;
+  border-bottom: 1px solid white;
 }
 
 @media screen and (max-width: 1350px) {
@@ -144,6 +153,10 @@ ul.breadcrumb lia:hover {
 
   .aboutSection {
     margin: 10vw auto;
+  }
+
+  .contactSection {
+    width: 90%;
   }
 }
 

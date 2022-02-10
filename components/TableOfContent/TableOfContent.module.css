@@ -18,9 +18,9 @@ nav.ToC ol {
 }
 
 nav.ToC ol li {
-    width: max-content;
-    line-height: 1.6;
-    margin-bottom: 0.5rem;  
+    /*width: max-content;*/
+    line-height: 1.5;
+    margin-bottom: 1rem; 
 }
 
 nav.ToC li a{
@@ -28,7 +28,8 @@ nav.ToC li a{
     font-weight: 300;
     transition: .5s;
     color: #ffffff85;
-    text-decoration: underline;
+    border-bottom: 1px solid #ffffff85;
+    padding-bottom: 1px; 
     font-size: 1.1rem;
 }
 

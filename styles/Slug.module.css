@@ -131,11 +131,13 @@ Styling generated HTML from Markdown
 
 .articleContent p a {
     font-weight: bold;
-    text-decoration: underline;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
 }
 
 .articleContent p span {
-    text-decoration: underline;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
 }
 
 .articleContent p span#marker {
