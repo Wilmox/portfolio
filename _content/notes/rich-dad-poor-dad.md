@@ -14,7 +14,7 @@ labelIcons: ['💸']
 
 # Introduction
 
-_Poor Dad was Kiyosaki’s biological father, a man who was highly intelligent and very well educated. Poor Dad believed in studying hard and getting good grades, then finding a well-paying job. Yet, despite these seemingly positive attributes, Poor Dad didn’t do well financially._<br /><br />
+_Poor Dad was Kiyosaki’s biological father, a man who was highly intelligent and very well educated. Poor Dad believed in studying hard and getting good grades, then finding a well-paying job. Yet, despite these seemingly positive attributes, Poor Dad didn’t do well financially._<br />
 
 _Rich Dad was the father of Kiyosaki’s best friend. He had a similar work ethic to Kiyosaki’s real dad, but with a twist. Rich Dad believed in financial education, learning how money works, and understanding how to make money work for you. Although he was an eighth-grade dropout, Rich Dad eventually became a millionaire by putting the power of money to work for him._
 

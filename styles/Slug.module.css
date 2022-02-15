@@ -83,6 +83,7 @@ div.articleContent {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     line-height: 1.4rem;
+    text-align: justify;
 }
 
 /***********************************
@@ -91,24 +92,25 @@ Styling generated HTML from Markdown
 
 ***********************************/
 
-.articleContent h1, .articleContent h2, .articleContent h3, .articleContent h4 {
+/*.articleContent h1, .articleContent h2, .articleContent h3, .articleContent h4 {
     font-weight: lighter;
     
-}
+}*/
 
 .articleContent h1 {
     font-family: 'Monument';
     font-size: 2.25em;
+    text-align: left !important;
     margin-top: 3rem;
-    margin-bottom: .05rem;
+    margin-bottom: 1rem;
     line-height: 1.1;
     letter-spacing: 0.05rem;
 }
 
 .articleContent h2 {
-    font-size: 1.5rem;
-    margin-top: 1em;
-    margin-bottom: 1rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: .25rem;
 }
 
 .articleContent h3 {
@@ -123,23 +125,26 @@ Styling generated HTML from Markdown
 }
 
 .articleContent p {
-    margin: 1.25rem 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .articleContent p a {
     font-weight: bold;
-    text-decoration: underline;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
 }
 
 .articleContent p span {
-    text-decoration: underline;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
 }
 
 .articleContent p span#marker {
     background: rgba(255, 255, 0, 0.5);
 }
 
-.articleContent em {
+.articleContent p em {
     opacity: .7;
     font-style: italic;
 }
@@ -192,7 +197,7 @@ Styling generated HTML from Markdown
     list-style-type: decimal !important;
 }
 
-.articleContent li{
+.articleContent li {
     margin: .5rem 0;
 }
 
@@ -377,8 +382,6 @@ Styling generated HTML from Markdown
     transform: rotateY(-19deg) translateZ(-10px) scale(0.984);
 }
 
-.articleContent .footnote {}
-
 div.labels {
     margin: .5vw 0 .8vw 0;
 }
@@ -395,18 +398,37 @@ div.labels {
         width: 100% !important;
         padding: 3vw !important;
     }
+
     .noteArticle {
         margin: 5vw auto;
     }
+
     h1.title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
+
+    .noteArticle .abstract {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .articleContent h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .articleContent h2 {
+        font-size: 1rem;
+    }
+
     h2.author {
         font-size: 1.5rem;
     }
+
     .metaItem {
         margin: 0;
     }
+
     .noteArticle iframe {
         width: 100%;
         height: 42vh;

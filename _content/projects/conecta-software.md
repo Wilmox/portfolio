@@ -12,9 +12,9 @@ labelIcons: ['🔍', '🐳']
 
 ## Introduction
 
-In my senior year at Miniemeninstituut, to be able to graduate, we had to set up our own company the same way we should in real life. With this "company", we had the opportunity to do an internship in different kind of companies and enterprises. <br /><br />
+In my senior year at Miniemeninstituut, to be able to graduate, we had to set up our own company the same way we should in real life. With this "company", we had the opportunity to do an internship in different kind of companies and enterprises. <br />
 
-Out of <span>45 students</span>, only **six** could go on international internships; three people could go to The Netherlands and another three people could go to Tenerife (Canary Islands, Spain).<br /><br />
+Out of <span>45 students</span>, only **six** could go on international internships; three people could go to The Netherlands and another three people could go to Tenerife (Canary Islands, Spain).<br />
 
 After some hard work and a lot of presentations and interviews, our "company" called **CodeX Ltd.** was selected for the international internship at Conecta Software in Tenerife, Spain.
 

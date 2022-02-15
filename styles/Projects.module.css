@@ -8,9 +8,8 @@
     max-width: 1350px;
     margin: 0 auto !important;
 }
-  
+
 .projectSection header h1 {
-    padding: 0;
     text-align: left !important;
 }
 
@@ -22,7 +21,7 @@
     grid-auto-columns: 1fr;
     grid-column-gap: 2vw;
     grid-row-gap: 2vw;
-    grid-template-areas: "a a" "a  a" "a  a";
+    grid-template-areas: "a a""a  a";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 }
@@ -63,7 +62,7 @@
     padding: 0 0 .2vw 0;
 }
 
-.cardText p, .projectSection header p  {
+.cardText p, .projectSection header p {
     font-weight: 300;
     line-height: 160%;
     font-family: 'Roboto', sans-serif;
@@ -80,7 +79,7 @@
 .projectSection a.link {
     text-align: center;
     display: inline-block;
-    margin: 2vw auto;
+    margin: 0 auto;
 }
 
 .projectSection a.link:hover {
@@ -90,10 +89,31 @@
 
 @media screen and (max-width: 800px) {
     .projects {
-      grid-column-gap: 1vw;
-      grid-row-gap: 10vw;
-      grid-template-areas: "a" "a" "a";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
+        grid-column-gap: 1vw;
+        grid-row-gap: 10vw;
+        grid-template-areas: "a""a""a";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
     }
-  }
+}
+
+@media screen and (max-width: 625px) {
+
+    .projectCard h2 {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .projectCard {
+        width: 100%;
+    }
+
+    .projectCard h2 {
+        font-size: 1rem !important;
+    }
+
+    .projectCard h3 {
+        font-size: 1rem;
+    }
+}

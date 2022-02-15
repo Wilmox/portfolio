@@ -1,7 +1,7 @@
 footer.footer {
     width: 100%;
     max-width: 1350px;
-    margin: auto;
+    margin: 5rem auto 0;
     padding-right: 40px;
     padding-left: 40px;
     align-items: center;
@@ -17,7 +17,6 @@ footer div.socials {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    ;
     grid-template-rows: auto auto;
 }
 

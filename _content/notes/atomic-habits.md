@@ -8,8 +8,8 @@ rating: 5
 amazonLink: 'https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299'
 bookCover: '/assets/img/bookcovers/atomic-habits.jpg'
 slug: 'atomic-habits'
-labelText: ['Psychology']
-labelIcons: ['🧠']
+labelText: ['Self-improvement', 'Psychology']
+labelIcons: ['📈', '🧠']
 ---
 
 # The Fundamentals
@@ -24,13 +24,13 @@ Habit: _A routine or practice performed regularly; an automatic response to a sp
 
 ### Why Tiny Changes Make a Big Difference
 
-It is so easy to overestimate the importance of one defining moment and underestimate the value of making small improvements on a daily basis. Too often we convince ourselves that massive success requires massive action.<br /><br />
+It is so easy to overestimate the importance of one defining moment and underestimate the value of making small improvements on a daily basis. Too often we convince ourselves that massive success requires massive action.<br />
 
-Improving by just 1 percent every day isn’t particularly notable - but it can be far more meaningful in the long run. If you improve 1 percent every day, you’ll end up thirty-seven times better in one year’s time! (1.01^365 = 37.78)<br /><br />
+Improving by just 1 percent every day isn’t particularly notable - but it can be far more meaningful in the long run. If you improve 1 percent every day, you’ll end up thirty-seven times better in one year’s time! (1.01^365 = 37.78)<br />
 
-You must be aware that this is also true for the opposite. If you get one percent worse every day, you’ll decline nearly down to zero. What starts as a small win or minor setback accumulates into something much more.<br /><br />
+You must be aware that this is also true for the opposite. If you get one percent worse every day, you’ll decline nearly down to zero. What starts as a small win or minor setback accumulates into something much more.<br />
 
-The difficulty is that small changes don’t seem to matter at the moment itself. If you save a little money now, you’re still not a millionaire. If you go to the gym three days in a row, you’re still out of shape, etc…<br /><br />
+The difficulty is that small changes don’t seem to matter at the moment itself. If you save a little money now, you’re still not a millionaire. If you go to the gym three days in a row, you’re still out of shape, etc…<br />
 
 The same applies to shifting the route of an airplane by just a few degrees. A couple of degrees turn can completely change where you end up.
 
@@ -83,23 +83,23 @@ Goals are about the results you want to achieve. Systems are about the processes
 * As a musician, your goal is to learn to play a new piece, your system is how much you practice.
 * As an entrepreneur, your goal is to have a successful company, your system is how you test product ideas, hire employees, ...
 
-“If you completely ignored your goal and only focused on your systems, would you still succeed?” I think you would. So are goals completely useless? Of course NOT. Goals are there for setting a direction, but systems are best for making progress. But there are some problems when you spend too much time thinking about your goals.<br /><br />
+“If you completely ignored your goal and only focused on your systems, would you still succeed?” I think you would. So are goals completely useless? Of course NOT. Goals are there for setting a direction, but systems are best for making progress. But there are some problems when you spend too much time thinking about your goals.<br />
 
 **Problem #1: Winners and losers have the same goals.**
 
 _Every olympian wants to win a gold medal, every candidate wants to get the job._
 
-If successful and unsuccessful people share the same goals, then the goal cannot be what differentiates the winners from the losers. It is the system they use to get there.<br /><br />
+If successful and unsuccessful people share the same goals, then the goal cannot be what differentiates the winners from the losers. It is the system they use to get there.<br />
 
 **Problem #2: Achieving a goal is only a momentary change.**
 
 If you set a goal to clean up your room and summon the energy to do it, you will have a clean room. But if you maintain the same sloppy habits that led to a messy room in the first place, soon you’ll be looking at a new pile of clothes. 
 
-We think we need to change our results, but we really need to change the systems that cause those results. Fix the inputs and the outputs will fix themselves.<br /><br />
+We think we need to change our results, but we really need to change the systems that cause those results. Fix the inputs and the outputs will fix themselves.<br />
 
 **Problem #3: Goals restrict your happiness.**
 
-The assumption behind almost every goal is: “If I achieve my goal THEN I will be happy”. This goal-first mentality is that you put your happiness off to the next milestone. A systems-first mentality provides the antidote. When you fall in love with the process, you can be satisfied anytime your system is running.<br /><br />
+The assumption behind almost every goal is: “If I achieve my goal THEN I will be happy”. This goal-first mentality is that you put your happiness off to the next milestone. A systems-first mentality provides the antidote. When you fall in love with the process, you can be satisfied anytime your system is running.<br />
 
 **Problem #4: Goals are at odds with long-term progress.**
 
@@ -246,7 +246,7 @@ Once a habit has been encoded into the brain, the urge to act follows whenever t
 
 Bad habits are autocatalytic: the process feeds itself.
 
-A reliable approach is to cut bad habits off at the source. One of the most practical ways to eliminate a bad habit is to reduce expsure to the cue that causes it.<br /><br />
+A reliable approach is to cut bad habits off at the source. One of the most practical ways to eliminate a bad habit is to reduce expsure to the cue that causes it.<br />
 
 Examples:
 
@@ -260,7 +260,7 @@ Examples:
 
 ## Make a good habit irresistible
 
-_The more attractive an opportunity is, the more likely it is to become habit-forming._<br /><br />
+_The more attractive an opportunity is, the more likely it is to become habit-forming._<br />
 
 This method of combining habits is called **Temptation Bundling**. You can combine temptation bundling with habit stacking to create a set of rules to guide your behavior
 
@@ -336,7 +336,7 @@ Habit formation is the process by which a behavior becomes progressively more au
 
 ## How to Stop Procrastinating by Using the Two-Minute Rule
 
-Every day, there are a handful of moments that deliver an outsized impact: The moment you decide between starting your homework or grabbing the videogame controller or the moment you decide to order takeout or cooking dinner.<br /><br />
+Every day, there are a handful of moments that deliver an outsized impact: The moment you decide between starting your homework or grabbing the videogame controller or the moment you decide to order takeout or cooking dinner.<br />
 
 The difference between a good and a bad day is often a few productive and healthy choices made at decisive moments. These choices can stack up and can lead to very different outcomes.
 
@@ -363,7 +363,7 @@ A new habit should not feel like a challenge. The actions that **follow** can be
 
 ## How to Make Good Habits Inevitable and Bad Habits Impossible
 
-_The inversion of the 3rd Law of Behaviour Change is “make it difficult”. If you find yourself struggling to follow through on your plans, you can make your BAD habits more difficult._<br /><br />
+_The inversion of the 3rd Law of Behaviour Change is “make it difficult”. If you find yourself struggling to follow through on your plans, you can make your BAD habits more difficult._<br />
 
 Examples: 
 
@@ -420,11 +420,11 @@ The most effective form of motivation is progress. Each small win or step in the
 
 ### Benefit #3: Habit tracking is satisfying
 
-Tracking can become its own form of reward. It is satisfying to cross an item off your to-do list.<br /><br />
+Tracking can become its own form of reward. It is satisfying to cross an item off your to-do list.<br />
 
-To summarize the benefits in one paragraph: Habit tracking (1) creates a <span >visual cue that can remind you to act</span>, (2) it is motivating because <span >you can see the progres</span>s you are making and don’t want to lose it and (3) it feels satisfying whenever you <span >record another successful instance</span> of your habit.<br /><br />
+To summarize the benefits in one paragraph: Habit tracking (1) creates a <span >visual cue that can remind you to act</span>, (2) it is motivating because <span >you can see the progres</span>s you are making and don’t want to lose it and (3) it feels satisfying whenever you <span >record another successful instance</span> of your habit.<br />
 
-Tracking isn’t for everyone, and there is no need to measure your entire life. But nearly anyone can benefit from it in some form. Even if it’s only temporary. To make tracking easier, measurements should be <span >automated</span>. For example: your credit card statement tracks how often you eat out, you fitbit registers how many steps you take and how long you sleep,…<br /><br />
+Tracking isn’t for everyone, and there is no need to measure your entire life. But nearly anyone can benefit from it in some form. Even if it’s only temporary. To make tracking easier, measurements should be <span >automated</span>. For example: your credit card statement tracks how often you eat out, you fitbit registers how many steps you take and how long you sleep,…<br />
 
 **HOW TO RECOVER QUICKLY WHEN YOUR HABITS BREAK DOWN**
 
@@ -432,15 +432,15 @@ No matter how consistent you are with your habits, it is inevitable that life wi
 
 > NEVER miss TWICE
 
-If you miss one day, you **need **to try to get back into it as quickly as possible.<br /><br />
+If you miss one day, you **need **to try to get back into it as quickly as possible.<br />
 
 The dark side of habit tracking is that we become driven by the number rather than the purpose behind it. The human mind wants to “win” whatever game is being played.
 
-This pitfall is evident in many areas of life. We focus on long hours instead of getting meaningful work done. We care more about a thousand steps than we do about being healthy, etc.<br /><br />
+This pitfall is evident in many areas of life. We focus on long hours instead of getting meaningful work done. We care more about a thousand steps than we do about being healthy, etc.<br />
 
 **<span>Just because you measure something, doesn’t mean it’s the most important thing</span>**
 
-<br /><br />
+<br />
 
 # How To Go From Being Good To Great 
 
@@ -463,9 +463,9 @@ The “Big Five” personality traits that influence your behavior:
 
 **HOW TO FIND A GAME WHERE THE ODDS ARE IN YOUR FAVOR**
 
-With the four laws of behavioural change in mind, there is an effective way to manage your time so you don’t have to try every college degree, every job, every instrument, … It is called the **<span >explore/exploit trade-off</span>**.<br /><br />
+With the four laws of behavioural change in mind, there is an effective way to manage your time so you don’t have to try every college degree, every job, every instrument, … It is called the **<span >explore/exploit trade-off</span>**.<br />
 
-In de beginning of a new activity, there should be a period of exploration. In a relationship this is called the dating-period. The goal is to try out as many possibilities and research a lot of ideas. After the exploration, shift your focus to the best solution you’ve found-but keep experimenting occasionally. The proper balance is whether you are winning or losing. If you are winning you keep exploiting, if you are losing you keep exploring.<br /><br />
+In de beginning of a new activity, there should be a period of exploration. In a relationship this is called the dating-period. The goal is to try out as many possibilities and research a lot of ideas. After the exploration, shift your focus to the best solution you’ve found-but keep experimenting occasionally. The proper balance is whether you are winning or losing. If you are winning you keep exploiting, if you are losing you keep exploring.<br />
 
 Exploration questions:
 
@@ -484,13 +484,13 @@ Mastery requires practice. The most successful people feel the same boredom, the
 
 ## The Downside of Creating Good Habits
 
-The downside to good habits is that we stop paying attention to little errors in the habit. Over time this can cause a drop in performance of the habit.<br /><br />
+The downside to good habits is that we stop paying attention to little errors in the habit. Over time this can cause a drop in performance of the habit.<br />
 
-**HOW TO REVIEW AND ADJUST YOUR HABITS**<br /><br />
+**HOW TO REVIEW AND ADJUST YOUR HABITS**<br />
 
-Reflection and review is a process that allows you to remain conscious of your performance over time. This can be done by journaling your habits.<br /><br />
+Reflection and review is a process that allows you to remain conscious of your performance over time. This can be done by journaling your habits.<br />
 
-**HOW TO BREAK THE BELIEFS THAT HOLD YOU BACK**<br /><br />
+**HOW TO BREAK THE BELIEFS THAT HOLD YOU BACK**<br />
 
 The key to mitigating these losses of identity is to redefine yourself such that you get to keep important aspects of your identity even if your particular role changes:
 
@@ -500,8 +500,8 @@ The key to mitigating these losses of identity is to redefine yourself such that
 <br />
 
 # Conclusion
-One coin won't make you rich, one positive change like meditating for one minute or reading on epage each day is unlikely to deliver a noticeable difference.<br /><br />
+One coin won't make you rich, one positive change like meditating for one minute or reading on epage each day is unlikely to deliver a noticeable difference.<br />
 
-Gradually, though, as you cintinue to layer small changes on top of one other, the scales of life start to move. Each improvement is like adding a grain of sand to the positive side of the scale, slowly tilting things in your favor. Eventually, if you stick with it, you hit a tipping point.<br /><br />
+Gradually, though, as you cintinue to layer small changes on top of one other, the scales of life start to move. Each improvement is like adding a grain of sand to the positive side of the scale, slowly tilting things in your favor. Eventually, if you stick with it, you hit a tipping point.<br />
 
-This is a continuous process. There is no finish line or permanent solution. Whenever you're looking to improve, you can rotate through the <span>Four Laws of Behaviour Change</span> until you find the next bottleneck. Make it obvious, attractive, easy & satisfying. <span>Always look for the next way to get 1 percent better</span>. **Never stop improving**. <br /><br />
+This is a continuous process. There is no finish line or permanent solution. Whenever you're looking to improve, you can rotate through the <span>Four Laws of Behaviour Change</span> until you find the next bottleneck. Make it obvious, attractive, easy & satisfying. <span>Always look for the next way to get 1 percent better</span>. **Never stop improving**. <br />
