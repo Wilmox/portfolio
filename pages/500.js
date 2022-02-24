@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import Navigation from '../components/Navigation/Navigation';
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Error.module.css'
 import Footer from '../components/Footer/Footer'
 
 export default function Custom500() {
@@ -20,13 +20,19 @@ export default function Custom500() {
                 exit="exit" // Exit state (used later) to variants.exit
                 transition={{ type: 'linear' }} // Set the transition to linear
             >
+                <section>
+                    <Navigation />
+                </section>
                 <section className={styles.errorSection}>
                     {/*<Navigation />*/}
+                    <h2 className={styles.errorCode}>
+                        500.
+                    </h2>
                     <h2>
-                        500. <br /> Internal <br /> Server Error 
+                        Internal Server Error
                     </h2>
 
-                    <Image src="/assets/img/ducks/duck-with-flippers.gif" width="500" height="250" />
+                    {/*<Image src="/assets/img/ducks/duck-with-flippers.gif" width="500" height="250" />*/}
                 </section>
 
             </motion.main>
