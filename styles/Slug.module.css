@@ -108,13 +108,11 @@ Styling generated HTML from Markdown
 }
 
 .articleContent h2 {
-    font-size: 1rem;
     margin-top: 1.5rem;
     margin-bottom: .25rem;
 }
 
 .articleContent h3 {
-    font-size: 1.25rem;
     margin-top: .6rem;
     margin-bottom: .6rem;
 }
