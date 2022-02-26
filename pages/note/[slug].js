@@ -90,7 +90,7 @@ export default function NotePage({ title, author, date, abstract, readTime, rati
             {labelText.map((label, i) => <Chip key={labelText[i]} className={slugStyle.noteChip} text={labelText[i]} icon={labelIcons[i]} />)}
           </div>
 
-          <hr className={styles.divider} />
+          <hr className={slugStyle.divider} />
 
           <div className={slugStyle.noteMeta}>
             <div className={slugStyle.metaItem}>
