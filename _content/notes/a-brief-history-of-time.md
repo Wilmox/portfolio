@@ -112,7 +112,7 @@ In this chapter, Hawking talks about his famous bet with another scientist, Kip 
 
 _This chapter discusses an aspect of black hole behavior that Stephen Hawking discovered._<br />
 
-According to older theories, black holes can only become larger, and never smaller, because nothing which enters a black hole can come out. However, in 1974, Hawking published a new theory which argued that black holes can "leak" radiation. He imagined what might happen if a pair of **virtual particles <span >appeared near the edge of a black hole</span>**. Virtual particles briefly _'borrow' _energy from spacetime itself, then annihilate with each other, <span >returning the borrowed energy</span> and ceasing to exist. However, at the edge of a black hole, one virtual particle might be trapped by the black hole **while the other escapes**. Because of the second law of thermodynamics, particles are 'forbidden' from taking energy from the vacuum. Thus, the particle t<span >akes energy from the black hole instead</span> of from the vacuum, and escape from the black hole as **Hawking radiation**. <br />
+According to older theories, black holes can only become larger, and never smaller, because nothing which enters a black hole can come out. However, in 1974, Hawking published a new theory which argued that black holes can "leak" radiation. He imagined what might happen if a pair of **virtual particles <span >appeared near the edge of a black hole</span>**. Virtual particles briefly _'borrow'_ energy from spacetime itself, then annihilate with each other, <span >returning the borrowed energy</span> and ceasing to exist. However, at the edge of a black hole, one virtual particle might be trapped by the black hole **while the other escapes**. Because of the second law of thermodynamics, particles are 'forbidden' from taking energy from the vacuum. Thus, the particle t<span >akes energy from the black hole instead</span> of from the vacuum, and escape from the black hole as **Hawking radiation**. <br />
 
 According to Hawking's theory, Black Holes must very slowly shrink over time because of this radiation, rather than continue living forever as scientists had previously believed. Though his theory was initially viewed with great skepticism, it would soon be recognized as a scientific breakthrough, earning Hawking significant recognition within the scientific community.
 
@@ -172,7 +172,7 @@ _“It seems that there is a Chronology Protection Agency which prevents the app
 
 Quantum field theory (**QFT**) and general relativity (**GR**) describe the physics of the Universe with astounding accuracy within their own domains of applicability. However, these two theories **contradict **each other. For example, the uncertainty principle of QFT is incompatible with GR. This contradiction, and the fact that QFT and GR do not fully explain observed phenomena, have led physicists to search for a theory of "quantum gravity" that is both internally consistent and explains observed phenomena just as well as or better than existing theories do.<br />
 
-At the time the book was written, "**superstring theory**" had emerged as the most popular theory of quantum gravity, but this theory and related string theories were still incomplete and had yet to be proven in spite of significant effort (this remains the case as of 2020). String theory proposes that particles behave like one-dimensional "**strings**", rather than as dimensionless particles as they do in QFT. These strings <span>"vibrate"</span> in many dimensions. Instead of 3 dimensions as in QFT or 4 dimensions as in GR, superstring theory requires a total of <span >10 dimensions</span>. The nature of the six "hyperspace" dimensions required by superstring theory are difficult if not impossible to study, leaving countless theoretical string theory landscapes which each describe a universe with different properties. Without a means to narrow the scope of possibilities, it is likely impossible to find practical applications for string theory.<br />
+At the time the book was written, "**superstring theory**" had emerged as the most popular theory of quantum gravity, but this theory and related string theories were still incomplete and had yet to be proven in spite of significant effort (this remains the case as of 2020). String theory proposes that particles behave like one-dimensional "**strings**", rather than as dimensionless particles as they do in QFT. These strings _vibrate_  in many dimensions. Instead of 3 dimensions as in QFT or 4 dimensions as in GR, superstring theory requires a total of <span >10 dimensions</span>. The nature of the six "hyperspace" dimensions required by superstring theory are difficult if not impossible to study, leaving countless theoretical string theory landscapes which each describe a universe with different properties. Without a means to narrow the scope of possibilities, it is likely impossible to find practical applications for string theory.<br />
 
 Alternative theories of quantum gravity, such as **loop quantum gravity**, similarly suffer from a lack of evidence and difficulty to study.<br />
 
@@ -199,49 +199,49 @@ Historically, the study of cosmology (the study of the origin, evolution, and en
 
 # Glossary
 
-* _**Anthropic principle**_: We see the universe the way it is, because if it were different we would not be here to observe it.
-* _**Anti-particle**_: Each type of matter particle has a corresponding antiparticle; When they collide, they annihilate eachother, leaving only energy.
-* _**Big bang**_: The singularity at the beginning of the universe.
-* _**Big crunch**_: The singularity at the end of the universe.
-* _**Black hole area theorem**_: Ignoring the quantum mechanics, the surface of a black hole can only grow with time.
-* _**Casimir effect**_: The attractive pressure between two flat, parallel metal plates placed very near each other in a vaccuum.
-* _**Chandrasekhar limit**_: The maximum possible mass of a cold star. If you go above the mass, it MUST collapse into a black hole.
-* _**Conservation of energy**_: The law of science that states: Energy can neither be crated or destroyed.
-* _**Dark energy**_: An unknown form of energy which is accelerating the expansion of the universe.
-* _**Dark matter**_: Matter in galaxies, clusters, and possibly between clusters, that cannot be observed directly but can be detected by its gravitational effect. (90% of the mass of the universe is)
-* _**Duality**_: When two different theories lead to the same physical result.
-* _**Edwin Hubble**_: American Astronomer who discovered that galaxies where (red)-shifting away from Earth.
-* _**Einstein-Rosen bridge**_: A tube in space-time linking two black holes (wormhole)
-* _**Electromagnetic force**_: The force between two particles with an electric charge.
-* _**Event horizon**_: The boundary of a black hole.
-* _**Exclusion principle**_: The idea that two identical spin-1/2 particles cannot have both the same position and velocity.
-* _**Friedmann models**_: Based on general relativity, these models predict that the universe will eventually collapse in on itself in a "big crunch".
-* _**Gamma rays**_: Electromagnetic rays of very short wavelength, produced in radioactive decay or by collisions of elementary particles.
-* _**General relativity**_: Einstein's theory based on the idea that the laws of science should be the same for all observers, no matter how they are moving. It also explains the force of gravity in terms of the curvature of a four-dimensional space-time.
-* _**Geodesic**_: The shortest (or longest) path between two points.
-* _**Gravitational waves**_: Ripples in the curvature of space.
-* _**Inflation**_: The theory that space expanded rapidly in the early universe.
-* _**Information paradox**_: The information that goes into a black hole seems lost, but this contradicts the laws of quantum mechanics.
-* _**Microwave background radiation**_: The radiation from the glowing of the hot early universe, now so greatly red-shifted that it appears as microwaves
-* _**Naked singularity**_: A space-time singularity not surrounded by a black hole/event horizon.
-* _**Neutrino**_: An extremely light (possible massless) particle.
-* _**Neutron**_: An uncharged particle, similar to a proton. (Half of the particles in an atomic nucleus)
-* _**Neutron star**_: A cold star, supported by the explusion principle replusion between neutrons
-* _**No boundary condition**_: The idea that the univers is finite but has no boundary (in imaginary time).
-* _**Nucleus**_: The center of an atom (Protons + neutrons).
-* _**Photon**_: A quantum of light.
-* _**Planck's quantum principle**_: The idea that light (or any other wave) can be emitted or absored only in discrete quanta, whose energy is proportional to their wavelength.
-* _**Proton**_: A positively charged particle.
-* _**Pulsar**_: A rotating neutron star that emits regular pulses of radio waves.
-* _**Quantum**_: The indivisible unit in which waves may be emitted or absorbed.
-* _**Quantum mechanics**_: The theory developed from Planck's principle and Heisenberg's uncertainty principle.
-* _**Quark**_: A (charged) particle. (Photons and neutrons are each composed of three quarks).
-* _**Red shift**_: The reddening of light from a star that is moving aways from us, due to the Doppler effect.
-* _**Singularity**_: A point in space-time at which the space-time curvature becomes infinite.
-* _**Space-time**_: The four-dimensional space whose points are events.
-* _**Special relativity**_: Einstein's theory based on the idea that the laws of science should be the same for all observers, no matter how they are moving, in absence of gravity.
-* _**Spin**_: A property of elementary particles, related to, but not identical to , the everyday concept of spin.
-* _**String theory**_: A theory of physics in which particles are described as waves on strings. Strings have length but no other dimension.
-* _**Uncertainty principle**_: One can never be exactly sure of both the position and and the velocity of a particle.
-* _**Wave/particle duality**_: In quantum mechanics, there is no disinction between waves and particles; because they behave the same.
-* _**White dwarf**_: A stable cold star
+* **Anthropic principle**: We see the universe the way it is, because if it were different we would not be here to observe it.
+* **Anti-particle**: Each type of matter particle has a corresponding antiparticle; When they collide, they annihilate eachother, leaving only energy.
+* **Big bang**: The singularity at the beginning of the universe.
+* **Big crunch**: The singularity at the end of the universe.
+* **Black hole area theorem**: Ignoring the quantum mechanics, the surface of a black hole can only grow with time.
+* **Casimir effect**: The attractive pressure between two flat, parallel metal plates placed very near each other in a vaccuum.
+* **Chandrasekhar limit**: The maximum possible mass of a cold star. If you go above the mass, it MUST collapse into a black hole.
+* **Conservation of energy**: The law of science that states: Energy can neither be crated or destroyed.
+* **Dark energy**: An unknown form of energy which is accelerating the expansion of the universe.
+* **Dark matter**: Matter in galaxies, clusters, and possibly between clusters, that cannot be observed directly but can be detected by its gravitational effect. (90% of the mass of the universe is)
+* **Duality**: When two different theories lead to the same physical result.
+* **Edwin Hubble**: American Astronomer who discovered that galaxies where (red)-shifting away from Earth.
+* **Einstein-Rosen bridge**: A tube in space-time linking two black holes (wormhole)
+* **Electromagnetic force**: The force between two particles with an electric charge.
+* **Event horizon**: The boundary of a black hole.
+* **Exclusion principle**: The idea that two identical spin-1/2 particles cannot have both the same position and velocity.
+* **Friedmann models**: Based on general relativity, these models predict that the universe will eventually collapse in on itself in a "big crunch".
+* **Gamma rays**: Electromagnetic rays of very short wavelength, produced in radioactive decay or by collisions of elementary particles.
+* **General relativity**: Einstein's theory based on the idea that the laws of science should be the same for all observers, no matter how they are moving. It also explains the force of gravity in terms of the curvature of a four-dimensional space-time.
+* **Geodesic**: The shortest (or longest) path between two points.
+* **Gravitational waves**: Ripples in the curvature of space.
+* **Inflation**: The theory that space expanded rapidly in the early universe.
+* **Information paradox**: The information that goes into a black hole seems lost, but this contradicts the laws of quantum mechanics.
+* **Microwave background radiation**: The radiation from the glowing of the hot early universe, now so greatly red-shifted that it appears as microwaves
+* **Naked singularity**: A space-time singularity not surrounded by a black hole/event horizon.
+* **Neutrino**: An extremely light (possible massless) particle.
+* **Neutron**: An uncharged particle, similar to a proton. (Half of the particles in an atomic nucleus)
+* **Neutron star**: A cold star, supported by the explusion principle replusion between neutrons
+* **No boundary condition**: The idea that the univers is finite but has no boundary (in imaginary time).
+* **Nucleus**: The center of an atom (Protons + neutrons).
+* **Photon**: A quantum of light.
+* **Planck's quantum principle**: The idea that light (or any other wave) can be emitted or absored only in discrete quanta, whose energy is proportional to their wavelength.
+* **Proton**: A positively charged particle.
+* **Pulsar**: A rotating neutron star that emits regular pulses of radio waves.
+* **Quantum**: The indivisible unit in which waves may be emitted or absorbed.
+* **Quantum mechanics**: The theory developed from Planck's principle and Heisenberg's uncertainty principle.
+* **Quark**: A (charged) particle. (Photons and neutrons are each composed of three quarks).
+* **Red shift**: The reddening of light from a star that is moving aways from us, due to the Doppler effect.
+* **Singularity**: A point in space-time at which the space-time curvature becomes infinite.
+* **Space-time**: The four-dimensional space whose points are events.
+* **Special relativity**: Einstein's theory based on the idea that the laws of science should be the same for all observers, no matter how they are moving, in absence of gravity.
+* **Spin**: A property of elementary particles, related to, but not identical to , the everyday concept of spin.
+* **String theory**: A theory of physics in which particles are described as waves on strings. Strings have length but no other dimension.
+* **Uncertainty principle**: One can never be exactly sure of both the position and and the velocity of a particle.
+* **Wave/particle duality**: In quantum mechanics, there is no disinction between waves and particles; because they behave the same.
+* **White dwarf**: A stable cold star
