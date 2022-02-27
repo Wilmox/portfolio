@@ -183,18 +183,17 @@ export default function Home() {
               </a>
             </Link>
 
-            <Link href="/note/rich-dad-poor-dad">
+            <Link href="/note/12-rules-for-life">
               <a className={notes.noteCard}>
-                <h2>Rich Dad Poor Dad</h2>
-                <h3>Robert Kiyosaki</h3>
+                <h2>12 Rules For Life</h2>
+                <h3>Jordan B. Peterson</h3>
                 <p>
-                  This book advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing,
-                  starting and owning businesses, as well as increasing one&apos;s financial intelligence. <br />
-                  Rich Dad Poor Dad is written in the style of a set of parables, based on Kiyosaki&apos;s life.
+                  12 Rules for Life: An Antidote to Chaos is a 2018 self-help book by Canadian clinical psychologist and psychology professor Jordan Peterson. 
+                  It provides life advice through essays in abstract ethical principles, psychology, mythology, religion, and personal anecdotes.
                 </p>
                 <div className={notes.aboutNote}>
                   <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                  <Chip className={notes.noteChip} text={"Finance"} icon={"\u{1F4B8}"} />
+                  <Chip className={notes.noteChip} text={"Psychology"} icon={"🧠"} />
                 </div>
               </a>
             </Link>

@@ -1,0 +1,20 @@
+.errorSection {
+    margin: 3rem auto;
+    max-width: 1200px;
+}
+
+.errorSection h2 {
+    font-size: 4rem;
+    width: fit-content;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+}
+
+.errorSection h2.errorCode {
+    background-color: transparent;
+    color: white;
+    text-shadow: none;
+    font-size: 6rem;
+}
+
+.errorSection span {}
