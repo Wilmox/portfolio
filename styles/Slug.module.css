@@ -177,10 +177,14 @@ Styling generated HTML from Markdown
 
 .articleContent blockquote span {
     display: block;
-    font-family: 'Roboto', sans-serif;
     color: white;
     font-style: normal;
     margin-top: .5rem;
+    border: none;
+}
+
+.articleContent blockquote p {
+    margin: 0;
 }
 
 .articleContent ul {
