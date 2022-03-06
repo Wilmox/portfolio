@@ -50,7 +50,7 @@ export default function Home() {
         <meta property="og:locale" content="en_GB" />
         <meta name="og:type" content="website"/>
         <meta name="og:url" content="http://simonwilmots.com"/>
-        <meta name="og:image" content="/assets/img/ico.ico" />
+        <meta name="og:image" content="/assets/img/banner.jpg" />
         <meta name="og:description" content="AI & Robotics Student, Astronomy Freak, Computer Nerd, Verified Freelancer, Your Next Hire."/>
         <meta name="og:site_name" content="http://www.simonwilmots.com"/>
 
