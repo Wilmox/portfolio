@@ -160,37 +160,29 @@ _Here are a bunch of systems that are dependent on Dips. These Dips are in the p
 
 You can choose (in advance) to do whatever you need to do in order to get through the Dip, knowing it’s going to be difficult; or you can give up before you get there. Quitting _in _ the Dip though, isn’t worth the journey.
 
-**MANUFACTURING DIP**
+**MANUFACTURING DIP**<br />
+It’s easy and fun to start building something in your garage. It’s difficult and expensive to design an integrated circuit or camp up for large-scale production. The time and effort and cost of ramping up your operation create the Dip. Most people don’t have the guts to take their work to the next level. 
 
-It’s easy and fun to start building something in your garage. It’s difficult and expensive to design an integrated circuit or camp up for large-scale production. The time and effort and cost of ramping up your operation create the Dip. Most people don’t have the guts to take their work to the next level.
+**SALES DIP**<br />
+Most ideas get their start when one person (you) starts selling it. The Dip hits when you need to upgrade to a professional sales force and scale it up. 
 
-**SALES DIP**
+**EDUCATION DIP**<br />
+A career gets started as soon as you leave school. But the Dip often hits when it’s time to go learn something new, to reinvent or rebuild your skills. A person who sacrifices a year of her life for a specialty reaps the rewards for decades afterward. 
 
-Most ideas get their start when one person (you) starts selling it. The Dip hits when you need to upgrade to a professional sales force and scale it up.
-
-**EDUCATION DIP**
-
-A career gets started as soon as you leave school. But the Dip often hits when it’s time to go learn something new, to reinvent or rebuild your skills. A person who sacrifices a year of her life for a specialty reaps the rewards for decades afterward.
-
-**RISK DIP**
-
+**RISK DIP**<br />
 It takes risk to rent a bigger space or invest in new techniques. Successful entrepreneurs understand the difference between investing to get through the Dip (a smart move) or investing in something that’s actually a risky crapshoot.
 
-**RELATIONSHIP DIP**
-
+**RELATIONSHIP DIP**<br />
 There are people and organizations that can help you later but only if you invest the time and effort to work with them now, even though now is not necessarily the easiest time for you to do it. Those shortsighted people who are always eager for a favor or a break never manage to get through the relationship Dip, because they didn’t invest in relationships back when it was difficult (but not urgent).
 
-**CONCEPTUAL DIP**
+**CONCEPTUAL DIP**<br />
+You got this far operating under one set of assumptions. Abandoning those assumptions and embracing a new, bigger set may be exactly what you need to do to get to the next level. <br /><br />
 
-You got this far operating under one set of assumptions. Abandoning those assumptions and embracing a new, bigger set may be exactly what you need to do to get to the next level.
+**EGO DIP**<br />
+When it’s all about you, it’s easier. Giving up control and leaning into the organization gives you leverage. Most people can’t do this; they can't give up control or the spotlight. <br /><br />
 
-**EGO DIP**
-
-When it’s all about you, it’s easier. Giving up control and leaning into the organization gives you leverage. Most people can’t do this; they can't give up control or the spotlight.
-
-**DISTRIBUTION DIP**
-
-Some retailers make it easy for your product to get distribution, while others require an investment from your organization that may just pay off.
+**DISTRIBUTION DIP**<br />
+Some retailers make it easy for your product to get distribution, while others require an investment from your organization that may just pay off. <br /><br />
 
 > The easy part is determining if you are in a Cul-de-Sac or a Dip. The hard part is finding the guts to do something about it.
 
@@ -248,16 +240,13 @@ Quitting as a short-term strategy is a bad idea. Quitting for the long term is a
 
 ## 3 Questions to Ask Before Quitting
 
-**AM I PANICKING?**
-
+- **Am I Panicking?**<br />
 Quitting when you’re panicked is dangerous. The best quitters are the ones who _decide in advance_ when they’re going to quit. You can always quit later—so wait until you’re done panicking to decide.
 
-**WHO AM I TRYING TO INFLUENCE?**
-
+- **Who am I Trying to Influence?**<br />
 If you’re considering quitting, it’s almost certainly because you’re not being successful at your current attempt at influence.
 
-**WHAT SORT OF MEASURABLE PROGRESS AM I MAKING?**
-
+- **What sort of Measurable Progress Am I Making?**<br />
 When trying to succeed, you’re either moving forward, falling behind or standing still.
 
 To succeed, you’ve got to make some sort of forward progress, no matter how small.
@@ -272,19 +261,19 @@ If you’ve got as much as you’ve got, use it. Use it to become the best in th
 
 # Questions to Ask Yourself
 
-Is this a Dip, or a Cul-de-Sac?
+- Is this a Dip, or a Cul-de-Sac?
 
-If it’s a Cul-de-Sac, how do I change it into a Dip?
+- If it’s a Cul-de-Sac, how do I change it into a Dip?
 
-Is my persistence going to pay off in the long run?
+- Is my persistence going to pay off in the long run?
 
-When should I quit? I need to decide now, not when I’m in the middle of it and it is “difficult”.
+- When should I quit? I need to decide now, not when I’m in the middle of it and it is “difficult”.
 
-What chance does this project have to be the best in the world?
+- What chance does this project have to be the best in the world?
 
-Who decides what _best_ is?
+- Who decides what _best_ is?
 
-Can we make the world _smaller_?
+- Can we make the world _smaller_?
 
 > If it scares you, it might be a good thing to try.
 
