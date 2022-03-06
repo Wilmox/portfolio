@@ -15,6 +15,7 @@
     text-decoration: none;
     justify-content: center;
     color: white;
+    text-shadow: 1px 1px gray;
 }
 .chip_head{
     display: flex;
@@ -37,6 +38,7 @@
     user-select: none;
     white-space: nowrap;
     padding: 0 15px 0 5px;
+    
 }
 
 .finance {
@@ -87,5 +89,5 @@
     background-color: #f39c12b3 !important;
 }
 .selfimprovement {
-    background-color: #9c9c9c !important;
+    background-color: #008080 !important;
 }
