@@ -12,40 +12,39 @@ labelText: ['Self-improvement', 'Psychology']
 labelIcons: ['📈', '🧠']
 ---
 
+# Introduction
+
 _Master Your Minds and Defy the Odds_
-
-
-## INTRODUCTION
 
 For Goggins, childhood was far from innocently playing outside without a care in the world. Instead, he experienced trauma from an abusive father and extreme prejudice and poverty in rural America. Statistically, Goggins was going nowhere and was destined for a life of depression and poverty. However, he defied all odds through self-discipline, mental toughness, and hard work. No longer was he a depressed, overweight young man with no future. By committing himself to losing weight and improving his test scores, Goggins became a U.S. Armed Forces icon and one of the world’s top endurance athletes. He has become the only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller. He didn’t stop there, however, and he went on to set records in extreme endurance events and has been named The Fittest (Real) Man in America.
 
 In Can’t Hurt Me, Goggins shares his incredible story and reveals a path that anyone can follow to push past limits, eliminate fear, and live life to its fullest.
 
 
-### Do You Know Who You Really Are and What You’re Capable Of?
+## Do You Know Who You Really Are and What You’re Capable Of?
 
 **Denial** is the ultimate comfort zone. The truth is, that we all make habitual, self-limiting choices by nature. It’s how our brain is wired, which is why motivation is crap.
 
-Odds are that you might have had a good childhood and even now might have a damn decent life, but no matter who you are, who your parents are or were, where you live, or how much money you have, you’re probably living at about 40 percent of your true capability. And that’s a shame…
+Odds are that you might have had a good childhood and even now might have a damn decent life, but no matter who you are, who your parents are or were, where you live, or how much money you have, you’re probably living at about **40 percent** of your true capability. And that’s a shame…
 
 Human beings change through study, habit, and stories. When you’re driven, whatever is in front of you, whether it’s racism, sexism, divorce, depression, obesity, or poverty, becomes fuel for your metamorphosis.
 
 I hope you are ready. It’s time to go to war with yourself.
 
 
-## I SHOULD HAVE BEEN A STATISTIC
+# I Should Have Been A Statistic
 
 _In this chapter Goggins details his horrific childhood, mainly caused by his child-abusing father, and his experience with racism. He also put down the first self-improvement challenge for you to follow._
 
 
-#### Challenge #1: Bad Hand
+## Challenge #1: Bad Hand
 
-“What are the current factors limiting your growth and success? Is someone standing in your way at work or school? Are you underappreciated and overlooked for opportunities? What are the long odds you’re up against right now? Are <span>you</span> standing in your own way?
+What are the current factors limiting your growth and success? Is someone standing in your way at work or school? Are you underappreciated and overlooked for opportunities? What are the long odds you’re up against right now? Are <span>you</span> standing in your own way?
 
-Break out your journal and write them all out in minute detail. Don’t be bland with this assignment. Give your pain shape. Absorb its power, because you are about to flip that shit.”
+Break out your journal and write them all out in minute detail. Don’t be bland with this assignment. "Give your pain shape. Absorb its power, because you are about to flip that shit.
 
 
-## TRUTH HURTS
+# Truth Hurts
 
 _One day, during his high school career, Goggins met with an Air Force recruiter. Goggins thought he was a badass. He now had a dream of joining the Air Force, but it was simply that — a dream. Joining the Air Force would require talents and education that Goggins didn’t think he possessed._
 
@@ -55,7 +54,7 @@ _Unfortunately, Goggins used a blood disease called sickle cell anemia and the l
 
 Nobody likes to hear the hard truth. Individually and as a culture, we avoid what we need to hear most. This is why you need to tell yourself that you need to get your ass to work because you’re falling behind.
 
-If you look in the mirror and see a fat person, don’t tell yourself that you need to lose a couple of pounds. **Tell the truth**. “_You’re fucking fat_”. It’s okay, just say you’re fat if you’re fat.
+If you look in the mirror and see a fat person, don’t tell yourself that you need to lose a couple of pounds. **Tell the truth**. _“You’re fucking fat”_. It’s okay, just say you’re fat if you’re fat.
 
 The (dirty) mirror that you see every day is going to tell you the truth every time, so why are you still lying to yourself? So you can feel better for a few minutes and stay the same?
 
@@ -66,7 +65,7 @@ The (dirty) mirror that you see every day is going to tell you the truth every t
 You are giving up instead of getting hard. There is no time to waste.
 
 
-#### Challenge #2: The Accountability Mirror
+## Challenge #2: The Accountability Mirror
 
 Take Post-It notes on your own Accountability Mirror. Digital devices won’t work. Write all your insecurities, dreams, and goals on Post-Its and tag up your mirror. Own everything that is in your control. It’s okay to be unkind to yourself in these moments because we need thicker skins to improve in life.
 
@@ -75,7 +74,7 @@ Each step, each necessary point of self-improvement, should be written as its ow
 The dirty mirror is going to reveal the truth. Stop ignoring it. Use it to your advantage.
 
 
-## THE IMPOSSIBLE TASK
+# The Impossible Task
 
 _After leaving the military, Goggins was now working as an overnight exterminator, he cleaned a dozen restaurants at night as he exterminated rats, cockroaches, and other bugs. In this period of his life, he gained a lot of weight, up to a point where he weighed 300 pounds._
 
@@ -84,7 +83,7 @@ _One morning, after his overnight job and unhealthy morning routine, Goggins got
 _Goggins implemented a very strict fitness routine. He would bike for two hours, swim for two hours, do at least 5 sets of 200 reps for all major muscle groups, and would then spend the rest of the day on the exercise bike. Additionally, he created a new accountability mirror and fought the depression and negativity that told him he couldn’t do it._
 
 
-#### Challenge #3: Leave your comfort zone
+## Challenge #3: Leave your comfort zone
 
 Stepping out of your comfort zone on a regular basis is the first step on the journey toward a calloused mind. Goggins recommends you to write down all the things you don’t like to do or that make you uncomfortable. Especially those things you know are good for you.	Now go do one of them, and do it again.
 
@@ -95,7 +94,7 @@ Once that becomes comfortable, up the miles you are running or do something new.
 We often choose to focus on our strengths rather than our weaknesses. Use this time to make your weaknesses your strengths.
 
 
-## TAKING SOULS
+# Taking Souls
 
 _After the three months, Goggins lost the weight and was able to join the training program aimed at choosing 30 of the toughest 120 candidates. Most of the dropouts occur during the third week, referred to as “Hell Week.” Throughout the week, candidates are exposed to extreme life-threatening conditions at sea and are incredibly sleep-deprived. In fact, it is so hard that people often die during this week._
 
@@ -110,16 +109,16 @@ But defiance isn’t always the best way to take someone’s soul. It all depend
 The ticket to victory often comes down to bringing your very best when you feel your worst.
 
 
-#### Challenge #4: Take the souls of your opponents
+## Challenge #4: Take the souls of your opponents
 
-Choose any competitive situation that you’re in right now. Who is your opponent? It can be your teacher, boss or client… No matter how they’re treating you there is one way to not only earn their respect but turn the tables. Excellence.
+Choose any competitive situation that you’re in right now. Who is your opponent? It can be your teacher, boss or client… No matter how they’re treating you, there is one way to not only earn their respect but turn the tables. Excellence.
 
 It may be acing an exam, or crafting an ideal proposal, or smashing a sales goal. Whatever it s, David wants you to work harder on that project than you have ever before. Whatever standard people set as an ideal outcome, you should be aiming to surpass that.
 
 Whoever you’re dealing with, your goal is to make them watch you achieve what they could never have done themselves. You want them thinking how amazing you are. Take their negativity and use it to dominate their task with everything you’ve got. Take their fucking soul!
 
 
-## ARMORED MIND
+# Armored Mind
 
 _Goggins says that physical training is the perfect crucible to learn how to manage your thought process because when you’re working out, your focus is more likely to be single-pointed, and your response to stress and pain is immediate and measurable._
 
@@ -127,17 +126,17 @@ When you indulge in negative self-talk, the gifts of a sympathetic response will
 
 Anyone who is sound mind and body can sit down and think of twenty things in their life that could have gone differently. If you’re one of the few who acknowledge that, want to callous those wounds and strengthen your character, it’s up to you to go back through your past and make peace with yourself by facing those incidents and all of your negative influences and accepting them as weak sports in your own character.
 
-> Only when you identify and accept your weaknesses will you finally stop running from your past.
+> When you identify and accept your weaknesses will you finally stop running from your past.
 
 
-#### Challenge #5: Strategic Visualization
+## Challenge #5: Strategic Visualization
 
 Rather than focusing on bullshit, you cannot change, imagine visualizing the things you can. Choose any obstacle in your way, or set a new goal, and visualize overcoming or achieving it.
 
 But visualization isn’t simply about daydreaming of some trophy ceremony—real or metaphorical. You must also visualize the challenges that are likely to arise and determine how you will attack those problems when they do. That way you can be as prepared as possible on the journey. Of course, there will be always things you haven’t thought about.. And that’s okay.
 
 
-## IT’S NOT ABOUT A TROPHY
+# It's Not About A Trophy
 
 _In 2005, Goggins discovered the answer he was seeking through extreme long-distance running, also known as ultra running. For Goggins, he simply woke up one morning and began running and continued running for one hundred miles._
 
@@ -145,7 +144,7 @@ _If you were to wake up tomorrow and decide to run one hundred miles, do you thi
 
 _Of course, you can’t just simply enter the Badwater 135, you have to qualify. So he set out to run the San Diego One Day, one hundred-mile race in the heart of the city. Before this, he had never run farther than 26 miles of a marathon and at his 70-mile mark, Goggins was not looking good. At this point, he had lost control of his bladder and bowel movements due to sheer exhaustion. He was experiencing double vision and was running on broken bones in his feet. The average person would’ve stopped long before getting to this point, but Goggins is no average person._
 
-_To explain how Goggins pushed through and completed the 100-mile race, simply imagine that feeling that you get at the end of a long workout when you feel like you just can’t do it anymore. Well, according to Goggins, you still have 60 percent left to give! He calls this the 40 percent rule. According to this rule, we as humans tend to give up after exerting 40 percent of our maximum power._
+_To explain how Goggins pushed through and completed the 100-mile race, simply imagine that feeling that you get at the end of a long workout when you feel like you just can’t do it anymore. Well, according to Goggins, you still have 60 percent left to give! He calls this the **40 percent rule**. According to this rule, we as humans tend to give up after exerting 40 percent of our maximum power._
 
 _Goggins completed his race in just 19 hours, he even ran an extra mile to make sure he had truly finished. This qualified him for the 2006 Badwater 135 ultramarathon. This time he would be running through California’s Death Valley and finishing the race at an elevation of 8,374 feet. Even worse, the race is in July, when Death Valley is at its hottest._
 
@@ -153,26 +152,28 @@ When your body is broken and beaten, when you’re confronted with agonizing pai
 
 Even if you’re feeling low and beat down by life right now, I guarantee you can think of a time or two when you overcame odds and tasted success. It doesn’t have to be a big victory either. It can be something small.
 
-The engine in a rocket ship does not fire without a small spark first. We all need small sparks, small accomplishments in our lives to fuel the big ones.
+> A rocket does not fire without a small spark first
+
+We all need small sparks, small accomplishments in our lives to fuel the big ones.
 
 
-#### Challenge #6: Cookie Jar
+## Challenge #6: Cookie Jar
 
 Crack your journal open again. Write it all out. Remember, this is not some breezy stroll through your personal trophy room. Don’t just write down your achievement hit list. Include life obstacles you’ve overcome. Add in those minor tasks you failed earlier in life, but tried again a second or third time and ultimately succeeded at. Feel what it was like to overcome those struggles, those opponents, and win. Then get to work.
 
 
-## THE MOST POWERFUL WEAPON
+# The Most Powerful Weapon
 
 _For the next race, Goggins trained by carefully studying the terrain and running in the extreme conditions that he would experience on race day. When he finished, Goggins completed Badwater 135 in just thirty hours and finished in fifth place. Because of the forty percent rule, he was able to push his limits and accomplish something incredible._
 
 _But after David finished he wasn’t as elated as he thought he would be. He remembers repeating the following over and over in his head: “There is no finish line, Goggins. There is no finish line.”_
 
-In this chapter, Goggins talks about a voice in his head that told him to keep quitting. As he calls it “_the governor in your brain_”. When your governor will tell you to quit, it will try to convince you are completely exhausted and not able to go any further, you’re only at about 40 percent of your potential. When you get to the 40%, you need to tap into a hidden reserve of energy and motivation. Keep fighting when you feel like you’re done, and that’s when you unlock the remaining 60 percent of your potential.
+In this chapter, Goggins talks about a voice in his head that told him to keep quitting. As he calls it _“the governor in your brain”_. When your governor will tell you to quit, it will try to convince you are completely exhausted and not able to go any further, you’re only at about 40 percent of your potential. When you get to the 40%, you need to tap into a hidden reserve of energy and motivation. Keep fighting when you feel like you’re done, and that’s when you unlock the remaining 60 percent of your potential.
 
 But nobody taps their reserve 60 percent right away or all at once. The first step is to remember that your initial blast of pain and fatigue is your governor talking. Once you do that, you are in control of the dialogue in your mind, and you can remind yourself that you are not as drained as you think. That you haven’t given it your all. Not even close.
 
 
-#### Challenge #7: Remove the governor from your brain
+## Challenge #7: Remove the governor from your brain
 
 The main objective here is to slowly start to remove the governor from your brain. Don’t expect this to happen overnight. It can take a long time…
 
@@ -181,7 +182,7 @@ Whenever your mind is begging you to stop. Then push just 5 to 10 percent furthe
 The bottom line is that life is one big mind game. The only person you are playing against is yourself. Stick with this process and soon what you thought was impossible will be something you do every day of your life.
 
 
-## TALENT NOT REQUIRED
+# Talent Not Required
 
 _This chapter aptly discusses David’s long-distance triathlon in Kona, Hawaii — a three-day event that involved swimming for 6.2 miles, riding for 261 miles, and running a double marathon covering the entire perimeter of the Big Island of Hawaii. David was competing in this event to raise money for the Special Operations Warrior Foundation. This was David’s first triathlon event, and as such, he had many things to learn from this particular event. It is important to note that David was not well-prepared for this race, as he did not own a bicycle and only borrowed one three weeks prior to the competition. In addition, David injured his arms in the swimming part of the triathlon, which made the rest of the race all the more difficult. In the double marathon, David won the race, but he came second in the entire competition as he lost the overall race by ten minutes._
 
@@ -194,7 +195,7 @@ We burn hours on social media and watching television, which by the end of the y
 It’s up to you to find ways to eviscerate your bullshit. How much time do you spend at the dinner table talking about nothing after the meal is done? How many calls and texts do you send for no reason at all? Look at your whole life, list your obligations and tasks. Put a time stamp on them.
 
 
-#### Challenge #8: Schedule it in!
+## Challenge #8: Schedule it in!
 
 It’s time to compartmentalize your day. This will be a 3-week challenge. During week one, go about your normal schedule, but take notes. When do you work? When are you checking your phone? How long are your meal breaks? When do you exercise or watch TV? This will be your baseline, and you’ll find plenty of fat to trim
 
@@ -203,7 +204,7 @@ In week two, build an optimal schedule. Lock everything into place in fifteen- t
 By week three, you should have a working schedule that maximizes your effort without sacrificing sleep.
 
 
-## UNCOMMON AMONGST UNCOMMON
+# Uncommon Amongst Uncommon
 
 _This chapter primarily focuses on David’s enlistment as a Ranger and his distinguished military service. David notes that Ranger School was so demanding and the standards were so high that only ninety-six men graduated out of a class of 308 candidates. On his graduation from the Ranger training program, David was awarded the Enlisted Honor Man for his excellent performance. Additionally, David’s classmates gave him 100 percent on his peer evaluation which David considered very highly as it meant that his classmates had faith in him as a professional._
 
@@ -216,14 +217,14 @@ Goggins says that to be uncommon amongst uncommon you can’t have the desire ru
 You also can’t be afraid to start at zero. Starting at zero is a mindset that says that we can always become more capable and more reliable. Since that’s the case we should never feel that our work is done. There is always more to do. Always be willing to embrace ignorance and become the dumb fuck in the classroom again, because that is the only way to expand your body of knowledge and body of work. It’s the only way to expand your mind.
 
 
-#### Challenge #9: Become uncommon amongst the uncommon
+## Challenge #9: Become uncommon amongst the uncommon
 
 This one is for the unusual people in this world. A lot of people think that once they reach a certain level of status, respect, or success, they’ve made it in life. Goggins says you always can find more. Greatness is not something that you meet once it stays with you forever.
 
 To become uncommon amongst the uncommon, it will require staying in constant pursuit and putting out unending effort. This may sound appealing but will require everything you have to give. This is not for everyone.
 
 
-## THE EMPOWERMENT OF FAILURE
+# The Empowerment of Failure
 
 _This chapter discusses the empowerment of failure as experienced by the author. Firstly, David failed the Delta Selection, as he was daydreaming of his imminent graduation instead of focusing on the task at hand. At one point, as his mind wandered away, he realized that there were six targets on the range and not the usual five. Despite his impressive record, David was let go from the program because a day-dreamer was too much of a risk on the battlefield.  Additionally, David failed a second time while attempting to break a Guinness World Record. This failure was very public as it was being broadcast live to millions of viewers across the United States. However, due to the mental strength that he had developed over the years, David was not dejected but continued to put up a brave face. He was already a champion and was only attempting to break his record_
 
@@ -232,7 +233,7 @@ In life, there is no gift as overlooked or inevitable as a failure. If you do th
 You can’t let a simple failure derail your mission, or let it worm so far up your ass that it takes over your brain and sabotages your relationships with people who are close to you. Don’t focus on what you think you deserve. Take aim on what you are willing to earn! And never blame anyone for your failures.
 
 
-#### Challenge #10: Face your failures
+## Challenge #10: Face your failures
 
 Think about your most recent and most heart-wrenching failures. Break out that journal one last time. Log off the digital version and write then all out.
 
@@ -243,7 +244,7 @@ Second, go back through and make a list of the things you can fix. This isn’t 
 As you prepare, consult your Accountability Mirror, and make all necessary adjustments.
 
 
-## WHAT IF?
+# What If?
 
 _In this chapter, David reflects on how self-doubt can affect an individual. The world is full of difficult circumstances but, just like David, an individual should be able to rise to the challenge and be self-aware of their actions. In David’s case, he recalls various instances of self-doubt that would have changed the course of his life._
 
