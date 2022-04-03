@@ -75,6 +75,7 @@ article.noteArticle {
 
 .noteArticle .abstract {
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 div.articleContent {
