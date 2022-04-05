@@ -8,7 +8,7 @@ rating: 5
 amazonLink: 'https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713'
 bookCover: '/assets/img/bookcovers/the-subtle-art-of-not-giving-a-fuck.jpg'
 slug: 'the-subtle-art-of-not-giving-a-fuck'
-labelText: ['Self-improvement']
+labelText: ['Self-Improvement']
 labelIcons: ['📈']
 ---
 
@@ -161,7 +161,7 @@ While there is something to be said for “staying on the sunny side of life”,
 
 > People who are terrified of what others think about them are actually terrified of all the shitty things they think about themselves being reflected back at them.
 
-This, in a nutshell, is what “self-improvement” is really about: prioritizing better values, choosing better things to give a fuck about.
+This, in a nutshell, is what “Self-Improvement” is really about: prioritizing better values, choosing better things to give a fuck about.
 
 
 # You Are Always Choosing

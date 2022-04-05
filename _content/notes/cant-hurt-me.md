@@ -8,8 +8,8 @@ rating: 5
 amazonLink: 'https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512287'
 bookCover: '/assets/img/bookcovers/cant-hurt-me.jpg'
 slug: 'cant-hurt-me'
-labelText: ['Self-improvement', 'Psychology']
-labelIcons: ['📈', '🧠']
+labelText: ['Psychology', 'Self-Improvement']
+labelIcons: ['🧠', '📈']
 ---
 
 # Introduction
@@ -34,7 +34,7 @@ I hope you are ready. It’s time to go to war with yourself.
 
 # I Should Have Been A Statistic
 
-_In this chapter Goggins details his horrific childhood, mainly caused by his child-abusing father, and his experience with racism. He also put down the first self-improvement challenge for you to follow._
+_In this chapter Goggins details his horrific childhood, mainly caused by his child-abusing father, and his experience with racism. He also put down the first Self-Improvement challenge for you to follow._
 
 
 ## Challenge #1: Bad Hand
@@ -69,7 +69,7 @@ You are giving up instead of getting hard. There is no time to waste.
 
 Take Post-It notes on your own Accountability Mirror. Digital devices won’t work. Write all your insecurities, dreams, and goals on Post-Its and tag up your mirror. Own everything that is in your control. It’s okay to be unkind to yourself in these moments because we need thicker skins to improve in life.
 
-Each step, each necessary point of self-improvement, should be written as its own note. That means you have to do some research and break it all down. You will need to be truthful with yourself about where you are and the necessary steps it will take to achieve those goals, day by day.
+Each step, each necessary point of Self-Improvement, should be written as its own note. That means you have to do some research and break it all down. You will need to be truthful with yourself about where you are and the necessary steps it will take to achieve those goals, day by day.
 
 The dirty mirror is going to reveal the truth. Stop ignoring it. Use it to your advantage.
 

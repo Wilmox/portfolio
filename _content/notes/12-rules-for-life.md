@@ -8,7 +8,7 @@ rating: 5
 amazonLink: 'https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021'
 bookCover: '/assets/img/bookcovers/12-rules-for-life.jpg'
 slug: '12-rules-for-life'
-labelText: ['Psychology', 'Self-improvement']
+labelText: ['Psychology', 'Self-Improvement']
 labelIcons: ['🧠', '📈']
 ---
 
