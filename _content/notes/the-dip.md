@@ -8,7 +8,7 @@ rating: 3.5
 amazonLink: 'https://www.amazon.com/Dip-Little-Book-Teaches-Stick/dp/1591841666'
 bookCover: '/assets/img/bookcovers/the-dip.jpg'
 slug: 'the-dip'
-labelText: ['Self-improvement']
+labelText: ['Self-Improvement']
 labelIcons: ['📈']
 ---
 
