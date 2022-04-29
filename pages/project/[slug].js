@@ -90,7 +90,7 @@ export default function ProjectPage({ title, type, description, duration, header
 
           <div className={slugStyle.noteMeta}>
             
-            {!(title.includes('i-Talent'))
+            {!(title.includes('I-Talent'))
               ?
                 <div className={slugStyle.metaItem}>
                   <h4>Duration</h4>
@@ -104,7 +104,7 @@ export default function ProjectPage({ title, type, description, duration, header
 
             }
 
-            {!(title.includes('i-Talent'))
+            {!(title.includes('I-Talent'))
               ?
               <div className={slugStyle.metaItem}>
                 <h4>Team size</h4>
