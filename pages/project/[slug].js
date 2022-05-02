@@ -85,17 +85,38 @@ export default function ProjectPage({ title, type, description, duration, header
           <div className={slugStyle.labels}>
             {labelText.map((label, i) => <Chip key={labelText[i]} className={slugStyle.noteChip} text={labelText[i]} icon={labelIcons[i]} />)}
           </div>
+
           <hr className={styles.divider} />
 
           <div className={slugStyle.noteMeta}>
-            <div className={slugStyle.metaItem}>
-              <h4>Duration</h4>
-              <p>{duration}</p>
-            </div>
-            <div className={slugStyle.metaItem}>
-              <h4>Team size</h4>
-              <p>{teamSize}</p>
-            </div>
+            
+            {!(title.includes('I-Talent'))
+              ?
+                <div className={slugStyle.metaItem}>
+                  <h4>Duration</h4>
+                  <p>{duration}</p>
+                </div>
+              :
+                <div className={slugStyle.metaItem}>
+                  <h4>I-Talent uren</h4>
+                  <p>{duration}</p>
+                </div>
+
+            }
+
+            {!(title.includes('I-Talent'))
+              ?
+              <div className={slugStyle.metaItem}>
+                <h4>Team size</h4>
+                <p>{teamSize}</p>
+              </div>
+              : 
+              <div className={slugStyle.metaItem}>
+                <h4>Academieperiode</h4>
+                <p>{teamSize}</p>
+              </div>
+            }
+            
           </div>
 
           <div>
