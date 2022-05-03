@@ -246,9 +246,7 @@ Styling generated HTML from Markdown
 
 .articleContent img {
     margin: 1rem auto;
-    border-radius: 0px;
-    align-items: center;
-    filter: invert(1);
+    border-radius: 15px;
 }
 
 .articleContent thead {
