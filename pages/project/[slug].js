@@ -127,7 +127,7 @@ export default function ProjectPage({ title, type, description, duration, header
         <article className={slugStyle.noteArticle}>
           <p className={slugStyle.abstract}>{description}</p>
 
-          {title.includes('i-Talent') &&
+          {title.includes('I-Talent') &&
             <TableOfContents />
           }
 

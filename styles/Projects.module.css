@@ -21,7 +21,7 @@
     grid-auto-columns: 1fr;
     grid-column-gap: 2vw;
     grid-row-gap: 2vw;
-    grid-template-areas: "a a""a  a";
+    grid-template-areas: "a a" "a a";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 }
@@ -91,7 +91,7 @@
     .projects {
         grid-column-gap: 1vw;
         grid-row-gap: 10vw;
-        grid-template-areas: "a""a""a";
+        grid-template-areas: "a" "a" "a";
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
