@@ -109,7 +109,9 @@ export default function Home() {
                 <br />
                 In <span>2016</span> I started my first study in Computer Science at the Miniemeninstituut in Leuven {"\u{1F1E7}\u{1F1EA}"}. In this education I have  received the basis that will serve me well in my next studie(s).<br /><br />
 
-                In <span>2019</span> I started at PXL University of Applied Sciences and Arts in Hasselt. Currently, I am a last-year application development student with specifications in <span>AI & Robotics</span>.
+                In <span>2019</span> I started at PXL University of Applied Sciences and Arts in Hasselt where I graduated in application development with specifications in <span>AI & Robotics</span>.<br /><br />
+              
+                In <span>2022</span> I started at KU Leuven Faculty of Engineering Technology in Diepenbeek where I currently am a first-year master's student in <span>Industrial Engineering Sciences</span>.
               </p>
             </details>
           </div>

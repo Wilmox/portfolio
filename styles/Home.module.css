@@ -33,6 +33,7 @@
   width: 40vw;
   height: fit-content;
   margin: auto;
+  /*text-align: justify;*/
 }
 
 div.about h2 {
