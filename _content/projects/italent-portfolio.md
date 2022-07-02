@@ -1,7 +1,7 @@
 ---
 title: 'I-Talent Portfolio'
 type: 'Portfolio'
-description: 'Mijn naam is Simon Wilmots, geboren te Tienen in Vlaams-Brabant. Ik ben een afstuderende AI & Robotics student aan Hogeschool PXL met interesses in computers, astronomie en wetenschap.'
+description: 'This is a portfolio of the activities I did in the three years I studied at PXL University College of Applied Sciences and Arts.'
 duration: "161"
 teamSize: "2019 - 2022"
 headerImg: '/assets/img/projects/italent-portfolio/pxl_logo.png'
@@ -35,11 +35,16 @@ Jan 2021 – Jul 2021
 I-Talent uren: 30  
 
 ## Seminaries
+
+<img src='/assets/img/projects/italent-portfolio/css3-logo.png' style={{ width: '15%', float: 'left', marginRight: '1rem' }} alt='CSS3 logo'/>
+
 **Realdolmen: Flexbox en Grid** (AON)  
 Een introductie tot de nieuwe CSS-lay-out modules genaamd Flexbox en Grid. Deze zijn ter vervanging van de oude Table-layout module en zijn beter om een webapp moderner en future-proof te maken.  
 _PXL Campus, Lokaal G516_  
 23 maart 2021  
 Duur: 4 uur  
+
+<img src='/assets/img/projects/italent-portfolio/3it-logo.png' style={{ width: '15%', float: 'left', marginRight: '1rem' }} alt='3-IT logo'/>
 
 **3-IT: Social Engineering** (AON/SNB/SWM)  
 Social engineering is het gebruik maken van psychologische manipulatie van gebruikers om gevoelige informatie vrij te geven. In het seminarie worden de use cases en gevaren van Social Engineering besproken.  
@@ -47,10 +52,14 @@ _Online via MS Teams_
 2 maart 2021  
 Duur: 4 uur  
 
+<img src='/assets/img/projects/italent-portfolio/craftworkz.png' style={{ width: '10%', float: 'left', margin: '0', marginRight: '2rem', marginLeft: '2rem', borderRadius: '50%' }} alt='3-IT logo'/>
+
 **Craftworkz: From idea to solution and basics UI/UX** (AON/SWM)  
 _PXL Campus_  
 23 februari 2021  
 Duur: 4 uur  
+
+<img src='/assets/img/projects/italent-portfolio/RCCU.jpg' style={{ width: '12%', float: 'left', margin: '0', marginRight: '1.5rem', marginLeft: '1.5rem', borderRadius: '50%' }} alt='RCCU logo'/>
 
 **Regionale Computer Crime Units: Forensics** (AON/SNB/SWM)  
 Een kijkje in het takenpakket van de Regionale Computer Crime Units bij de federale gerechtelijke politie en van de uitdagingen waarmee zij worden geconfronteerd tijden de uitvoering van hun werk.  
@@ -58,11 +67,16 @@ _Online via MS Teams_
 4 mei 2021  
 Duur: 4 uur  
 
+<img src='/assets/img/projects/italent-portfolio/IT-licious.jpg' style={{ width: '12%', float: 'left', margin: '0', marginRight: '1.5rem', marginLeft: '1.5rem', borderRadius: '50%' }} alt='IT-licious logo'/>
+
 **IT Licious: Flutter en Use Case** (AON)  
 De makers van o.a. de Sporza en VRT-app geven dit seminarie met de focus op de introductie in het Flutter ontwikkelingsproces en een hands-on workshop.  
 _PXL Campus, Lokaal G516_  
 17 november 2021   
 Duur: 4 uur  
+
+<img src='/assets/img/projects/italent-portfolio/veeam-logo.png' style={{ width: '12%', float: 'left', margin: '0', marginRight: '1.5rem', marginLeft: '1.5rem', borderRadius: '50%' }} alt='veeam logo'/>
+
 
 **Veeam Software: Security en datamanagement binnen de publieke cloud** (SNB/AON)  
 Een introductie in cloud services namelijk Amazon Web Services, Microsoft Azure en Google Cloud Services en verschillende mogelijkheden zijn bij disaster recovery. Bv. downtime, ransomware aanvallen of natuurrampen.  
@@ -70,11 +84,15 @@ _Online via MS Teams_
 1 december 2021   
 Duur: 4 uur  
 
+<img src='/assets/img/projects/italent-portfolio/terraform.png' style={{ width: '15%', float: 'left', marginRight: '1rem' }} alt='Terraform logo'/>
+
 **ACA-IT: AWS en Infrastructure As Code met Terraform** (SNB/AON)  
 Een presentatie en demo over ACA-IT’s implementatie bij Amazon Web Services en een hands-on met de bouwstenen van een Infrastructure As Code-systeem genaamd Terraform.  
 _Online via Zoom_  
 15 december 2021   
 Duur: 4 uur  
+
+<img src='/assets/img/projects/italent-portfolio/TPO.png' style={{ width: '15%', float: 'left', marginRight: '1rem' }} alt='TPO logo'/>
 
 **TPO: Shift Your Business into the Next Gear** (SWM/AON)  
 TPO staat voor ‘The Product Owners’. Een kijkje in het leiden van het ontwikkelingsproces en het leveren van gebruikersgerichte digitale producten.  
@@ -85,11 +103,15 @@ Duur: 4 uur
 ## Innovatie
 De innovatieroute waarvoor ik gekozen heb is: <span>Security & Cloud</span>. Deze is normaal gezien voor SNB-studenten (Systemen en netwerkbeheer) voorzien. De reden dat ik deze toch gekozen heb is omdat ik buiten AI & Robotics ook een interesse heb in de security in applicaties.
 
+<img src='/assets/img/projects/italent-portfolio/tanzu.png' style={{ width: '12%', float: 'left', margin: '0', marginRight: '1.5rem', marginLeft: '1.5rem', borderRadius: '50%' }} alt='tanzu logo'/>
+
 **VMWare Tanzu**  
 _PXL Campus, Lokaal B331 – Dieter Hubau_  
 Een workshop rond het lanceren van software binnen een bedrijf. Later is er een introductie tot alle producten van VMware met vooral de nadruk op VMware Tanzu.  
 7 oktober 2021  
 Duur: 7 uur  
+
+<img src='/assets/img/projects/italent-portfolio/inuits.png' style={{ width: '12%', float: 'left', margin: '0', marginRight: '1.5rem', marginLeft: '1.5rem' }} alt='Inuits logo'/>
 
 **Inuits: CI/CD**
 Een interactieve presentatie in verschillende concepten rond CI/CD. Het verschil tussen verschillende concepten. Het grootste deel van de sessie bedraagt een hands-on met Jenkins en GitLab.    
@@ -97,11 +119,15 @@ _PXL Campus, Lokaal B331 – Inuits_
 14 oktober 2021  
 Duur: 7 uur  
 
+<img src='/assets/img/projects/italent-portfolio/tsf.jpg' style={{ width: '12%', float: 'left', margin: '0', marginRight: '1.5rem', marginLeft: '1.5rem' }} alt='TSF logo'/>
+
 **The Security Factory: Webapp Pentesting**
 In de presentatie wordt besproken hoe verschillende soorten aanvallen uitgevoerd kunnen worden en op een high-level manier worden deze uitgelegd met een eventuele demo.    
 _PXL Campus, Lokaal B331 – Ward Vermeulen_  
 21 oktober 2021  
 Duur: 7 uur  
+
+<img src='/assets/img/projects/italent-portfolio/htf-logo.png' style={{ width: '12%', float: 'left', margin: '0', marginRight: '1.5rem', marginLeft: '1.5rem' }} alt='HTF logo'/>
 
 **Hack the Future: Identity**  
 Een hackathon waarmee je aan de hand van codeerproblemen tegen andere teams een moord moet oplossen.  

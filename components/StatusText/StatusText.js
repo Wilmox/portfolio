@@ -7,7 +7,8 @@ const StatusText = ({text="Student"}) => {
     const cycle = document.getElementById("cycle");
 
     const statusList = [
-      "AI & Robotics Student", //\u{1F393}
+      "Engineering Student",
+      "AI & Robotics Graduate", //\u{1F393}
       "Computer Nerd", //\u{1F468}\u{200D}\u{1F4BB}
       "Astronomy Freak", //\u{1F30C}
       "Verified Freelancer", //\u{1F468}\u{200D}\u{1F4BC}
