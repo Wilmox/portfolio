@@ -9,7 +9,7 @@ rating: 4
 amazonLink: 'https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296'
 bookCover: '/assets/img/bookcovers/zero-to-one.jpg'
 slug: 'zero-to-one'
-labelText: ['entrepreneurship']
+labelText: ['Entrepreneurship']
 labelIcons: ['🚀']
 
 ---
