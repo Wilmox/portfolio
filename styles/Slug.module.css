@@ -82,7 +82,7 @@ div.articleContent {
     font-family: 'Roboto', sans-serif;
     margin: auto;
     line-height: 1.4rem;
-    text-align: justify;
+    
 }
 
 /***********************************
@@ -124,6 +124,7 @@ Styling generated HTML from Markdown
 .articleContent p {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 .articleContent p a {
