@@ -6,11 +6,11 @@ duration: "3 days"
 teamSize: 1
 headerImg: '/assets/img/project-tictactoe-minmax.jpg'
 slug: 'tic-tac-toe-minimax-ai'
-labelText: ['Learning', "AI & Robotics"]
+labelText: ['Learning', "Algorithms"]
 labelIcons: ['📚', '🤖']
 ---
 
-## A perfect game of Tic Tac Toe
+# A perfect game of Tic Tac Toe
 If you play perfectly, every time you play you will either win the game, or you will draw the game. Furthermore if you play against another perfect player, you will always draw the game.
 <br />
 There are 3 "end-conditions" in the Tic Tac Toe game:
@@ -19,7 +19,7 @@ There are 3 "end-conditions" in the Tic Tac Toe game:
 - You lose... You lose 10 points, the AI gets 10 points.
 - You draw. Nobody gets any points.
 
-## The MiniMax Decision Theory Algorithm
+# The MiniMax Decision Theory Algorithm
 
 The Minimax algorithm functions based on the logic we just discussed with the point system.
 <br/>
@@ -29,7 +29,7 @@ The key to the Minimax algorithm is a back and forth between the two players, wh
 
 One player will always try to maximize his score, while the other one needs to minimize his score.
 
-## My implementation
+# My implementation
 I started my implementation with the pseudocode from Wikipedia and turned it into Javascript code.
 You can view, clone, fork, ... my full implementation on my [GitHub](https://github.com/Wilmox).
 
@@ -54,7 +54,7 @@ minimax(origin, depth, TRUE)
 ```
 
 
-## Play it yourself!
+# Play it yourself!
 _(Works best on a computer or tablet)_ <br/>
 Click [HERE](/project/play-tic-tac-toe-minimax-ai) to play in fullscreen. GLHF!
 

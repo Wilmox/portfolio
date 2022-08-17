@@ -229,12 +229,33 @@ Styling generated HTML from Markdown
 
 .articleContent table {
     width: 100%;
+    border: white solid 1px;
+    border-collapse: collapse;
     table-layout: auto;
     text-align: left;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: .85rem;
     line-height: 1.7;
+}
+
+.articleContent thead, .articleContent th {
+    border: white solid 1px;
+    font-weight: 500;
+    border-bottom-width: 1px;
+    border-bottom-color: #d1d5db;
+    padding: .6rem;
+}
+
+.articleContent tr {
+    border-bottom-width: 1px;
+    border-bottom-color: #e5e7eb;
+}
+
+.articleContent td {
+    border: white solid 1px;
+    vertical-align: top;
+    padding: .4rem;
 }
 
 .articleContent iframe {
@@ -248,23 +269,6 @@ Styling generated HTML from Markdown
 .articleContent img {
     margin: 1rem auto;
     border-radius: 15px;
-}
-
-.articleContent thead {
-    color: #111827;
-    font-weight: 600;
-    border-bottom-width: 1px;
-    border-bottom-color: #d1d5db;
-}
-
-.articleContent tr {
-    border-bottom-width: 1px;
-    border-bottom-color: #e5e7eb;
-}
-
-.articleContent td {
-    vertical-align: top;
-    padding: .6rem;
 }
 
 .cover {
