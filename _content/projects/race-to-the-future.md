@@ -4,14 +4,15 @@ type: "Bachelor's internship"
 description: "My bachelor's research internship with the focus on conducting a literature study on existing possibilities within the domain of reinforcement learning and autonomous driving."
 duration: "7 months"
 teamSize: 2
-headerImg: '/assets/img/projects/race-to-the-future/rttf.gif'
+headerImg: '/assets/img/projects/project-rttf.jpg'
 slug: 'race-to-the-future'
 labelText: ["Reinforcement learning", "Autonomous driving" , "Computer vision"]
-labelIcons: ['🤖' , '🏎️' , '👁️']
+labelIcons: ['🤖' , '🚗' , '👁️']
 ---
 
-# Race to the Future
-## Reinforcement Learning for Quick Autonomous Driving on Unknown Racetracks
+<h1 style={{ textAlign: 'center !important' }}>Race to the Future</h1>
+<h2 style={{ textAlign: 'center !important' }}>Reinforcement Learning for Quick Autonomous Driving on Unknown Racetracks</h2> 
+<h3 style={{ textAlign: 'center !important' }}>Simon Wilmots - PXL DIGITAL 2022 (AI & Robotics)</h3>
 
 <img src='/assets/img/projects/race-to-the-future/rttf.gif' style={{ width: '100%' }} alt='Our first lap on the RTTF event'/>  
 
@@ -19,7 +20,7 @@ labelIcons: ['🤖' , '🏎️' , '👁️']
 
 # Acknowledgment
 
-Looking back on the past three years as I approach the conclusion of the professional bachelor's program in applied computer science with a focus on AI & Robotics, it is striking what a massively positive impact higher education has had.
+As I near the end of my professional bachelor's degree in applied computer science with a specialization in AI & Robotics, it is astonishing how much of an impact higher education has made over the previous three years.
 
 I want to express my gratitude to my parents, friends, and fellow PXL-Digital students, as well as the students who participated in the research project, for providing me with this once-in-a-lifetime opportunity.
 
@@ -73,7 +74,8 @@ The primary goal is to have the remote-controlled automobile travel as quickly a
 The "Race to the Future" internship program at PXL Smart-ICT goes beyond taking part in the race. Actually, the research on self-driving RC cars is divided into two separate programs.
 
 On the one hand, a PXL Smart-ICT student researches and examines the potential applications of reinforcement learning in autonomous vehicle systems. Here, research is first conducted on the many parts of autonomous driving systems before moving on to the various reinforcement learning approaches.
-On the other side, a fellow student analyses the variations between machine learning and more conventional computer vision. This study was made possible by the fact that in every race, vehicles controlled by computer vision outperformed vehicles controlled by machine learning.
+
+On the other hand, a fellow student analyses the variations between machine learning and more conventional computer vision. This study was made possible by the fact that in every race, vehicles controlled by computer vision outperformed vehicles controlled by machine learning.
 
 # I. Elaboration of the Internship Assignment
 
@@ -81,7 +83,7 @@ On the other side, a fellow student analyses the variations between machine lear
 
 *Information required to comprehend some of the research section's details is provided in the second section.*
 
-## General Information
+## General Information <br /><br />
 
 ### Race to the Future regulations
 
@@ -92,6 +94,10 @@ The Race to the Future regulations states that one lap on the track should last 
 The hardware kit is the basis for getting the car ready for use. The package contains the standard RC car, called PirateShooter from the manufacturer T2M, and the accompanying remote control. Also included in the package is a Raspberry Pi with a camera, an Arduino Pro Micro, a PWM motor chip, and a DC-DC power chip.
 
 The Raspberry Pi is the onboard computer or brain of the car and performs all the calculations. The Arduino receives all the signals from the remote control and sends them to the onboard computer. The Pulse Width Modulation or PWM motor chip drives the motor based on the signals received from the onboard computer. Finally, the Direct Current-Direct Current or DC-DC power chip provides the proper power supply to all the chips on the custom RC car. The power supply comes from the battery included with the standard car.
+
+<img src='/assets/img/projects/race-to-the-future/rttf-end.jpg' style={{ width: '50%', display: 'block', margin: 'auto' }} alt='Computer Vision Steps'/> 
+
+*The bottle was not included in the hardware kit :)*
 
 ### Software framework
 
@@ -108,9 +114,13 @@ ROS Kinetic is the tenth release of the ROS distribution. The Kinetic distributi
 
 PiComm is a software tool originally developed by the Race to the Future founders in a web framework for Python called Flask. The focus of the tool is to wirelessly execute remote commands on the onboard computer. These commands were initially only for switching between manual driving and computer vision or artificial intelligence.
 
+<img src='/assets/img/projects/race-to-the-future/picomm-after.jpg' style={{ width: '20%', float: 'right', marginLeft: '1rem', marginTop: '0'  }} alt='Our first lap on the RTTF event'/>  
+
+<img src='/assets/img/projects/race-to-the-future/picomm-original.png' style={{ width: '20%', float: 'right', marginLeft: '1rem', marginTop: '0' }} alt='Our first lap on the RTTF event'/>  
+
 The PiComm has had quite a metamorphosis from the internship team. They have ensured that the car can also be controlled using a digital joystick. This digital joystick has completely replaced the real, physical, remote control. New buttons have also been added to the PiComm. The buttons replace the original remote control emergency stop and also add more security. For example, all signals going to the RC car can be blocked to prevent artificial intelligence from doing unforeseen things.
 
-The figure on the right compares the user interface of the PiComm tool. The top figure is what the tool looked like before the start of the internship. The bottom figure is after the metamorphosis of the internship team. An in-depth explanation of the new functionalities of the user interface is done in section 3.4.3 Controlling the RC car via PiComm.
+The figure on the right compares the user interface of the PiComm tool. The left figure is what the tool looked like before the start of the internship. The right figure is after the metamorphosis of the internship team.
 
 Flask takes care of setting up a web server on the onboard computer. Using the board computer's IP address, we can find the PiComm web interface through a browser from any computer, on the same network as the board computer.
 
@@ -128,23 +138,36 @@ Next, the range of HSV and LAB values that best match the edge of the race track
 
 Finally, the two masks are merged using the bitwise operator 'OR'. This is done by merging the binary representation, the white pixels are represented as the number 1 and the black pixels as the number 0, of the masks. In short, the operator retains all the white pixels from both images and fills in the rest as black pixels. [5] This forms the final mask, which is used to recognize the edge of the racetrack.
 
+<img src='/assets/img/projects/race-to-the-future/cv-steps.png' style={{ width: '80%', display: 'block', margin: 'auto' }} alt='Computer Vision Steps'/>  
+
+<img src='/assets/img/projects/race-to-the-future/cv-tubeconnecting.png' style={{ width: '20%', float: 'right', marginLeft: '1rem', marginTop: '0' }} alt='Connecting tubes in the track detection'/>  
+
 The edges of the physical raceway are not always consistent. It may perhaps occur that there is a gap between a transition of two tubes. This is something that computer vision must also be able to deal with.
 
 Connecting disjointed tubes was accomplished by connecting the extreme points of the tubes to each other.
 
-## Autonomous driving on the race track
+## Autonomous driving on the race track 
+
+<br />
 
 ### Telescope
 
 *Telescope is the first computer vision algorithm developed by the internship team. The name Telescope was chosen to stay within the same theme as the team name Starship. In fact, a telescope also uses a lens just like the camera of Starship's RC car.*
 
-The steering direction and speed are calculated in this algorithm using the blue line and the pink point shown in Figure 12. The line connects the center of the road (purple point) with the center of the bottom of the image. The speed is calculated from the length of the blue line and varies based on the location of the road.
+<img src='/assets/img/projects/race-to-the-future/cv-telescope.jpg' style={{ width: '30%', float: 'right', marginLeft: '1rem', marginTop: '0' }} alt='Our first lap on the RTTF event'/>  
+
+
+The steering direction and speed are calculated in this algorithm using the blue line and the pink point shown in the figure. The line connects the center of the road (purple point) with the center of the bottom of the image. The speed is calculated from the length of the blue line and varies based on the location of the road.
 
 The pink point (upper left corner of the road detection) visualizes the farthest point on the road. The blue line and pink point make a good estimate of which way the race track is turning and are used to calculate the steering angle.
+
+<br />
 
 ### Autopilot
 
 *The latest implementation is Autopilot. This is named after the control software of the autonomous cars at Tesla Motors. The algorithm is a combination of Telescope and an improved implementation of the driving module.*
+
+<img src='/assets/img/projects/race-to-the-future/cv-autopilot.jpg' style={{ width: '30%', float: 'right', marginLeft: '1rem', marginTop: '0' }} alt='Our first lap on the RTTF event'/>  
 
 Autopilot uses the road detection explained in Detecting the race track instead of the one in the software framework of Race to the Future.
 
@@ -154,19 +177,9 @@ A third and final difference is in the calculation of the steering direction. Th
 
 This percentage (a number between 0 and 1) is entered in the function below as 𝑥 and returns a better steering angle for navigating the track.
 
-$$
-𝑓(𝑥)= −1(1+𝑥)7+1
-$$
-
-$$
-𝑓(0.15)= −1(1+0.15)7+1
-
-$$
-
-$$
-𝑓(0.15) ≈0.62
-
-$$
+**𝑓(𝑥)= −1(1+𝑥)7+1**  
+**𝑓(0.15)= −1(1+0.15)7+1**  
+**𝑓(0.15) ≈0.62**  
 
 The function is the result of many attempts with a lot of trial and error. In the end, this formula has the best result for the RC car.
 
@@ -174,17 +187,25 @@ Autopilot has been used in the participation in Race to the Future 2022 but due 
 
 ## Unity Simulation
 
+<img src='/assets/img/projects/race-to-the-future/simulation-character.png' style={{ width: '10%', float: 'right', marginLeft: '1rem', marginTop: '0' }} alt='Our first lap on the RTTF event'/>  
+
 Reinforcement learning, a domain within machine learning, requires a high number of interactions with the environment. Teaching a given task to a robot is done with a great deal of trial and error and will learn to perform the task based on decisions made using rewards and punishments. The jargon within reinforcement learning refers to this robot, which is trained, as the agent. From now on, for clarity and consistency of research, the person or robot in question will only be referred to as an **agent**, ML-, RL-agent, or some such variant.
 
-Since the agent has to do thousands, tens of thousands, or perhaps hundreds of thousands of interactions with the environment, this is almost impossible to achieve in a real-world context. Therefore, programmatic training must be done in a simulation environment. In this, the agent can be immediately corrected for every mistake or rewarded for every good action. Within the environment of a simulation, it is possible to play with the environment parameters. For example, it is possible to change the texture of the ground from paving stones to, for example, grass or cobblestones. It is also possible to play with different angles of light or even light colors. The possibilities are endless within a simulation. More about changing the environment can be found in 3.6.3 Dynamic Environments. First, the construction of the simulation world is thoroughly explained.
+Since the agent has to do thousands, tens of thousands, or perhaps hundreds of thousands of interactions with the environment, this is almost impossible to achieve in a real-world context. Therefore, programmatic training must be done in a simulation environment. In this, the agent can be immediately corrected for every mistake or rewarded for every good action. Within the environment of a simulation, it is possible to play with the environment parameters. For example, it is possible to change the texture of the ground from paving stones to, for example, grass or cobblestones. It is also possible to play with different angles of light or even light colors. The possibilities are endless within a simulation. More about changing the environment can be found in **Dynamic Environments**. First, the construction of the simulation world is thoroughly explained.
 
 ### Generating trajectories with the Bézier curve
 
 The race track in the simulation world should have a strong resemblance to the physical path. The path is generated using an asset from the Unity Asset Store called Bézier Path Creator. As can be inferred from the name, this is a way to create paths based on the Bézier curve. The Bézier curve is a way of creating curves and turns using a mathematical formula. [6], [7]
 
+<img src='/assets/img/projects/race-to-the-future/bezier-path.png' style={{ width: '50%', display: 'block', margin: 'auto' }} alt='Our first lap on the RTTF event'/>  
+
 ### Dynamic environments
 
 In the introductory excerpt of the Unity simulation it was mentioned that in simulations, the environment can be changed programmatically based on the environment parameters. That is, it is possible to change the matter of the race track, the light color, or the light incidence so that the RC car can navigate itself in any possible state of the race track. The track edge is also changeable between a number of different shades of red. The figures below show some possible surfaces in the simulation environment.
+
+<img src='/assets/img/projects/race-to-the-future/dynamic-environments.png' style={{ width: '100%', display: 'block', margin: 'auto' }} alt='Our first lap on the RTTF event'/>  
+
+<img src='/assets/img/projects/race-to-the-future/simulation-UI.png' style={{ width: '25%', float: 'right', marginLeft: '1rem', marginTop: '0' }} alt='Our first lap on the RTTF event'/>  
 
 While training the machine learning algorithm, the surface, light incidence, and light color will change based on an interval.
 
@@ -229,23 +250,15 @@ The main hyperparameters of the algorithm used during the internship assignment 
 
 When the algorithm starts learning, the exploration value (epsilon ϵ) starts at the maximum (1) and will gradually decrease to the minimum (0.1) based on the epsilon decay. Using the formula below, it is possible to calculate at which row attempt the epsilon value is at the minimum and thus the algorithm has the least chance of exploring. The number of maturation attempts is represented as 𝑥. [9]
 
-$$
-𝛜𝒎𝒂𝒙⋅ 𝛜𝒅𝒆𝒄𝒂𝒚𝒙 = 𝛜𝒎𝒊𝒏
-$$
 
-$$
-𝟏⋅ 𝟎.𝟗𝟗𝟓𝒙 = 𝟎.𝟏
-$$
-
-$$
-𝒙 ≈𝟒𝟓𝟗
-$$
+**𝛜𝒎𝒂𝒙⋅ 𝛜𝒅𝒆𝒄𝒂𝒚𝒙 = 𝛜𝒎𝒊𝒏**  
+**𝟏⋅ 𝟎.𝟗𝟗𝟓𝒙 = 𝟎.𝟏**  
+**𝒙 ≈𝟒𝟓𝟗**  
 
 To know what the exploration value is for a particular drive attempt, 𝑥 must be given the value of the current drive attempt. The formula below calculates the exploration value for row attempt 75.
 
-$$
-𝛜𝒉𝒖𝒊𝒅𝒊𝒈𝒆 𝒓𝒊𝒋𝒑𝒐𝒈𝒊𝒏𝒈=𝛜𝒎𝒂𝒙⋅ 𝛜𝒅𝒆𝒄𝒂𝒚𝒙= 𝟏 ⋅𝟎.𝟗𝟗𝟓𝟕𝟓≈𝟎.𝟔𝟗
-$$
+**𝛜currentattempt=𝛜𝒎𝒂𝒙⋅ 𝛜𝒅𝒆𝒄𝒂𝒚𝒙= 𝟏 ⋅𝟎.𝟗𝟗𝟓𝟕𝟓≈𝟎.𝟔𝟗**  
+
 
 ### Layers in the convolutional neural network
 
@@ -258,10 +271,9 @@ The output of the flattening layer passes to the hidden dense layers. These have
 
 The last layer is an optimization layer and is going to adjust the weights from the fully connected dense layers so that the algorithm will make fewer errors.
 
-### Training of a Deep Q-Network
+<img src='/assets/img/projects/race-to-the-future/neural-network.png' style={{ width: '80%', display: 'block', margin: 'auto' }} alt='Our first lap on the RTTF event'/>  
 
-*The implementation of the algorithm is shown in pseudo-code in the figure below (Figure 21). Pseudo-code is an easier way to explain algorithms without showing effective code.
-To train the algorithm, all environments must first be digitized with their associated states and/or memory.*
+### Training of a Deep Q-Network
 
 The first step in training is to create a loop that only stops when the maximum number of driving attempts is reached. For each driving attempt, a state is also defined that indicates whether the car completed the route or collided. This is the done state and is set to False by default.
 
@@ -327,9 +339,17 @@ Finally, there is **reinforcement learning**. This is the domain within machine 
 
 ### Operant Conditioning
 
-Operant conditioning is the learning process by which a behavior is modified by reward or punishment. [13] A very famous example of operant conditioning is the operant conditioning chamber or called Skinner box. The Skinner box is an experiment invented by Burrhus Frederic Skinner. The experiment begins with a special box or crate in which an animal, usually a mouse or rat, is confined. The idea behind this conditioning chamber is reward and repeat or in English reward and repeat. This is because there are some stimuli in this room such as light, sound or smell, and a means or reinforcer, for example, water or food, which the animal is rewarded with. The reward can only be given to the animal as soon as it performs a certain action correctly. Some examples are pulling a lever on a green light or pushing a button on a red light. [13]
+<img src='/assets/img/projects/race-to-the-future/skinner-box.png' style={{ width: '30%', float: 'right', marginLeft: '1rem', marginTop: '0' }} alt='Skinner Box Illustration'/>  
 
-First, there are positive reinforcement and negative reinforcement. Positive reinforcement means that a reward is given when performing an action. This action will then become more common. This is, in short, what Edward Thorndike's Law of Effect is all about. Negative reinforcement is the removal of an unpleasant stimulus and thus will also make the action more frequent. Then (positive) punishment and negative reinforcement follow. Positive punishment is a confusing term and is therefore usually referred to as just punishment or punishment. (Positive) punishment is when an unpleasant or unpleasant stimulus happens, for example, playing loud noises. Negative punishment is the removal of a (good) stimulus. Both methods of punishment cause a reduction in behavior. Finally, there is extinction or extinction. Extinction occurs when a trained behavior is no longer effective. For example, when it no longer gets food by pressing the button, the animal gradually starts to press the button less and less and may look for other ways to get food. [13]
+Operant conditioning is the learning process by which a behavior is modified by reward or punishment. [13] A very famous example of operant conditioning is the operant conditioning chamber or called Skinner box. The Skinner box is an experiment invented by Burrhus Frederic Skinner.
+
+The experiment begins with a special box or crate in which an animal, usually a mouse or rat, is confined. The idea behind this conditioning chamber is reward and repeat or in English reward and repeat. This is because there are some stimuli in this room such as light, sound or smell, and a means or reinforcer, for example, water or food, which the animal is rewarded with. The reward can only be given to the animal as soon as it performs a certain action correctly. Some examples are pulling a lever on a green light or pushing a button on a red light. [13]
+
+First, there are positive reinforcement and negative reinforcement. Positive reinforcement means that a reward is given when performing an action. This action will then become more common. This is, in short, what Edward Thorndike's Law of Effect is all about. Negative reinforcement is the removal of an unpleasant stimulus and thus will also make the action more frequent. 
+
+Then (positive) punishment and negative reinforcement follow. Positive punishment is a confusing term and is therefore usually referred to as just punishment or punishment. (Positive) punishment is when an unpleasant or unpleasant stimulus happens, for example, playing loud noises. Negative punishment is the removal of a (good) stimulus. Both methods of punishment cause a reduction in behavior. 
+
+Finally, there is extinction or extinction. Extinction occurs when a trained behavior is no longer effective. For example, when it no longer gets food by pressing the button, the animal gradually starts to press the button less and less and may look for other ways to get food. [13]
 
 ### State, Action, Reward
 
@@ -370,7 +390,7 @@ The previous two taxonomies (value-based and policy-based) are components of mod
 
 **Q-Learning**
 
-The fundamental part of Q-learning is to create a table where the rows represent all possible states and where the columns are all possible actions (Figure 27). First, all values in the table are initialized with the value zero. Thanks to the exploration period of the agent, the table will already be partially filled with values. The higher the Q value, the better the choice of the corresponding action.
+The fundamental part of Q-learning is to create a table where the rows represent all possible states and where the columns are all possible actions. First, all values in the table are initialized with the value zero. Thanks to the exploration period of the agent, the table will already be partially filled with values. The higher the Q value, the better the choice of the corresponding action.
 
 After an action of the agent, a value called the Q-value is calculated and filled in the table. The formula or value function for calculating the Q value is shown and explained below.
 
@@ -379,6 +399,9 @@ FORMULE Q-VALUE
 Q(s, a) is the new Q value in the Q table. R(s, a) means the reward based on a state s and action a. Here the best Q-value based on the new state (s') and the previous action (a) is added up. After the training process within Q-Learning, the table will have a Q-value for each state and so the agent will know what to do in each known situation.
 
 In the previous years' research on reinforcement learning, it was concluded that the Q-tables can become very large. In fact, the Q-table of the last training iteration was seven gigabytes in size. This is a problem because this cannot be read in by the RC car. [15] Thanks to this conclusion of the previous research, the decision was made to focus more on the neural network implementation during the current research.
+
+<img src='/assets/img/projects/race-to-the-future/q-vs-deep-q-learning.png' style={{ width: '40%', float: 'right', marginLeft: '1rem'  }} alt='Our first lap on the RTTF event'/>  
+
 
 **Deep Q-Learning**
 
@@ -420,45 +443,50 @@ At the beginning of the internship assignment, the original intention was to imp
 
 **LEARNING**  
 The things we learned during the internship elaboration and research are things we could never obtain during a school semester.
-For the first time in the two semesters of AI & Robotics, we were able to work with a physical robot. This was a very unique experience to use ROS, Docker, and also Python in the real world. It was also the first time for both of us to implement a reinforcement learning algorithm. Our (linear) algebra was also refreshed back thanks to the internship elaboration and research. For example, we had to find the right formula or equation to calculate the steering angle and rewards.
+For the first time in the two semesters of AI & Robotics, we were able to work with a physical robot.
+This was a very unique experience to use ROS, Docker, and also Python in the real world. It was also the first time for both of us to implement a reinforcement learning algorithm. Our (linear) algebra was also refreshed back thanks to the internship elaboration and research. For example, we had to find the right formula or equation to calculate the steering angle and rewards.
+
 Moreover, we also learned to deal with stressful situations. For example, the week before the Race to the Future event, a lot went wrong. The control software could no longer connect to our user interface or the car's camera failed. Even on the day of the race, the car suddenly couldn't be controlled anymore. Despite these setbacks, which brought down the motivation, we worked extra hard and solutions were found.
+
 We also appreciated each other's ideas and opinions. There are discussions in every group but that did not stop us. Our completed work would not be as it is today if only one of us had done the work. We did not feel anger or hatred towards each other's weaknesses but gave each other a helping hand.
+
 Last, we always respected our time and schedule tremendously. Thus, we always knew in time whether something was feasible or not. This is also why we made the decision to use only computer vision for the race and to keep reinforcement learning for after.
 
 **CONCLUSION**  
 I can now look back and realize that this experience has helped me both as a student and as a young professional. Research and writing skills are not only valued in an academic setting, but also in the computer science industry.
+
 I am now much more confident in my writing and research skills. In addition, working under a supervising lecturer has given me the opportunity to develop a mentor/mentee relationship with a professional in the computer science industry. Overall, I feel that this has been a valuable experience and I now feel prepared for my upcoming academic and career years.
 
 # References
 
-[1] Race to the Future organization, „Race to the future Reglement,” 2020. [Online]. Available: [https://www.racetothefuture.be/couch/uploads/file/rttf_reglement_2020.pdf](https://www.racetothefuture.be/couch/uploads/file/rttf_reglement_2020.pdf). <br /><br />
+1. Race to the Future organization, „Race to the future Reglement,” 2020. [Online]. Available: [https://www.racetothefuture.be/couch/uploads/file/rttf_reglement_2020.pdf](https://www.racetothefuture.be/couch/uploads/file/rttf_reglement_2020.pdf). <br /><br />
 
-[2] Wikipedia, „Computer vision,” Wikipedia, 09 04 2022. [Online]. Available: [https://en.wikipedia.org/wiki/Computer_vision](https://en.wikipedia.org/wiki/Computer_vision).<br /><br />
+2. Wikipedia, „Computer vision,” Wikipedia, 09 04 2022. [Online]. Available: [https://en.wikipedia.org/wiki/Computer_vision](https://en.wikipedia.org/wiki/Computer_vision).<br /><br />
 
-[3] Wikipedia, „Bilateral filter,” Wikipedia, 18 03 2022. [Online]. Available: [https://en.wikipedia.org/wiki/Bilateral_filter](https://en.wikipedia.org/wiki/Bilateral_filter).<br /><br />
+3. Wikipedia, „Bilateral filter,” Wikipedia, 18 03 2022. [Online]. Available: [https://en.wikipedia.org/wiki/Bilateral_filter](https://en.wikipedia.org/wiki/Bilateral_filter).<br /><br />
 
-[4] Wikipedia, „CIELAB color space,” Wikipedia, 2022 03 16. [Online]. Available: [https://en.wikipedia.org/wiki/CIELAB_color_space](https://en.wikipedia.org/wiki/CIELAB_color_space).<br /><br />
+4. Wikipedia, „CIELAB color space,” Wikipedia, 2022 03 16. [Online]. Available: [https://en.wikipedia.org/wiki/CIELAB_color_space](https://en.wikipedia.org/wiki/CIELAB_color_space).<br /><br />
 
-[5] NumPy Developers, „NumPy.bitwise_or,” NumPy, 01 05 2022. [Online]. Available: [https://numpy.org/doc/stable/reference/generated/numpy.bitwise_or.html#numpy-bitwise-or](https://numpy.org/doc/stable/reference/generated/numpy.bitwise_or.html#numpy-bitwise-or).<br /><br />
+5. NumPy Developers, „NumPy.bitwise_or,” NumPy, 01 05 2022. [Online]. Available: [https://numpy.org/doc/stable/reference/generated/numpy.bitwise_or.html#numpy-bitwise-or](https://numpy.org/doc/stable/reference/generated/numpy.bitwise_or.html#numpy-bitwise-or).<br /><br />
 
-[6] Wikipedia, „Bézier curve,” Wikipedia, 21 04 2022. [Online]. Available: [https://en.wikipedia.org/wiki/Bézier_curve](https://en.wikipedia.org/wiki/B%C3%A9zier_curve).<br /><br />
+6. Wikipedia, „Bézier curve,” Wikipedia, 21 04 2022. [Online]. Available: [https://en.wikipedia.org/wiki/Bézier_curve](https://en.wikipedia.org/wiki/B%C3%A9zier_curve).<br /><br />
 
-[7] S. Lague, „Bézier Path Creator,” Unity Asset Store, 26 06 2019. [Online]. Available: [https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082](https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082).<br /><br />
+7. S. Lague, „Bézier Path Creator,” Unity Asset Store, 26 06 2019. [Online]. Available: [https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082](https://assetstore.unity.com/packages/tools/utilities/b-zier-path-creator-136082).<br /><br />
 
-[8] OpenAI, „Gym Documentation,” OpenAI, 2022. [Online]. Available: [https://www.gymlibrary.ml/](https://www.gymlibrary.ml/).<br /><br />
+8. OpenAI, „Gym Documentation,” OpenAI, 2022. [Online]. Available: [https://www.gymlibrary.ml/](https://www.gymlibrary.ml/).<br /><br />
 
-[9] Y. Yaseq, „DQN with Decaying Epsilon (Answer),” Data Science Stack Exchange, 09 09 2020. [Online]. Available: [https://datascience.stackexchange.com/questions/81438/dqn-with-decaying-epsilon](https://datascience.stackexchange.com/questions/81438/dqn-with-decaying-epsilon).<br /><br />
+9. Y. Yaseq, „DQN with Decaying Epsilon (Answer),” Data Science Stack Exchange, 09 09 2020. [Online]. Available: [https://datascience.stackexchange.com/questions/81438/dqn-with-decaying-epsilon](https://datascience.stackexchange.com/questions/81438/dqn-with-decaying-epsilon).<br /><br />
 
-[10] K. C. A. H. Hao Yi Ong, „Distributed Deep Q-Learning,” 18 08 2015. [Online]. Available: [https://doi.org/10.48550/arXiv.1508.04186](https://doi.org/10.48550/arXiv.1508.04186).<br /><br />
+10. K. C. A. H. Hao Yi Ong, „Distributed Deep Q-Learning,” 18 08 2015. [Online]. Available: [https://doi.org/10.48550/arXiv.1508.04186](https://doi.org/10.48550/arXiv.1508.04186).<br /><br />
 
-[11] Udacity Team, „How Sensor Fusion Works,” Udacity, 11 01 2021. [Online]. Available: [https://www.udacity.com/blog/2021/01/how-sensor-fusion-works.html](https://www.udacity.com/blog/2021/01/how-sensor-fusion-works.html).<br /><br />
+11. Udacity Team, „How Sensor Fusion Works,” Udacity, 11 01 2021. [Online]. Available: [https://www.udacity.com/blog/2021/01/how-sensor-fusion-works.html](https://www.udacity.com/blog/2021/01/how-sensor-fusion-works.html).<br /><br />
 
-[12] Wikipedia, „A* search algorithm,” Wikipedia, 12 04 2022. [Online]. Available: [https://en.wikipedia.org/wiki/A*_search_algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm).<br /><br />
+12. Wikipedia, „A* search algorithm,” Wikipedia, 12 04 2022. [Online]. Available: [https://en.wikipedia.org/wiki/A*_search_algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm).<br /><br />
 
-[13] PXL AI & Robotics Lab, „Robotics Advanced Course Materials 21-22,” PXL-Digital, 17 09 2021. [Online]. Available: [https://github.com/PXLAIRobotics/RACourseMaterialsForStudentsGen3](https://github.com/PXLAIRobotics/RACourseMaterialsForStudentsGen3).<br /><br />
+13. PXL AI & Robotics Lab, „Robotics Advanced Course Materials 21-22,” PXL-Digital, 17 09 2021. [Online]. Available: [https://github.com/PXLAIRobotics/RACourseMaterialsForStudentsGen3](https://github.com/PXLAIRobotics/RACourseMaterialsForStudentsGen3).<br /><br />
 
-[14] T. Simonini, „An introduction to Policy Gradients with Cartpole and Doom,” [freeCodeCamp.org](http://freecodecamp.org/), 09 05 2018. [Online]. Available: [https://www.freecodecamp.org/news/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f/](https://www.freecodecamp.org/news/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f/).<br /><br />
+14. T. Simonini, „An introduction to Policy Gradients with Cartpole and Doom,” [freeCodeCamp.org](http://freecodecamp.org/), 09 05 2018. [Online]. Available: [https://www.freecodecamp.org/news/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f/](https://www.freecodecamp.org/news/an-introduction-to-policy-gradients-with-cartpole-and-doom-495b5ef2207f/).<br /><br />
 
-[15] Y. D'hulst, „Reinforcement learning toepassen op autonome voertuigen,” PXL-Digital, Hasselt, 2021.<br /><br />
+15. Y. D'hulst, „Reinforcement learning toepassen op autonome voertuigen,” PXL-Digital, Hasselt, 2021.<br /><br />
 
-[16] Wikipedia, „Convolutional neural network,” Wikipedia, 07 06 2022. [Online]. Available: [https://en.wikipedia.org/wiki/Convolutional_neural_network#Deep_Q-networks](https://en.wikipedia.org/wiki/Convolutional_neural_network#Deep_Q-networks).<br /><br />
+16. Wikipedia, „Convolutional neural network,” Wikipedia, 07 06 2022. [Online]. Available: [https://en.wikipedia.org/wiki/Convolutional_neural_network#Deep_Q-networks](https://en.wikipedia.org/wiki/Convolutional_neural_network#Deep_Q-networks).<br /><br />
