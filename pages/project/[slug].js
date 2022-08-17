@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
 
@@ -15,6 +16,7 @@ import TableOfContents from '../../components/TableOfContent/TableOfContent';
 
 import { getAllProjects } from '../../lib/data';
 import { motion } from 'framer-motion';
+import { height } from '@material-ui/system';
 
 export default function ProjectPage({ title, type, description, duration, headerImg, slug, labelText, labelIcons, teamSize, content }) {
 
@@ -126,10 +128,8 @@ export default function ProjectPage({ title, type, description, duration, header
 
         <article className={slugStyle.noteArticle}>
           <p className={slugStyle.abstract}>{description}</p>
-
-          {title.includes('I-Talent') &&
-            <TableOfContents />
-          }
+         
+          <TableOfContents />
 
           <div id="content" className={slugStyle.articleContent}>
             <MDXRemote {...content} />
