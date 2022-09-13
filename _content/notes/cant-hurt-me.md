@@ -1,5 +1,5 @@
 ---
-title: "Can't hurt me"
+title: "Can't Hurt Me"
 author: 'David Goggins'
 date: "Apr 2, 2022"
 abstract: "Can’t Hurt Me: Master Your Minds and Defy the Odds is the story of David Goggins, he transcended poverty and abuse to become one of the world’s top endurance athletes. His story reveals how mastering your mind, hard work, and becoming friends with pain can help you achieve the unimaginable."
