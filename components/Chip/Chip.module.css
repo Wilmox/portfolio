@@ -65,7 +65,7 @@
     background-color: #e74c3c !important;
 }
 
-.research, .italent {
+.research, .italent, .voicerecognition {
     background-color: #34495e !important;
 }
 
@@ -73,7 +73,7 @@
     background-color: #307bc7 !important;
 }
 
-.airobotics, .machinelearning, .reinforcementlearning, .ai, .algorithms, .autonomousdriving, .computervision {
+.airobotics, .machinelearning, .reinforcementlearning, .ai, .algorithms, .autonomousdriving, .computervision, .openai, .gpt3 {
     background-color: #343A40 !important;
 }
 
