@@ -137,18 +137,19 @@ export default function Home() {
                 </div>
               </a>
             </Link>
-            <Link href="/project/conecta-software">
+            <Link href="/project/race-to-the-future">
               <a className={projects.projectCard}>
-                <Image src="/assets/img/project-conecta.jpg" width={1241} height={745} />
+                <Image src="/assets/img/projects/project-rttf.jpg" width={1241} height={745} />
 
                 <div className={projects.cardText}>
-                  <h2>Conecta Software</h2>
-                  <h3>International Internship</h3>
-                  <p>Three week internship at Conecta Software & Erasmus in Tenerife, Spain in connection with IoT & smart devices</p>
+                  <h2>Race to the Future</h2>
+                  <h3>Bachelor's internship</h3>
+                  <p>My bachelor's research internship with the focus on conducting a literature study on existing possibilities within the domain of reinforcement learning and autonomous driving.</p>
                 </div>
                 <div className={projects.labels}>
-                  <Chip text={"Research"} icon={"\u{1F50D}"} />
-                  <Chip text={"Docker"} icon={"\u{1F40B}"} />
+                  <Chip text={"Reinforcement learning"} icon={"🤖"} />
+                  <Chip text={"Autonomous driving"} icon={"🚗"} />
+                  <Chip text={"Computer vision"} icon={"👁️"} />
                 </div>
               </a>
             </Link>
@@ -186,13 +187,12 @@ export default function Home() {
               </a>
             </Link>
 
-            <Link href="/note/12-rules-for-life">
+            <Link href="/note/cant-hurt-me">
               <a className={notes.noteCard}>
-                <h2>12 Rules For Life</h2>
-                <h3>Jordan B. Peterson</h3>
+                <h2>Can&apos;t Hurt Me</h2>
+                <h3>David Goggins</h3>
                 <p>
-                  12 Rules for Life: An Antidote to Chaos is a 2018 self-help book by Canadian clinical psychologist and psychology professor Jordan Peterson. 
-                  It provides life advice through essays in abstract ethical principles, psychology, mythology, religion, and personal anecdotes.
+                Can&apos;t Hurt Me: Master Your Minds and Defy the Odds is the story of David Goggins, he transcended poverty and abuse to become one of the world&apos;s top endurance athletes. His story reveals how mastering your mind, hard work, and becoming friends with pain can help you achieve the unimaginable.
                 </p>
                 <div className={notes.aboutNote}>
                   <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
