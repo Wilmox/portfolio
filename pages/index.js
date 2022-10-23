@@ -172,17 +172,16 @@ export default function Home() {
           </ul>
 
           <div className={notes.notes}>
-            <Link href="/note/a-brief-history-of-time">
+            <Link href="/note/meditations">
               <a className={notes.noteCard}>
-                <h2>A Brief History Of Time</h2>
-                <h3>Stephen Hawking</h3>
+                <h2>Meditations</h2>
+                <h3>Marcus Aurelius</h3>
                 <p>
-                  Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe. He talks about basic concepts like space and time,
-                  basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity).
+                  Meditations by Marcus Aurelius is (probably) the best book ever written. Authored in 170 AD by the most powerful man in the world. And unlike essentially every other book ever written, this was a book never intended for publication. It was not written for an audience, but for the writer himself.
                 </p>
                 <div className={notes.aboutNote}>
                   <Rating className={notes.rating} name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
-                  <Chip className={notes.noteChip} text={"Physics"} icon={"\u{1F320}"} />
+                  <Chip className={notes.noteChip} text={"Philosophy"} icon={"\u{1F5FF}"} />
                 </div>
               </a>
             </Link>
