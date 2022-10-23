@@ -2,9 +2,9 @@
 title: "Astrophysics for People in a Hurry"
 author: "Neil Degrasse Tyson"
 date: "Jul 29, 2022"
-abstract: "There's no better guide through mind-expanding questions about the universe. Today, few of us have time to contemplate the cosmos. So Tyson brings the universe down to Earth succinctly and clearly in digestible chapters consumable any time and anywhere in the busy day. I interpreted the book's title a little too seriously because I forgot my copy while commuting the train to a student job. 😕"
+abstract: "There's no better guide through mind-expanding questions about the universe. Today, few of us have time to contemplate the cosmos. So Tyson brings the universe down to Earth succinctly and clearly in digestible chapters consumable any time and anywhere in the busy day. I took the title of the book a little too literally because I forgot my copy while commuting the train to a student job. 😕"
 readTime: "15 minutes"
-rating: 3
+rating: 3.5
 amazonLink: "https://www.amazon.com/Astrophysics-People-Hurry-deGrasse-Tyson/dp/0393609391"
 bookCover: "/assets/img/bookcovers/astrophysics-for-people-in-a-hurry.png"
 slug: "astrophysics-for-people-in-a-hurry"

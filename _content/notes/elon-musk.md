@@ -4,7 +4,7 @@ author: 'Ashlee Vance'
 date: "Aug 13, 2022"
 abstract: "The first official biography of the founder of SpaceX and CEO of Tesla based on conversations between the author and friends and (former) employees of Musk, and ofcourse Musk himself. It highlights his complicated childhood, the way he makes decisions and navigates the world, and how he managed to disrupt multiple industries, all with the goal of saving humanity."
 readTime: '25 minutes'
-rating: 5
+rating: 4.5
 amazonLink: 'https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X'
 bookCover: '/assets/img/bookcovers/elon-musk.jpg'
 slug: 'elon-musk'

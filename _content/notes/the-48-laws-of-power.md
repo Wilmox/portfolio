@@ -4,7 +4,7 @@ author: 'Robert Greene'
 date: "Jul 7, 2022"
 abstract: "Three thousand years of the history of power into 48 essential laws by drawing from the philosophies of Machiavelli, Sun Tzu, and Carl Von Clausewitz. Some laws teach the need for prudence, others teach the value of confidence, and many recommend absolute self-preservation."
 readTime: '1 hour'
-rating: 4
+rating: 3.5
 amazonLink: 'https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197'
 bookCover: '/assets/img/bookcovers/48-laws-of-power.jpg'
 slug: 'the-48-laws-of-power'
