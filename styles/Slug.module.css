@@ -156,7 +156,7 @@ Styling generated HTML from Markdown
 }
 
 .articleContent blockquote {
-    font-size: 1em;
+    font-size: 1.4em;
     margin: 50px 0;
     font-family: Open Sans !important;
     font-style: italic;
