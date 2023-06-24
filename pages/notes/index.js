@@ -81,6 +81,13 @@ export default function Notes({ notes }) {
           
           <Search />
 
+          {/*{notes.map((note) => (
+              <Link key={note.slug} href={`/note/${note.slug}`}>
+                    <Chip key="label" className={noteStyle.noteChip} text={note.labelText[0]} icon={note.labelIcons[0]} /> 
+              </Link>
+          ))}*/}
+
+
           <div className={noteStyle.notes}>
             {notes.map((note) => (
               <Link key={note.slug} href={`/note/${note.slug}`}>
@@ -111,13 +118,14 @@ export async function getServerSideProps(context) {
   let searchNotes = allNotes;
 
   const searchTerm = context.query.search ?? "";
+  const chipFilter = context.query.filter ?? "";
   if (searchTerm != null) {
     searchNotes =  searchNotes.filter((note) => {
       //Searches in title, author & abstract data field for a match with the query
-      return note.data.title.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.author.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.abstract.toLowerCase().includes(searchTerm.toLowerCase())
+      return note.data.labelText.some(label => label.includes(chipFilter)) && (note.data.title.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.author.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.abstract.toLowerCase().includes(searchTerm.toLowerCase()))
     });
   }
-  console.log(searchNotes.data);
+  
   searchNotes.sort((a, b) => {
     const dateA = new Date(a.data.date);
     const dateB = new Date(b.data.date);
