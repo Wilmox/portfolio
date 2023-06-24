@@ -79,7 +79,7 @@ export default function Notes({ notes }) {
             I do this to get the author&apos;s high-level idea, to brush up on something, or for people who don&apos;t feel like reading / listening to a whole book.</p>
           </header>
           
-          {/*<Search />*/}
+          {<Search />}
 
           <div className={noteStyle.notes}>
             {notes.map((note) => (
@@ -106,19 +106,19 @@ export default function Notes({ notes }) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps(context) {
   const allNotes = getAllNotes();
   let searchNotes = allNotes;
 
-  {/*
+  {
   const searchTerm = context.query.search ?? "";
   if (searchTerm != null) {
     searchNotes =  searchNotes.filter((note) => {
       //Searches in title, author & abstract data field for a match with the query
       return note.data.title.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.author.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.abstract.toLowerCase().includes(searchTerm.toLowerCase())
     });
-  } 
-  */}
+  }
+  }
 
   return {
     props: {
