@@ -110,7 +110,6 @@ export async function getServerSideProps(context) {
   const allNotes = getAllNotes();
   let searchNotes = allNotes;
 
-  {
   const searchTerm = context.query.search ?? "";
   if (searchTerm != null) {
     searchNotes =  searchNotes.filter((note) => {
@@ -118,7 +117,13 @@ export async function getServerSideProps(context) {
       return note.data.title.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.author.toLowerCase().includes(searchTerm.toLowerCase()) || note.data.abstract.toLowerCase().includes(searchTerm.toLowerCase())
     });
   }
-  }
+  console.log(searchNotes.data);
+  searchNotes.sort((a, b) => {
+    const dateA = new Date(a.data.date);
+    const dateB = new Date(b.data.date);
+    //return dateA - dateB; // Ascending
+    return dateB - dateA;   // Descending
+  });
 
   return {
     props: {
