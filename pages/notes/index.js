@@ -7,6 +7,7 @@ import { Rating } from '@mui/material';
 import Chip from '../../components/Chip/Chip';
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
 import BackToTop from '../../components/BackToTop/BackToTop';
+import { useEffect } from 'react';
 
 import noteStyle from '../../styles/Notes.module.css';
 
@@ -21,6 +22,12 @@ export default function Notes({ notes }) {
     enter: { opacity: 1, x: 0, y: 0 },
     exit: { opacity: 0, x: 0, y: 0 },
   }
+
+  /* UNCOMMENT TO VIEW PROPS PASSED TO PAGE
+  useEffect(() => {
+    console.log(document.getElementById("__NEXT_DATA__").text)
+  })
+  */
   
   return (
     <div id="top" className={styles.container}>
@@ -49,18 +56,6 @@ export default function Notes({ notes }) {
         <meta name="og:description" content="Simon Wilmots' Notes & Summaries"/>
         <meta name="og:site_name" content="http://simonwilmots.com/notes"/>
 
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta content="yes" name="apple-touch-fullscreen" />
-
-        <link rel="icon" href="/assets/img/ico.ico" />
-        <link rel="apple-touch-icon" href="/assets/img/ico.ico" />
-        <link rel="shortcut icon" href="/assets/img/ico.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
       </Head>
 
       <ScrollProgress />
@@ -128,9 +123,8 @@ export async function getStaticProps() {
   return {
     props: {
       //Here data serialising (dates, urls, ...),
-      notes: searchNotes.map(({ data, content, slug }) => ({
+      notes: searchNotes.map(({ data, slug }) => ({
         ...data,
-        content,
         slug,
       })),
 
