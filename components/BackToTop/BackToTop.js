@@ -9,7 +9,7 @@ const BackToTop = () => {
 
         window.addEventListener("scroll", () => {
             if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                console.log(backToTopButton.classList)
+                //console.log(backToTopButton.classList)
                 backToTopButton.style.opacity = "1";
                 backToTopButton.style.visibility = "visible"
             } else {
