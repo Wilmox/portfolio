@@ -79,7 +79,7 @@ export default function Notes({ notes }) {
             I do this to get the author&apos;s high-level idea, to brush up on something, or for people who don&apos;t feel like reading / listening to a whole book.</p>
           </header>
           
-          {<Search />}
+          <Search />
 
           <div className={noteStyle.notes}>
             {notes.map((note) => (
@@ -123,8 +123,9 @@ export async function getServerSideProps(context) {
   return {
     props: {
       //Here data serialising (dates, urls, ...),
-      notes: searchNotes.map(({ data, slug }) => ({
+      notes: searchNotes.map(({ data, /*content,*/ slug }) => ({
         ...data,
+        // content,
         slug,
       })),
 

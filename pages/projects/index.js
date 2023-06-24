@@ -7,13 +7,11 @@ import Footer from '../../components/Footer/Footer.js';
 import Chip from '../../components/Chip/Chip.js';
 import ScrollProgress from '../../components/ScrollProgress/ScrollProgress';
 import BackToTop from '../../components/BackToTop/BackToTop';
-
 import { motion } from 'framer-motion';
 
 import { getAllProjects } from '../../lib/data';
 
 export default function Projects({ projects }) {
-
   const variants = {
     hidden: { opacity: 0, x: 0, y: 0 },
     enter: { opacity: 1, x: 0, y: 0 },
@@ -107,14 +105,12 @@ export async function getStaticProps() {
   return {
     props: {
       //Here data serialising (dates, urls, ...),
-      projects: searchProjects.map(({ data, content, slug }) => ({
+      projects: searchProjects.map(({ data, /*content,*/ slug }) => ({
         ...data,
-        content,
+        //content,
         slug,
       })),
 
     },
   };
 };
-
-//    https://mathiasbynens.github.io/rel-noopener/
