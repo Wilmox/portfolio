@@ -102,13 +102,6 @@ export async function getStaticProps() {
   const allProjects = getAllProjects();
   let searchProjects = allProjects;
 
-  searchNotes.sort((a, b) => {
-    const dateA = new Date(a.data.date);
-    const dateB = new Date(b.data.date);
-    //return dateA - dateB; // Ascending
-    return dateB - dateA;   // Descending
-  });
-
   return {
     props: {
       //Here data serialising (dates, urls, ...),
