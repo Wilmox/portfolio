@@ -1,6 +1,6 @@
 ---
 title: 'Solar System Simulation'
-type: 'Side project'
+type: 'Personal  project'
 description: 'A selfmade 1:1 simulation of our Solar System using the Unity 3D engine. Inspired by SpaceEngine on Steam.'
 duration: "2 months"
 teamSize: 1

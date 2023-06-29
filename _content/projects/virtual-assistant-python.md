@@ -1,6 +1,6 @@
 ---
 title: 'Intelligent Virtual Assistant'
-type: 'Side project'
+type: 'Personal project'
 description: 'Creating a intelligent virtual assistant like J.A.R.V.I.S. using GPT-3 in Python.'
 duration: "1 day"
 teamSize: 1
