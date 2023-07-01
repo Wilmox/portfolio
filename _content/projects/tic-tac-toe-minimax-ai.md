@@ -1,6 +1,6 @@
 ---
 title: 'Tic Tac Toe VS Minimax'
-type: 'Side project'
+type: 'Personal project'
 description: 'Making an unbeatable Tic-Tac-Toe opponent using the MiniMax decision theory algorithm.'
 duration: "3 days"
 teamSize: 1
